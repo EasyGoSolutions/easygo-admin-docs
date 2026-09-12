@@ -2,7 +2,7 @@ PGP
 ===
 
 Pretty Good Privacy (PGP) is one method for secure email communication in
-Zammad (in addition to :doc:`smime`). It allows you to exchange
+EasyGo Solutions (in addition to :doc:`smime`). It allows you to exchange
 **signed** and **encrypted** messages with others.
 
 Signing
@@ -38,7 +38,7 @@ the text box.
 .. note:: **Which keys do I have to import?**
 
    For **signing** *outgoing* emails, you have to import the private key of
-   your Zammad email account.
+   your EasyGo Solutions email account.
 
    For **encrypting** *outgoing* emails, you have to import the public key of
    the customer's email account.
@@ -47,7 +47,7 @@ the text box.
    import the public key of the customer.
 
    For **decrypting** of encrypted *incoming* emails, you have to import the
-   private key of your Zammad email account.
+   private key of your EasyGo Solutions email account.
 
 Import Keys From a File
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -122,16 +122,16 @@ Sign button is not visible, but keys are imported.
 
 How to obtain keys?
    You can create them yourself! There are some good tutorials on the web on
-   how to create them. Providing keys to Zammad is a prerequisite to use the
+   how to create them. Providing keys to EasyGo Solutions is a prerequisite to use the
    PGP feature.
 
 It says a passphrase is needed, but I haven't got one.
    If the key is secured with a passphrase, you have to provide it for the
-   import in Zammad. It is possible that keys may have an empty passphrase.
+   import in EasyGo Solutions. It is possible that keys may have an empty passphrase.
    However, this is *not* recommended.
 
 How do my customers get my new key?
    You have to provide your *public* key in advance.
    Your customer also has to configure PGP in their email workflow and import
    your public key. The other way round, you have to get the public key of your
-   customer and have to import it to Zammad.
+   customer and have to import it to EasyGo Solutions.

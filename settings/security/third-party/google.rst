@@ -1,7 +1,7 @@
 Google
 ======
 
-Configure Google as an OAuth provider so users can log in to Zammad with their
+Configure Google as an OAuth provider so users can log in to EasyGo Solutions with their
 Google account.
 
 Register a Google App
@@ -23,13 +23,13 @@ Register a Google App
 
 4. Go to *APIs & Services > Credentials*. Add a configuration by clicking the
    **Create credentials** dropdown. Choose **OAuth client ID** and fill in the
-   following information, replace ``zammad_host`` with the FQDN of your Zammad.
-   You can also find the redirect URI in Zammad's Google OAuth configuration.
+   following information, replace ``EasyGo Solutions_host`` with the FQDN of your EasyGo Solutions.
+   You can also find the redirect URI in EasyGo Solutions's Google OAuth configuration.
 
    - **Application type**: Web application
-   - **Name**: Any fitting name for your use case, e.g. Zammad.
-   - **Authorized JavaScript origins**: ``https://zammad_host/``
-   - **Authorized redirect URIs**: ``https://zammad_host/auth/google_oauth2/callback``
+   - **Name**: Any fitting name for your use case, e.g. EasyGo Solutions.
+   - **Authorized JavaScript origins**: ``https://EasyGo Solutions_host/``
+   - **Authorized redirect URIs**: ``https://EasyGo Solutions_host/auth/google_oauth2/callback``
 
    .. figure:: /images/settings/security/third-party/google/google-create-oauth.png
       :alt: Screenshot shows OAuth credentials section in the Google console
@@ -45,10 +45,10 @@ Register a Google App
    :scale: 70%
    :align: center
 
-Configure Authentication in Zammad
+Configure Authentication in EasyGo Solutions
 ----------------------------------
 
-After creating the credentials, go to your Zammad installation and navigate to
+After creating the credentials, go to your EasyGo Solutions installation and navigate to
 *Settings > Security > Third-party Applications > Authentication via Google*.
 Enter your **Client ID** and **Client secret** here, enable the toggle and
 click on ``Submit``.
@@ -56,6 +56,6 @@ click on ``Submit``.
 .. figure:: /images/settings/security/third-party/google/configure-google-auth.png
    :align: center
    :scale: 70%
-   :alt: Screenshot shows Google OAuth configuration in Zammad
+   :alt: Screenshot shows Google OAuth configuration in EasyGo Solutions
 
 After submitting, users can log in with their Google account.

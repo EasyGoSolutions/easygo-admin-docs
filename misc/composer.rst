@@ -37,12 +37,12 @@ Article - visibility confirmation dialog
    .. image:: /images/misc/article-visibility-confirmation-dialog.png
 
 Email - subject field
-   When setting this option to ``yes``, Zammad will also display the subject
+   When setting this option to ``yes``, EasyGo Solutions will also display the subject
    field when answering via email articles. It doesn't matter if you click
    on ``reply`` or switch to email article manually. In this case, the subject
    can differ between title and email.
 
-   If set to ``no``, Zammad will automatically use the tickets title as subject.
+   If set to ``no``, EasyGo Solutions will automatically use the tickets title as subject.
 
    Default: ``no``
 
@@ -57,7 +57,7 @@ Email - full quote
    Default: ``no``
 
 Email - quote header
-   If you don't want Zammad to add the date, time and name or the article you're
+   If you don't want EasyGo Solutions to add the date, time and name or the article you're
    quoting, set this to ``no``.
 
    Example: ``On Thursday, June 27, 2019, 3:37:11 PM, Jacob Smith wrote:``

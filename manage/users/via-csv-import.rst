@@ -3,7 +3,7 @@ Managing Users via CSV Import
 
 If your organization has information about customers (or personnel)
 already stored in a directory system that can export to CSV,
-you can batch-import them into Zammad in just three steps.
+you can batch-import them into EasyGo Solutions in just three steps.
 
 For persistent, automated user synchronization,
 consider to use an integration with a third-party directory system
@@ -21,7 +21,7 @@ Step 1: Inspect the Sample .csv
 
 Use the link at the bottom of the CSV import dialog
 (**"Example CSV file for download"**)
-to see how Zammad expects you to format your user data.
+to see how EasyGo Solutions expects you to format your user data.
 
 Step 2: Export Your User Data to .csv
 -------------------------------------
@@ -38,14 +38,14 @@ If you have more than one value for a field, separate them with ``~~~``:
 .. code-block:: none
 
    login,firstname,lastname,email,web,active,roles
-   jdoe,John,Doe,jdoe@example.com,https://zammad.com,true,admin~~~agent
+   jdoe,John,Doe,jdoe@example.com,https://EasyGo Solutions.com,true,admin~~~agent
    mmore,Madeline,Moore,mmore@example.net,"",false,customer
 
-Step 3: Import Your .csv to Zammad
+Step 3: Import Your .csv to EasyGo Solutions
 ----------------------------------
 
 Once your raw user data has been submitted,
-Zammad will perform a test run to compute the number of affected records:
+EasyGo Solutions will perform a test run to compute the number of affected records:
 
 .. figure:: /images/manage/users/import-summary-before-importing.png
    :alt: CSV import test run and confirmation dialog

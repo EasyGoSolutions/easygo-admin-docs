@@ -24,7 +24,7 @@ To do so, simply use the **Expert mode** toggle on the lower right below the
 Logic Block Conditions
 ----------------------
 
-In Zammad's expert mode, you can establish relationships between conditions
+In EasyGo Solutions's expert mode, you can establish relationships between conditions
 using logical operators. These operators enable you to have one or several sets
 of conditions that have to match your requirement.
 
@@ -41,7 +41,7 @@ Match none (NOT)
    All conditions in this block will be matched with "NOT".
    To be matched positive, no condition may match.
 
-See :ref:`evaluation order <evaluation-order>` to understand how Zammad
+See :ref:`evaluation order <evaluation-order>` to understand how EasyGo Solutions
 evaluates triggers in expert mode.
 
 Adding Conditions and Logic Blocks
@@ -90,7 +90,7 @@ blocks, this won't have any consequences.
 Evaluation Order
 ----------------
 
-Here's a fairly complex diagram on how Zammad evaluates conditions and their
+Here's a fairly complex diagram on how EasyGo Solutions evaluates conditions and their
 blocks.
 
 .. mermaid::

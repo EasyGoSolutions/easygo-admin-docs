@@ -2,11 +2,11 @@ Templates
 =========
 
 Templates allow you to create tickets at a rapid speed by pre-defining a
-ticket template for recurring tickets. Manage templates in Zammad's admin
+ticket template for recurring tickets. Manage templates in EasyGo Solutions's admin
 settings under *Manage > Templates* with the ``admin.template`` permission.
 
 .. figure:: /images/manage/templates/template-management.png
-   :alt: Screenshot showing Zammad's (ticket) template management page
+   :alt: Screenshot showing EasyGo Solutions's (ticket) template management page
    :width: 90%
 
 .. warning::
@@ -23,7 +23,7 @@ Managing templates
       during ticket creation (within *Select Template*).
 
    Actions
-      Within actions, Zammad will provide all available ticket attributes.
+      Within actions, EasyGo Solutions will provide all available ticket attributes.
       This allows you to create granular templates with the information you
       need.
 
@@ -41,7 +41,7 @@ Managing templates
    click on the template name to edit it.
 
 :Cloning templates:
-   Zammad allows you to clone existing templates and continue your new
+   EasyGo Solutions allows you to clone existing templates and continue your new
    template from there.
 
    To do so, use ⋮ in the Action column of the desired template in your list

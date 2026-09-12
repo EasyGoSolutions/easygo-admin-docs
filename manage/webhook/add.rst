@@ -10,7 +10,7 @@ Basics
 .. hint::
 
    Keep in mind that the remote site has to be able to understand the default
-   webhook payload, Zammad is sending. Find more information about the
+   webhook payload, EasyGo Solutions is sending. Find more information about the
    customization of a payload in the next section.
 
 To add a new regular webhook, click the ``New Webhook`` button.
@@ -24,7 +24,7 @@ the available pre-defined ones:
 - Rocket Chat
 - Slack
 
-After you select one and click on ``Next``, Zammad shows the webhook
+After you select one and click on ``Next``, EasyGo Solutions shows the webhook
 configuration dialog. This is what you see directly when creating a webhook from
 scratch. Read on for more information about the configuration of a webhook.
 
@@ -37,8 +37,8 @@ Name
    This name will be displayed within trigger and scheduler selections.
 
 Endpoint
-   Webhook endpoint Zammad sends its payload to. Please note that
-   Zammad ignores basic authentication parameters here. See below how to
+   Webhook endpoint EasyGo Solutions sends its payload to. Please note that
+   EasyGo Solutions ignores basic authentication parameters here. See below how to
    configure username and password via separate fields.
 
 Request method
@@ -124,7 +124,7 @@ Custom Payload
       }
 
 Note
-   If required you can leave useful information for other Zammad admins
+   If required you can leave useful information for other EasyGo Solutions admins
    to understand the webhook in question better.
 
 Active

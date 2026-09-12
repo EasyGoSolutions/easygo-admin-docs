@@ -1,4 +1,4 @@
-Setup Sipgate connection for Zammad
+Setup Sipgate connection for EasyGo Solutions
 ===================================
 
 .. note::
@@ -34,10 +34,10 @@ Step 1: Book sipgate.io package
    .. figure:: /images/system/integrations/cti/sipgate/step1-book-sipgateIO-addon.gif
       :alt: Screencast showing the process on how to book the required sipgate.io addon
 
-Step 2: Configure webhook for Zammad
+Step 2: Configure webhook for EasyGo Solutions
    Within your ``Accountverwaltung`` navicate to your product ``sipgate.io``.
    In the newly opened tab, switch from "Clients" to "Webhooks" and paste
-   the endpoint URLs from your Zammad instance like so:
+   the endpoint URLs from your EasyGo Solutions instance like so:
 
       - Inbound endpoint to "Incoming"
       - Outbound endpoint to "Outgoing"
@@ -46,18 +46,18 @@ Step 2: Configure webhook for Zammad
 
       Ensure to select at least one call group or phoneline within "Sources".
       Other wise Sipgate will not indicate any incoming or outgoing calls
-      to Zammad.
+      to EasyGo Solutions.
 
    .. figure:: /images/system/integrations/cti/sipgate/step2-configure-sipgate-webhooks.gif
-      :alt: Screencast showing how to add Zammad's endpoint URLs to sipgate.ios webhook configuration
+      :alt: Screencast showing how to add EasyGo Solutions's endpoint URLs to sipgate.ios webhook configuration
 
 Step 3: Restrict the numbers to notify on
-   Having a lot of numbers that shouldn't be used for notifying Zammad?
+   Having a lot of numbers that shouldn't be used for notifying EasyGo Solutions?
    Within the Webhooks → URLs section of Sipgate you can select which *sources*
-   Sipgate should notify Zammad about in- and outgoing calls.
+   Sipgate should notify EasyGo Solutions about in- and outgoing calls.
 
    Use either specific phone lines or use the option
-   "Use for all phonelines and groups" to notify Zammad about all existing
+   "Use for all phonelines and groups" to notify EasyGo Solutions about all existing
    lines of your Sipgate account.
 
    .. figure:: /images/system/integrations/cti/sipgate/restrict-notifying-numbers.png
@@ -71,12 +71,12 @@ Step 3: Restrict the numbers to notify on
          :alt: Screenshot showing an enabled Debug log option
 
       After enabling you can use the Debug log section to see all sent webhook
-      calls to Zammad. You'll also can see the response.
+      calls to EasyGo Solutions. You'll also can see the response.
 
       .. figure:: /images/system/integrations/cti/sipgate/debug-log-details-sipgate.png
-         :alt: Screenshot showing sample log entries for Sipgates webhook calls to Zammad
+         :alt: Screenshot showing sample log entries for Sipgates webhook calls to EasyGo Solutions
 
 Step 4 (optional): Further configurations for Sipgate
-   If needed, you can now configure Zammad's Sipgate integration in more detail.
+   If needed, you can now configure EasyGo Solutions's Sipgate integration in more detail.
    You can learn more about your options here:
    :ref:`Sipgate integration settings <sipgate_settings>`.

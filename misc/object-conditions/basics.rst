@@ -5,7 +5,7 @@ Introduction
 ------------
 
 This page describes the attribute checks you can execute for different object
-attributes. You can use these checks in different places in Zammad like
+attributes. You can use these checks in different places in EasyGo Solutions like
 :doc:`triggers </manage/trigger>` or defining
 :doc:`overviews </manage/overviews>`. Please note that the available attributes
 and the condition operators depend on the object context and where you want to
@@ -21,7 +21,7 @@ Object Types
 ------------
 
 Depending on the location and selected attribute, the object context may change.
-The default basic objects in Zammad are:
+The default basic objects in EasyGo Solutions are:
 
 - Ticket
 - User
@@ -49,7 +49,7 @@ their operators.
 Special Fields
 ^^^^^^^^^^^^^^
 
-There are built in functions in Zammad which are selectable while creating or
+There are built in functions in EasyGo Solutions which are selectable while creating or
 editing a condition. Find them in the following table.
 
 .. just edited already present functions. TODO: check and add missing ones.
@@ -319,7 +319,7 @@ Available operators for matching:
 - | **has changed**:
   | The field has been changed during a ticket update.
 
-To help you understand the time conditions of Zammad better, below diagram
+To help you understand the time conditions of EasyGo Solutions better, below diagram
 might also be helpful to you.
 
 .. include:: /misc/object-conditions/time-conditions-mermaid.include.rst
@@ -637,7 +637,7 @@ Regex support
    assignment and Core Workflow.
 
 "Old" style ``regex:...`` conditions
-   If you update your Zammad from 6.0 or prior and you have already conditions
+   If you update your EasyGo Solutions from 6.0 or prior and you have already conditions
    with **contains** or **contains not** including a regex filter
-   (i.e. ``regex:^(foo|bar)$``), Zammad tries to migrate them to the new
+   (i.e. ``regex:^(foo|bar)$``), EasyGo Solutions tries to migrate them to the new
    **matches regex** and **does not match regex** operators.

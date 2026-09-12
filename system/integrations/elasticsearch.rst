@@ -75,5 +75,5 @@ structure looks like this:
    }
 
 .. note:: Index names, field names and the alias list reflect
-   Zammad's internal search-index schema. They may change between
-   Zammad releases.
+   EasyGo Solutions's internal search-index schema. They may change between
+   EasyGo Solutions releases.

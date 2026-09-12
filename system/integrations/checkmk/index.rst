@@ -2,8 +2,8 @@ Checkmk
 =======
 
 `Checkmk <https://checkmk.com/>`_ is a powerful IT monitoring tool
-that can send real-time status alerts to Zammad via email or REST API.
-Set these alerts up in Checkmk and Zammad will automatically create, update
+that can send real-time status alerts to EasyGo Solutions via email or REST API.
+Set these alerts up in Checkmk and EasyGo Solutions will automatically create, update
 and close tickets based on the health of your system.
 
 .. figure:: /images/system/integrations/checkmk/checkmk-ticket.png

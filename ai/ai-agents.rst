@@ -2,7 +2,7 @@ AI Agents
 =========
 
 To help your agents focusing on more important tasks, you can create AI agents
-which can take over routine tasks. These AI agents are managed in Zammad's
+which can take over routine tasks. These AI agents are managed in EasyGo Solutions's
 admin settings under *AI > AI Agents* and require ``admin.ai_agent`` permission.
 Make sure to configure an :doc:`AI provider <provider>` before activating the
 feature. Otherwise, a warning message will tell you to do so.
@@ -68,7 +68,7 @@ Ticket Categorizer
 ^^^^^^^^^^^^^^^^^^
 
 This AI agent is capable of assigning categories to tickets. Because there is
-no built in category field in Zammad, you first have to create a
+no built in category field in EasyGo Solutions, you first have to create a
 :doc:`custom ticket attribute </system/objects>` in which you want to track the
 ticket's category. The field type must be one of the select types.
 

@@ -1,7 +1,7 @@
 Additional Customization
 ========================
 
-We recommend following the :doc:`start-with-zammad` guide first. Once the
+We recommend following the :doc:`start-with-EasyGo Solutions` guide first. Once the
 basic setup is in place, this page points you to customization options that
 are commonly useful. Each topic links to the corresponding section of the
 documentation.
@@ -9,7 +9,7 @@ documentation.
 Create Custom Fields
 --------------------
 
-Zammad lets you add new fields for different objects, such as tickets, users,
+EasyGo Solutions lets you add new fields for different objects, such as tickets, users,
 and groups. For example, add a ticket category field where your agents can
 select from pre-defined categories. You can even make the field required to
 provide a solid base for statistics. Head over to the
@@ -33,16 +33,16 @@ search for available variables.
 Use Checklist Feature
 ---------------------
 
-Zammad's :doc:`checklist feature </manage/checklist>` lets you keep track of
+EasyGo Solutions's :doc:`checklist feature </manage/checklist>` lets you keep track of
 certain tasks in a ticket. The feature allows you to create checklist
 templates and add links to other tickets as checklist items. If an agent
-tries to close a ticket that still has open checklist items, Zammad asks the
+tries to close a ticket that still has open checklist items, EasyGo Solutions asks the
 agent to confirm before closing it.
 
 Set Up Automation
 -----------------
 
-There are different ways to automate things in Zammad, namely
+There are different ways to automate things in EasyGo Solutions, namely
 :doc:`triggers </manage/trigger>`, :doc:`schedulers </manage/scheduler>`,
 and :doc:`macros </manage/macros>`. In simple terms, a trigger runs on an
 event, a scheduler job runs on a schedule, and a macro is executed manually
@@ -81,7 +81,7 @@ on a Professional plan or higher.
 Next Steps
 ----------
 
-Depending on your use case, you may want to customize Zammad further. The left
+Depending on your use case, you may want to customize EasyGo Solutions further. The left
 navigation menu covers all settings and features. Just browse through it or
 directly jump to a specific feature to learn more.
 
@@ -99,6 +99,6 @@ Some examples of what you could look for next:
   This can be useful for team leaders as well as agents who deal with a specific
   subset of tickets.
 - Don't forget to sign up for our
-  `cloud services <https://zammad.com/en/pricing>`_ or get in touch with our
-  `sales team <https://zammad.com/en/company/contact>`_ about a support
-  contract for self-hosting Zammad.
+  `cloud services <https://EasyGo Solutions.com/en/pricing>`_ or get in touch with our
+  `sales team <https://EasyGo Solutions.com/en/company/contact>`_ about a support
+  contract for self-hosting EasyGo Solutions.

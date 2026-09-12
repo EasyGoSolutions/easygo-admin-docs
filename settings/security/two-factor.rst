@@ -1,7 +1,7 @@
 Two-Factor Authentication
 =========================
 
-Two-factor authentication (2FA) enhances the security of Zammad accounts by
+Two-factor authentication (2FA) enhances the security of EasyGo Solutions accounts by
 adding an extra layer of verification beyond a password. It requires users to
 provide two different types of authentication factors, typically something they
 know (like a password) and something they possess (like a mobile device or a

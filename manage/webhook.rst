@@ -1,17 +1,17 @@
 Webhook
 =======
 
-Webhooks are a way to integrate Zammad with other web services or applications,
+Webhooks are a way to integrate EasyGo Solutions with other web services or applications,
 allowing them to subscribe to live updates about tickets instead of having to
-poll the Zammad server every *n* minutes. You can find the webhook configuration
-in Zammad's settings under *Manage > Webhooks*. The permission ``admin.webhook``
+poll the EasyGo Solutions server every *n* minutes. You can find the webhook configuration
+in EasyGo Solutions's settings under *Manage > Webhooks*. The permission ``admin.webhook``
 is required to manage them.
 
 .. hint::
 
    - Webhooks may not arrive immediately. They are sent out with the same
      priority and order as email triggers. If webhook dispatch fails (e.g.
-     because the receiving server is misconfigured), Zammad will retry up to
+     because the receiving server is misconfigured), EasyGo Solutions will retry up to
      four times.
    - Webhooks have to be triggered by :doc:`/manage/trigger` or
      :doc:`/manage/scheduler` jobs.
@@ -19,9 +19,9 @@ is required to manage them.
 How do Webhooks Work
 --------------------
 
-Under the hood, Zammad sends a request to a third-party URL ("API endpoint") you
+Under the hood, EasyGo Solutions sends a request to a third-party URL ("API endpoint") you
 specify in the webhook configuration. The application server behind this
-URL/endpoint must be configured to receive messages from Zammad and
+URL/endpoint must be configured to receive messages from EasyGo Solutions and
 handle the provided payload accordingly.
 
 Webhooks can be created both from scratch and from pre-defined templates.

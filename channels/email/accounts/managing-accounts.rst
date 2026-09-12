@@ -38,7 +38,7 @@ Email Address
       :align: center
 
 Enabled / Disabled
-   Disabling an account temporarily prevents Zammad from importing its messages.
+   Disabling an account temporarily prevents EasyGo Solutions from importing its messages.
 
    This may be necessary during scheduled maintenance
    or when migrating your installation to a new host.
@@ -46,6 +46,6 @@ Enabled / Disabled
    Disabling an account disables *outgoing* messages for it, as well.
 
 Delete
-   Deleting an account removes its configuration from Zammad entirely.
+   Deleting an account removes its configuration from EasyGo Solutions entirely.
 
    .. include:: managing-accounts.delete-note.rst

@@ -27,7 +27,7 @@ Edit mask
 Conditions
 ----------
 
-Zammad differentiates between selected and saved conditions.
+EasyGo Solutions differentiates between selected and saved conditions.
 These can be combined wherever needed.
 You can find a description of the condition operators for core workflows in
 :doc:`/system/core-workflows/condition-operators`.

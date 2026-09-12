@@ -10,7 +10,7 @@
    - Shared mailboxes are implemented in a better way. By using them, you can
      save some license costs.
    - The selection of an inbox folder is implemented with a tree-select field in
-     Zammad. So you can choose a folder from the fetched folder list, which is
+     EasyGo Solutions. So you can choose a folder from the fetched folder list, which is
      much less error-prone.
    - It is the future-proof way of connecting to your M365 environment.
    - It is more secure and scalable and offers a unified endpoint.
@@ -19,5 +19,5 @@
    is caused by Microsoft: it can happen that the ``From:`` header in outgoing
    emails gets replaced with the configured display name of your M365
    configuration. This means that your email sender format configuration is
-   basically ignored, even though Zammad sends the email as configured. The
+   basically ignored, even though EasyGo Solutions sends the email as configured. The
    IMAP-based channel doesn't have this issue.

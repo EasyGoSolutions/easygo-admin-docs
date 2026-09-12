@@ -1,10 +1,10 @@
 Providers
 =========
 
-Zammad offers AI-powered features to support your agents! To use AI features in
-Zammad, you must first configure and enable at least one AI provider. An AI
+EasyGo Solutions offers AI-powered features to support your agents! To use AI features in
+EasyGo Solutions, you must first configure and enable at least one AI provider. An AI
 provider processes your AI requests and is required for any AI feature.
-Add your providers in Zammad's admin settings under *AI > Providers* and make
+Add your providers in EasyGo Solutions's admin settings under *AI > Providers* and make
 sure to activate the toggle. Switching the toggle off stops all AI calls, even
 if one or more providers are configured.
 
@@ -14,7 +14,7 @@ Accessing this page requires the ``admin.ai_provider`` permission.
    :alt: Screenshot shows the list of configured AI providers
    :align: center
 
-.. note:: Zammad's AI features are completely optional. If you don't want to see
+.. note:: EasyGo Solutions's AI features are completely optional. If you don't want to see
    the AI section at all, read about :docs:`how to hide it in the system docs
    </admin/console/other-useful-commands.html#remove-ai-feature>`.
 
@@ -49,7 +49,7 @@ so switching the type updates the dialog on the fly.
 Type
    Pick the AI provider. Available options:
 
-   - Zammad AI
+   - EasyGo Solutions AI
    - OpenAI
    - Ollama
    - Anthropic
@@ -63,11 +63,11 @@ Type
 
    .. note:: The provider you need isn't listed? We are going to add more over
       time. If you need a particular one or want to sponsor it, get in touch
-      with our `sales department <https://zammad.com/en/company/contact>`_.
+      with our `sales department <https://EasyGo Solutions.com/en/company/contact>`_.
 
 Name
    A human-readable label for the provider. This is what you see in the list
-   and elsewhere in Zammad (for example when configuring a provider for a
+   and elsewhere in EasyGo Solutions (for example when configuring a provider for a
    specific feature). The name must be unique.
 
 Token
@@ -80,8 +80,8 @@ Model
    recommended model; pick a different one if you prefer. If the provider
    does not offer a model list, enter its name manually.
 
-   Azure AI and Zammad AI do not show this field. Azure AI identifies the
-   model through its deployment URL, while Zammad AI chooses the model itself.
+   Azure AI and EasyGo Solutions AI do not show this field. Azure AI identifies the
+   model through its deployment URL, while EasyGo Solutions AI chooses the model itself.
 
    .. tip:: Need different models for different features? Add the same provider
       twice with a different model selected in each, then assign each connection
@@ -96,8 +96,8 @@ Embedding Model
    :ref:`capabilities`). Not every provider supports semantic search; the
    field appears only for the ones that do.
 
-   When you select or enter an embedding model, Zammad tries to determine values
-   for the two options listed below. If Zammad cannot determine these values,
+   When you select or enter an embedding model, EasyGo Solutions tries to determine values
+   for the two options listed below. If EasyGo Solutions cannot determine these values,
    you must provide them. Note that you should only adjust these values if you
    know what you are doing.
 
@@ -115,7 +115,7 @@ Embedding Model
       triggers a full rebuild of the knowledge base index. This
       re-embeds every knowledge base article, which takes time and costs
       AI calls proportional to the size of your knowledge base. The
-      rebuild runs in the background and Zammad notifies you with a toast
+      rebuild runs in the background and EasyGo Solutions notifies you with a toast
       message when it starts. Switching the semantic search capability to
       a provider that uses the same embedding model and dimensions does
       not trigger a rebuild.
@@ -123,7 +123,7 @@ Embedding Model
 OCR Model
    The model used to extract text from images. The dropdown lists the models
    the provider offers. The default option falls back to the **Model** field.
-   Zammad AI chooses the model itself and therefore doesn't show this field.
+   EasyGo Solutions AI chooses the model itself and therefore doesn't show this field.
    Not every provider supports image text recognition; the field appears
    only for the ones that do.
 
@@ -138,7 +138,7 @@ URL (OCR)
    Azure AI only. The endpoint where the OCR model is available.
    Leave empty to fall back to URL (Completions).
 
-After filling in the fields, click ``Submit``. Zammad tests the configuration
+After filling in the fields, click ``Submit``. EasyGo Solutions tests the configuration
 before saving. If the test succeeds, the row's status dot starts orange
 until the first successful request turns it green; see Status below for the
 colors.
@@ -176,10 +176,10 @@ everything.
    :alt: Screenshot shows the providers list with a provider flagged as the default for all three purposes
    :align: center
 
-When you mark a provider as the default, Zammad clears that flag from
+When you mark a provider as the default, EasyGo Solutions clears that flag from
 whichever provider held it before, so the new default takes over
 immediately. The default provider always exists: when you delete the
-provider that holds the flag, Zammad promotes the oldest remaining provider.
+provider that holds the flag, EasyGo Solutions promotes the oldest remaining provider.
 
 .. _capabilities:
 
@@ -194,7 +194,7 @@ Semantic search
    The provider used to turn text into numerical form (vector embeddings)
    so the knowledge base can find answers by meaning, not just keywords.
 
-   If no provider covers semantic search and a feature needs it, Zammad
+   If no provider covers semantic search and a feature needs it, EasyGo Solutions
    shows a warning on the corresponding feature page. Assign semantic
    search to a provider that supports it and that has an Embedding Model
    set to clear the warning. Note that switching this assignment may
@@ -206,7 +206,7 @@ Image text recognition
    This capability is optional. To save on AI-related costs, you can remove
    it from all providers entirely; features then simply skip the OCR step.
 
-When you assign a capability to a provider, Zammad clears that assignment from
+When you assign a capability to a provider, EasyGo Solutions clears that assignment from
 whichever provider held it before, so the new assignment takes over
 immediately. Unlike the default provider, capabilities are not promoted:
 when you delete the provider that covers a capability, the capability simply
@@ -229,7 +229,7 @@ Use for image text recognition / Do not use for image text recognition
    that assignment.
 
 Delete
-   Removes the provider. Not available for the Zammad AI provider on SaaS.
+   Removes the provider. Not available for the EasyGo Solutions AI provider on SaaS.
 
 .. _per-feature-provider-config:
 
@@ -258,42 +258,42 @@ providers you set up on this page.
 Additional Provider Information
 -------------------------------
 
-If you want to know more about Zammad AI or Ollama, read on. Otherwise,
+If you want to know more about EasyGo Solutions AI or Ollama, read on. Otherwise,
 head over to :doc:`feedback-and-logs` or pick any of the AI feature pages from
 the menu on the left.
 
-.. _zammad-ai-provider:
+.. _EasyGo Solutions-ai-provider:
 
-Zammad AI
+EasyGo Solutions AI
 ^^^^^^^^^
 
-Using Zammad AI as a provider is the easiest way to get started with Zammad's
+Using EasyGo Solutions AI as a provider is the easiest way to get started with EasyGo Solutions's
 AI features. It has several key advantages:
 
 - You don't have to set up an AI system or its configuration.
 - Hosted in the EU and compliant with GDPR.
-- No configuration in Zammad for SaaS customers, or just an API key
+- No configuration in EasyGo Solutions for SaaS customers, or just an API key
   for self-hosted customers.
 - Requests with sensitive information aren't used for training.
 - One place to go for support when something isn't working as
   expected.
 
 SaaS Customers
-   Using Zammad AI requires a "V2" plan. Check your
+   Using EasyGo Solutions AI requires a "V2" plan. Check your
    :doc:`subscription settings </system/subscription>` and consider switching
    your plan. When a "V2" plan is active, you can buy AI calls for AI
-   processing. A Zammad AI provider is added automatically and you can enable
+   processing. A EasyGo Solutions AI provider is added automatically and you can enable
    it as you like. Check your remaining AI calls from time to time or activate
    the notification to be alerted when few calls remain.
 
-   On SaaS, the Zammad AI provider is provisioned by the platform and you
+   On SaaS, the EasyGo Solutions AI provider is provisioned by the platform and you
    cannot delete it or change its type.
 
 Self-Hosted Customers
    Get in touch with our
-   `sales department <https://zammad.com/en/company/contact>`_ to obtain a
-   Zammad AI API key and to buy AI calls. After receiving your API key, add
-   a new provider of type *Zammad AI* and save the key.
+   `sales department <https://EasyGo Solutions.com/en/company/contact>`_ to obtain a
+   EasyGo Solutions AI API key and to buy AI calls. After receiving your API key, add
+   a new provider of type *EasyGo Solutions AI* and save the key.
 
 Ollama
 ^^^^^^

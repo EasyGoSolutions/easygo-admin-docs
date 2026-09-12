@@ -2,7 +2,7 @@ Header Based Actions
 ====================
 .. header manipulation
 
-With specific email headers, you can make Zammad perform different actions
+With specific email headers, you can make EasyGo Solutions perform different actions
 depending on the content of the headers. So, if you create a new email (e.g.
 from a form on your website) you can set these headers to perform actions
 or to hand over special information like custom attributes.
@@ -26,19 +26,19 @@ or to hand over special information like custom attributes.
 Auto Responses
 --------------
 
-Normally, Zammad runs internal checks to see if an incoming email is an
-automatic response. In such cases Zammad will not send trigger based responses.
+Normally, EasyGo Solutions runs internal checks to see if an incoming email is an
+automatic response. In such cases EasyGo Solutions will not send trigger based responses.
 You can override this with the below mentioned headers:
 
-``x-zammad-send-auto-response``
+``x-EasyGo Solutions-send-auto-response``
    Set to ``false`` to disable trigger based responses.
-   If set to ``true`` Zammad will send a response.
+   If set to ``true`` EasyGo Solutions will send a response.
 
    This option *does not* work if e.g. ``precedence: list`` is set
    unless you use the auto response header below as well.
 
-``x-zammad-is-auto-response``
-   Providing this header allows you to tell Zammad that the mail in question
+``x-EasyGo Solutions-is-auto-response``
+   Providing this header allows you to tell EasyGo Solutions that the mail in question
    is an auto generated response (``true``). This will cause email based
    triggers to be skipped.
 
@@ -50,14 +50,14 @@ You can override this with the below mentioned headers:
 Ticket Attributes
 -----------------
 
-Zammad allows you to use headers to manipulate ticket creations or follow ups.
+EasyGo Solutions allows you to use headers to manipulate ticket creations or follow ups.
 The manipulation can be used instead of triggers. Triggers are considered
 *after* header settings and thus can still override headers.
 
 To differentiate between ticket creation and follow-up:
 
-   - For creations use: ``X-Zammad-Ticket-{Attribute Name}``
-   - For follow ups use: ``X-Zammad-Ticket-FollowUp-{Attribute Name}``
+   - For creations use: ``X-EasyGo Solutions-Ticket-{Attribute Name}``
+   - For follow ups use: ``X-EasyGo Solutions-Ticket-FollowUp-{Attribute Name}``
 
 This allows you to ensure the changes are only applied in the
 required situation.
@@ -72,50 +72,50 @@ required situation.
    - ``2021-09-28T08:00:00+02:00``
    - ``2021-09-28T06:00:00.000Z``
 
-``X-Zammad-Ticket-Priority`` & ``X-Zammad-Ticket-FollowUp-Priority``
+``X-EasyGo Solutions-Ticket-Priority`` & ``X-EasyGo Solutions-Ticket-FollowUp-Priority``
    | Allows you to adjust a ticket's priority.
-   | Example: ``X-Zammad-Ticket-Priority: 1 low``
+   | Example: ``X-EasyGo Solutions-Ticket-Priority: 1 low``
 
-``X-Zammad-Ticket-Group`` & ``X-Zammad-Ticket-FollowUp-Group``
+``X-EasyGo Solutions-Ticket-Group`` & ``X-EasyGo Solutions-Ticket-FollowUp-Group``
    | Allows you interfere with regular channel routing of the ticket.
-   | Example: ``X-Zammad-Ticket-Group: Sales``
+   | Example: ``X-EasyGo Solutions-Ticket-Group: Sales``
 
-``X-Zammad-Ticket-Owner`` & ``X-Zammad-Ticket-FollowUp-Owner``
+``X-EasyGo Solutions-Ticket-Owner`` & ``X-EasyGo Solutions-Ticket-FollowUp-Owner``
    | Directly assign or change the ticket owner. Valid values are either
      ``login`` or ``Email``
-   | Example: ``X-Zammad-Ticket-Owner: jdoe``
+   | Example: ``X-EasyGo Solutions-Ticket-Owner: jdoe``
 
-``X-Zammad-Ticket-State`` & ``X-Zammad-Ticket-FollowUp-State``
+``X-EasyGo Solutions-Ticket-State`` & ``X-EasyGo Solutions-Ticket-FollowUp-State``
    | Set a specific ticket state.
-   | Example: ``X-Zammad-Ticket-State: closed``
+   | Example: ``X-EasyGo Solutions-Ticket-State: closed``
 
 
    | Pending states always require the ``pending_time`` attribute on top.
-   | Example: ``X-Zammad-Ticket-Pending_Time: 2021-09-26T08:00:00+0200``
+   | Example: ``X-EasyGo Solutions-Ticket-Pending_Time: 2021-09-26T08:00:00+0200``
 
-``X-Zammad-Customer-Email``
+``X-EasyGo Solutions-Customer-Email``
    | Manipulate the ticket customer - this can be a different user than the
      actual sender. Replying to the original sender is still possible.
-   | Example: ``X-Zammad-Customer-Email: jdoe@example.com``
+   | Example: ``X-EasyGo Solutions-Customer-Email: jdoe@example.com``
 
    This header is not available for follow ups.
 
-``X-Zammad-Customer-Login``
+``X-EasyGo Solutions-Customer-Login``
    | Manipulate the ticket customer - this can be a different user than the
      actual sender. Replying to the original sender is still possible.
-   | Example: ``X-Zammad-Customer-Login: jdoe``
+   | Example: ``X-EasyGo Solutions-Customer-Login: jdoe``
 
    This header is not available for follow ups.
 
 Article Attributes
 ------------------
 
-If needed Zammad allows you to manipulate attributes or states of fetched
+If needed EasyGo Solutions allows you to manipulate attributes or states of fetched
 email articles.
 
-``X-Zammad-Article-Sender``
+``X-EasyGo Solutions-Article-Sender``
    | Manipulate the sender type (agent, customer or system)
-   | Example: ``X-Zammad-Article-Sender: System``
+   | Example: ``X-EasyGo Solutions-Article-Sender: System``
 
    System Emails are indicated in a similar way as trigger-responses.
    Users can't see them natively and see only a indicator like that:
@@ -124,23 +124,23 @@ email articles.
       :alt: Received mail as article sender system
       :width: 75%
 
-``X-Zammad-Article-Type``
+``X-EasyGo Solutions-Article-Type``
    | Change the article type of your incoming mail. This requires you to know
      which article types are available in your system.
-   | Example: ``X-Zammad-Article-Type: phone``
+   | Example: ``X-EasyGo Solutions-Article-Type: phone``
 
    .. warning::
 
       This header can cause *serious issues* in your instance and may
       lead to unexpected behavior. Only use with absolute care!
 
-``X-Zammad-Article-Internal``
+``X-EasyGo Solutions-Article-Internal``
    | Manipulate the default article visibility.
-   | Example: ``X-Zammad-Article-Internal: true``
+   | Example: ``X-EasyGo Solutions-Article-Internal: true``
 
-``X-Zammad-Ignore``
-   | Tell Zammad to silently drop the Email.
-   | Example: ``X-Zammad-Ignore: true``
+``X-EasyGo Solutions-Ignore``
+   | Tell EasyGo Solutions to silently drop the Email.
+   | Example: ``X-EasyGo Solutions-Ignore: true``
 
 Trusted Channel
 ---------------
@@ -158,7 +158,7 @@ Setting a channel to ``trusted`` can be done via
 :docs:`console </admin/console.html>` exclusively. To do so, go to the rails
 console and follow the steps below:
 
-List all channels in Zammad:
+List all channels in EasyGo Solutions:
 
 .. code-block:: irb
 

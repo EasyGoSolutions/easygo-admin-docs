@@ -1,7 +1,7 @@
 Slack Notifications
 ===================
 
-Follow the steps below to configure a webhook for receiving Zammad notifications
+Follow the steps below to configure a webhook for receiving EasyGo Solutions notifications
 in a Slack channel.
 
 Step 1 - Setup Incoming WebHooks App in your Slack Channel
@@ -63,10 +63,10 @@ Optionally, you can **Customize Icon** which will be used as the avatar.
 
 Finally, save your app configuration by clicking ``Save Settings``.
 
-Step 2 - Add a Pre-defined Webhook in Zammad
+Step 2 - Add a Pre-defined Webhook in EasyGo Solutions
 --------------------------------------------
 
-Go to :doc:`Webhook </manage/webhook/add>` management screen in your Zammad
+Go to :doc:`Webhook </manage/webhook/add>` management screen in your EasyGo Solutions
 instance and click on the arrow next to the green button in the upper right
 corner. Choose **Pre-defined Webhook** from the dropdown menu.
 
@@ -108,7 +108,7 @@ Sample Slack Channel Notification
 ---------------------------------
 
 From now on, whenever a ticket is escalated or has reached escalation warning in
-your Zammad system, a suitable notification will be posted in the configured
+your EasyGo Solutions system, a suitable notification will be posted in the configured
 Slack Channel. The notification will contain the link to the ticket, escalation
 information and
 :ref:`content of the last article <slack-removing-article-body>`.

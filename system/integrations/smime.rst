@@ -1,7 +1,7 @@
 S/MIME
 ======
 
-S/MIME is one method for secure email communication in Zammad (in addition to
+S/MIME is one method for secure email communication in EasyGo Solutions (in addition to
 :doc:`pgp`). It is the most widely-supported method for secure email
 communication and allows you to exchange **signed** and **encrypted** messages
 with others.
@@ -49,7 +49,7 @@ Certificate and Key Handling
 Add Certificates and Keys
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When adding certificates and keys, Zammad validates them based on the
+When adding certificates and keys, EasyGo Solutions validates them based on the
 ``X509v3`` extensions. If your certificate and private key are bundled together
 in the same file or PEM block, import them twice (once using each button). 
 
@@ -61,7 +61,7 @@ Add Certificate
    In some cases (e.g. when dealing with large enterprises), you may be given
    a certificate for an entire certificate authority (CA), rather than a single
    contact. You can add it here as well to trust *all* certificates issued by
-   that CA. Commercial CAs can usually be verified online. Zammad does not
+   that CA. Commercial CAs can usually be verified online. EasyGo Solutions does not
    include a list of built-in, trusted CAs.
 
 Add Private Key
@@ -101,7 +101,7 @@ Download Certificate or Key
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can download the previously provided certificates and private keys at any
-time from your Zammad instance. Please note that passphrase-protected private
+time from your EasyGo Solutions instance. Please note that passphrase-protected private
 keys stay protected. When you download them, you have to know the passphrase to
 use them after downloading. To download a certificate, use the ⠇ menu in the
 **Actions** column and select ``Download Certificate``. To download a private
@@ -124,12 +124,12 @@ doesn't sign outgoing system notification emails.
 Default Behavior
 ----------------
 
-By default, Zammad tries to send all outgoing emails **signed and encrypted**,
+By default, EasyGo Solutions tries to send all outgoing emails **signed and encrypted**,
 if possible. This behavior can be adjusted on a per-group basis. You can choose
 to sign only, encrypt only, both, or neither:
 
 .. figure:: /images/system/integrations/smime/default-behaviour-on-per-group-basis.png
-   :alt: Zammad allowing to choose the default behavior on per group basis
+   :alt: EasyGo Solutions allowing to choose the default behavior on per group basis
    :scale: 80%
    :align: center
 

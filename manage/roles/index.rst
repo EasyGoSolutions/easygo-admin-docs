@@ -1,9 +1,9 @@
 Roles
 =====
 
-Roles are a crucial part of Zammad's permission system. They determine what
+Roles are a crucial part of EasyGo Solutions's permission system. They determine what
 users can do within the application and can also contain group permissions.
-You can manage roles in Zammad's settings under *Manage > Roles* with the
+You can manage roles in EasyGo Solutions's settings under *Manage > Roles* with the
 ``admin.role`` permission.
 
 This page gives you an explanation of what roles and permissions are. You can
@@ -14,22 +14,22 @@ Basics
 
 A role is the place where you define permissions. Each user has an assigned role
 and inherits the permissions of this role. The permissions define what a user is
-allowed to do and which parts and features of Zammad are accessible for them.
-Zammad ships with three roles by default: **Admin**, **Agent** and **Customer**.
+allowed to do and which parts and features of EasyGo Solutions are accessible for them.
+EasyGo Solutions ships with three roles by default: **Admin**, **Agent** and **Customer**.
 You can adjust these roles or create new ones to fit your company's needs. In
 case you are using LDAP/Active Directory, you can even sync your existing groups
-to Zammad with the :doc:`LDAP integration </system/integrations/ldap/index>`.
+to EasyGo Solutions with the :doc:`LDAP integration </system/integrations/ldap/index>`.
 
 This makes creating user accounts for new agents much simpler because you just
 have to assign the correct role instead of configuring permissions and group
 access for each user individually. Examples of some important permissions are:
 
 - ``ticket.agent``: allows a user to work on tickets
-- ``admin.user``: allows a user to manage other users in Zammad's admin settings
+- ``admin.user``: allows a user to manage other users in EasyGo Solutions's admin settings
 - ``knowledge_base.editor``: allows a user to create/edit knowledge base
   articles
 - ``user_preferences.language``: allows a user to change the language of
-  Zammad's UI for their account.
+  EasyGo Solutions's UI for their account.
 
 To adjust a permission of a role, simply click on it. To create a new role, use
 the ``New Role`` button in the top right corner. In both cases, a dialog opens
@@ -91,5 +91,5 @@ Note
 Active
    Roles can't be deleted, only set to inactive. If you do so, all users lose
    the permissions of this role. If this inactive role is the only one of a
-   user, this account will not be able to do anything in Zammad. The login will
+   user, this account will not be able to do anything in EasyGo Solutions. The login will
    be still possible.

@@ -15,17 +15,17 @@ Requirements
 
    The integration relies on Placetel's legacy product "Placetel Pro".
    If you use their current "Webex for Placetel" product, it doesn't work.
-   Our `community thread <https://community.zammad.org/t/zammad-integration-missing-in-placetel/16363/9>`_
+   Our `community thread <https://community.EasyGo Solutions.org/t/EasyGo Solutions-integration-missing-in-placetel/16363/9>`_
    has some more information.
 
 Please provide the following requirements:
 
 - You need an administrative Placetel account for your organization.
-- Your Zammad instance must be allowed to communicate to external services.
-- Placetel must be able to reach your Zammad instance.
+- Your EasyGo Solutions instance must be allowed to communicate to external services.
+- Placetel must be able to reach your EasyGo Solutions instance.
 
 :doc:`provider-configurations/placetel`
-   Learn how to configure Placetel to enable Zammad and Placetel to communicate
+   Learn how to configure Placetel to enable EasyGo Solutions and Placetel to communicate
    with each other.
 
 .. _placetel_settings:
@@ -40,7 +40,7 @@ Endpoint Settings
    :doc:`integration configuration with Placetel <provider-configurations/placetel>`.
 
    Endpoint
-      This endpoint will be required for the Zammad integration within the
+      This endpoint will be required for the EasyGo Solutions integration within the
       Placetel web interface.
 
    API Token
@@ -64,7 +64,7 @@ Phone Extension to Agent Mapping
    .. include:: /system/integrations/cti/includes/extenion-to-agent-mapping.include.rst
 
    .. figure:: /images/system/integrations/cti/placetel/phone-extension-to-agent-mapping.png
-      :alt: Screenshot showing sample user mappings in between Placetel and Zammad
+      :alt: Screenshot showing sample user mappings in between Placetel and EasyGo Solutions
 
    .. hint::
 

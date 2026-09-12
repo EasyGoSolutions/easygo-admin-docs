@@ -3,10 +3,10 @@ Ticket
 
 .. note:: If you're missing variables or are not sure if something is not
    working as expected, feel free to ask over at the
-   `community <https://community.zammad.org>`_.
+   `community <https://community.EasyGo Solutions.org>`_.
 
-Below you can find examples of ticket-based variables within Zammad.
-These can be called via triggers for example. If you're unsure if Zammad does
+Below you can find examples of ticket-based variables within EasyGo Solutions.
+These can be called via triggers for example. If you're unsure if EasyGo Solutions does
 support variables at the point you're at, you can try to type :kbd:`:` :kbd:`:`
 to check.
 
@@ -30,7 +30,7 @@ to check.
    "Ticket > Created by > Note",                       "``#{ticket.created_by.note}``",                 "``Some note to this user`` or empty if not set"
    "Ticket > Created by > Phone",                      "``#{ticket.created_by.phone}``",                "``004930123456789`` or empty if not set"
    "Ticket > Created by > VIP",                        "``#{ticket.created_by.vip}``",                  "``false`` or ``true``"
-   "Ticket > Created by > Web",                        "``#{ticket.created_by.web}``",                  "``https://zammad.org`` or empty if not set"
+   "Ticket > Created by > Web",                        "``#{ticket.created_by.web}``",                  "``https://EasyGo Solutions.org`` or empty if not set"
    "Ticket > Customer > Address",                      "``#{ticket.customer.address}``",                "``Some street 1, 12345 Berlin`` or empty if not set"
    "Ticket > Customer > Avatar",                       "``#{ticket.customer.avatar(60,60)}``",          "avatar picture with width and height in pixel (e.g. 60,60)"
    "Ticket > Customer > Department",                   "``#{ticket.customer.department}``",             "``Sales`` or empty if not set"
@@ -43,7 +43,7 @@ to check.
    "Ticket > Customer > Note",                         "``#{ticket.customer.note}``",                   "``Some note to this user`` or empty if not set"
    "Ticket > Customer > Phone",                        "``#{ticket.customer.phone}``",                  "``004930123456789`` or empty if not set"
    "Ticket > Customer > VIP",                          "``#{ticket.customer.vip}``",                    "``false`` or ``true``"
-   "Ticket > Customer > Web",                          "``#{ticket.customer.web}``",                    "``https://zammad.org`` or empty if not set"
+   "Ticket > Customer > Web",                          "``#{ticket.customer.web}``",                    "``https://EasyGo Solutions.org`` or empty if not set"
    "Ticket > Escalation at",                           "``#{ticket.escalation_at}``",                   "``2019-10-07 16:25:00 UTC`` or empty if not applicable"
    "Ticket > First response",                          "``#{ticket.first_response_at}``",               "``2019-10-07 16:25:00 UTC`` or empty if not applicable yet"
    "Ticket > Group > Assign Follow-Ups",               "``#{ticket.group.follow_up_assignment}``",      "``false`` or ``true``"
@@ -58,7 +58,7 @@ to check.
    "Ticket > Number",                                  "``#{ticket.number}``",                          "``31001``, ``201910731001``, ..."
    "Ticket > Organization > Domain based assignment",  "``#{ticket.organization.domain_assignment}``",  "``false`` or ``true``"
    "Ticket > Organization > Domain",                   "``#{ticket.organization.domain}``",             "``domain.tld`` or empty if not set"
-   "Ticket > Organization > Name",                     "``#{ticket.organization.name}``",               "``Zammad GmbH`` or empty if not set"
+   "Ticket > Organization > Name",                     "``#{ticket.organization.name}``",               "``EasyGo Solutions GmbH`` or empty if not set"
    "Ticket > Organization > Note",                     "``#{ticket.organization.note}``",               "``A note to the organization of the user`` or empty if not set"
    "Ticket > Organization > Shared organization",      "``#{ticket.organization.shared}``",             "``false`` or ``true``"
    "Ticket > Organization > VIP",                      "``#{ticket.organization.vip}``",                "``false`` or ``true``"
@@ -74,11 +74,11 @@ to check.
    "Ticket > Owner > Note",                            "``#{ticket.owner.note}``",                      "``Some note to this user`` or empty if not set"
    "Ticket > Owner > Phone",                           "``#{ticket.owner.phone}``",                     "``004930123456789`` or empty if not set"
    "Ticket > Owner > VIP",                             "``#{ticket.owner.vip}``",                       "``false`` or ``true``"
-   "Ticket > Owner > Web",                             "``#{ticket.owner.web}``",                       "``https://zammad.com`` or empty if not set"
+   "Ticket > Owner > Web",                             "``#{ticket.owner.web}``",                       "``https://EasyGo Solutions.com`` or empty if not set"
    "Ticket > Pending till",                            "``#{ticket.pending_time}``",                    "``2019-10-07 16:25:00 UTC`` or empty if not set"
    "Ticket > Priority > Name",                         "``#{ticket.priority.name}``",                   "``2 normal``"
    "Ticket > State > Name",                            "``#{ticket.state.name}``",                      "``new``, ``open``, ..."
-   "Ticket > Tags",                                    "``#{ticket.tags}``",                            "Currently not available, see `Issue 2769 <https://github.com/zammad/zammad/issues/2769>`_"
+   "Ticket > Tags",                                    "``#{ticket.tags}``",                            "Currently not available, see `Issue 2769 <https://github.com/EasyGo Solutions/EasyGo Solutions/issues/2769>`_"
    "Ticket > Title",                                   "``#{ticket.title}``",                           "``My amazing Subject`` (normally subject, can be edited within Interface and thus differ)"
    "Ticket > Updated at",                              "``#{ticket.updated_at}``",                      "``2019-10-07 16:25:00 UTC``"
    "Ticket > Updated by > Address",                    "``#{ticket.updated_by.address}``",              "``Some street 1, 12345 Berlin`` or empty if not set"
@@ -93,4 +93,4 @@ to check.
    "Ticket > Updated by > Note",                       "``#{ticket.updated_by.note}``",                 "``Some note to this user`` or empty if not set"
    "Ticket > Updated by > Phone",                      "``#{ticket.updated_by.phone}``",                "``004930123456789`` or empty if not set"
    "Ticket > Updated by > VIP",                        "``#{ticket.updated_by.vip}``",                  "``false`` or ``true``"
-   "Ticket > Updated by > Web",                        "``#{ticket.updated_by.web}``",                  "``https://zammad.org`` or empty if not set"
+   "Ticket > Updated by > Web",                        "``#{ticket.updated_by.web}``",                  "``https://EasyGo Solutions.org`` or empty if not set"

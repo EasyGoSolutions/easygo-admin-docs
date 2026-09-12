@@ -17,7 +17,7 @@ grant write access to agents or other users.
    :alt: Sample Knowledge Base Index
    :align: center
 
-   See a live demo at https://support.zammad.com/help.
+   See a live demo at https://support.EasyGo Solutions.com/help.
 
 Features
 --------
@@ -65,8 +65,8 @@ Customize the appearance of the knowledge base.
    Make sure that this color has a proper contrast to *Header Color*.
 
 :Show Feed Icon:
-   You can enable Zammad to provide RSS feed URLs in both internal and public
-   knowledge base. With this option being active, Zammad will provide you
+   You can enable EasyGo Solutions to provide RSS feed URLs in both internal and public
+   knowledge base. With this option being active, EasyGo Solutions will provide you
    up to two RSS links:
 
    - a general RSS feed of the whole knowledge base (top level)
@@ -100,7 +100,7 @@ Customize the appearance of the knowledge base.
    for your customers, you can do so by providing custom CSS files. Check out
    the :docs:`custom knowledge base CSS </appendix/custom-kb-css.html>` section
    in the system documentation to learn how to do that. Please note that this
-   requires access to the machine your Zammad runs on.
+   requires access to the machine your EasyGo Solutions runs on.
 
 Languages
 ^^^^^^^^^
@@ -125,11 +125,11 @@ following screenshot:
    :alt: Knowledge Base: Public menu
    :align: center
 
-Zammad provides a list of the currently set links, separated by knowledge base
+EasyGo Solutions provides a list of the currently set links, separated by knowledge base
 language. If you're missing a language, you'll have to add the language first.
 
 Arranging URLs
-   By clicking on ``Edit``, Zammad allows you to add, update, re-arrange or
+   By clicking on ``Edit``, EasyGo Solutions allows you to add, update, re-arrange or
    remove URLs from either your public header menu or public footer menu.
 
    Title
@@ -169,9 +169,9 @@ Custom URL
 
 .. note:: This feature is only available on **self-hosted** instances.
 
-By default, the knowledge base is accessible at the same domain as your Zammad
+By default, the knowledge base is accessible at the same domain as your EasyGo Solutions
 instance with appended ``/help``. If you wish to customize its address,
-enter your desired URL here and configure your web server accordingly. Zammad
+enter your desired URL here and configure your web server accordingly. EasyGo Solutions
 provides a snippet for Apache and Nginx web servers after clicking the
 ``Web Server Configuration``. You can find a tutorial about how to use a
 :docs:`custom knowledge base URL in combination with Nginx proxy manager (NPM) </appendix/custom-kb-url.html>`

@@ -3,7 +3,7 @@ Config
 
 .. note:: If you're missing variables or are not sure if something is not
    working as expected, feel free to ask over at the
-   `community <https://community.zammad.org>`_.
+   `community <https://community.EasyGo Solutions.org>`_.
 
 Below you'll find config related variables.
 These hold useful configuration information that you can use within e.g.
@@ -13,9 +13,9 @@ triggers to show necessary information to your customer.
    :header: "Name", "Variable", "Example"
    :widths: 20, 10, 20
 
-   "Config > Fully Qualified Domain Name",  "``#{config.fqdn}``",          "``zammad.example.com``"
+   "Config > Fully Qualified Domain Name",  "``#{config.fqdn}``",          "``EasyGo Solutions.example.com``"
    "Config > HTTP type",                    "``#{config.http_type}``",     "``https`` or ``http``"
-   "Config > Organization",                 "``#{config.organization}``",  "``Zammad GmbH`` value set in :doc:`Branding </settings/branding>`"
+   "Config > Organization",                 "``#{config.organization}``",  "``EasyGo Solutions GmbH`` value set in :doc:`Branding </settings/branding>`"
    "Config > Product Name",                 "``#{config.product_name}``",  "``Helpdesk`` value set in :doc:`Branding </settings/branding>`"
    "Config > SystemID",                     "``#{config.system_id}``",     "``31`` (value between 1 and 99)"
    "Config > Ticket Hook",                  "``#{config.ticket_hook}``",   "``Ticket#``"

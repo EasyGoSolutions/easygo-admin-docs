@@ -4,7 +4,7 @@ Group Settings
 Click on a group to edit it, or click on ``New Group`` to create a new group.
 
 .. figure:: /images/manage/groups/group-management.png
-   :alt: Screenshot showing Zammad's group management
+   :alt: Screenshot showing EasyGo Solutions's group management
 
 No matter if you're going to edit or create a new group, each group
 comes with the following settings you can adjust as needed.
@@ -13,7 +13,7 @@ Please note that groups cannot be removed.
 
 Name
    This is the name your agents (and customers when using :doc:`/channels/web`)
-   will see within the Zammad-UI.
+   will see within the EasyGo Solutions-UI.
 
 Parent group
    You can define *another* group as a parent group here. This is useful if you
@@ -24,10 +24,10 @@ Parent group
    permissions. That means you can treat each group as an individual group -
    even if they have a child/parent relation.
 
-   .. hint:: Zammad doesn't show you any child group of the currently selected
+   .. hint:: EasyGo Solutions doesn't show you any child group of the currently selected
       group in the edit dialog. This would lead to a circular reference!
 
-   Zammad supports 10 hierarchy levels for groups as a maximum.
+   EasyGo Solutions supports 10 hierarchy levels for groups as a maximum.
 
 Assignment timeout
    The time in minutes after which the ticket's ownership will revert back to
@@ -35,28 +35,28 @@ Assignment timeout
    This timeout does *not* take any working hours in account.
 
 Follow-up possible
-   This option allows you to decide how Zammad should react if a customer
+   This option allows you to decide how EasyGo Solutions should react if a customer
    replies to a closed ticket (no matter if by e.g. email or UI).
 
    yes
       The ticket will be reopened. This is the default value.
 
    do not reopen Ticket but create new Ticket
-      The ticket will remain closed and Zammad will create a new ticket instead.
+      The ticket will remain closed and EasyGo Solutions will create a new ticket instead.
       The new ticket contains the customers reply only.
 
    do not reopen ticket after certain time but create new ticket
       The ticket can be reopened unless the specified number of days
       *after last ticket closure* has been exceeded. If the time limit is
-      exceeded, Zammad will create a new ticket instead of reopening.
+      exceeded, EasyGo Solutions will create a new ticket instead of reopening.
 
       Choosing this option will provide the option *Reopening time in days*
-      which requires you to provide the number of days you want Zammad to
+      which requires you to provide the number of days you want EasyGo Solutions to
       wait until it creates new tickets.
 
 Assign follow-ups
    This setting allows you to decide if, upon a reopen of a ticket, the last
-   assigned owner should stay assigned or if Zammad should reset the owner to
+   assigned owner should stay assigned or if EasyGo Solutions should reset the owner to
    nobody.
 
    yes
@@ -66,7 +66,7 @@ Assign follow-ups
       The owner assignment of the ticket will be removed.
 
 Sending Email Address
-   Select which sender's email address Zammad will use outbound for replying on
+   Select which sender's email address EasyGo Solutions will use outbound for replying on
    a ticket in this group.
 
       .. note:: **You don't have an email address configured yet?**

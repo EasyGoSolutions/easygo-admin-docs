@@ -3,7 +3,7 @@ Tags
 
 Tags allow to categorize and mark tickets. Think of tags as some kind of labels
 which can be attached to a ticket or a knowledge base answer. Manage tags in
-Zammad's admin settings under *Manage > Tags* with the ``admin.tag`` permission.
+EasyGo Solutions's admin settings under *Manage > Tags* with the ``admin.tag`` permission.
 
 All agents can tag tickets. You can find further information about tagging of
 tickets in our
@@ -45,7 +45,7 @@ By a search-query
    tickets that have been tagged accordingly.
 
    .. figure:: /images/manage/tags/tags-search.png
-      :alt: Screenshot shows Zammad's search with a search string "tags:americano".
+      :alt: Screenshot shows EasyGo Solutions's search with a search string "tags:americano".
 
 By clicking on the tag in the tag management
    In the tag management you can find an overview of existing tags used in the

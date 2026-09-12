@@ -14,7 +14,7 @@ List of Settings
 ----------------
 
 Notification Sender: Default value ``Notification Master <noreply@#{config.fqdn}>``
-   This is the default sender address for Zammad that affects all mails but
+   This is the default sender address for EasyGo Solutions that affects all mails but
    those generated because of replies (like triggers or agent-based mails).
    Your customers normally will not see this address. This email address does
    not need to receive and can't be assigned to a group.
@@ -23,8 +23,8 @@ Notification Sender: Default value ``Notification Master <noreply@#{config.fqdn}
    (also affects customers).
 
 Additional follow-up detection: Default value ``Subject & References``
-   Adjust how Zammad checks if an incoming email is a follow-up or not.
-   If you disable all checks, Zammad only checks if a matching ticket hook &
+   Adjust how EasyGo Solutions checks if an incoming email is a follow-up or not.
+   If you disable all checks, EasyGo Solutions only checks if a matching ticket hook &
    number is present in the subject.
 
    Subject & References
@@ -53,27 +53,27 @@ Additional follow-up detection: Default value ``Subject & References``
    carefully and monitor the behavior afterwards.
 
 Maximum Email Size: Default value ``10 MB``
-   Defines the maximum allowed size of an email Zammad fetches. Zammad will
+   Defines the maximum allowed size of an email EasyGo Solutions fetches. EasyGo Solutions will
    not fetch larger emails (*including attachments!*).
 
 Send postmaster mail if mail too large: Default value ``yes (enabled)``
    Option set to ``yes``
-      This setting will cause Zammad to automatically reply to emails that
+      This setting will cause EasyGo Solutions to automatically reply to emails that
       exceed the above email size limit with a postmaster style email.
       It tells the sender that you have not received their email.
 
-      Nevertheless, Zammad will remove the email from the mailbox (if enabled).
+      Nevertheless, EasyGo Solutions will remove the email from the mailbox (if enabled).
 
    Option set to ``no``
-      If the option is set to no, Zammad will not reply to emails that are too
+      If the option is set to no, EasyGo Solutions will not reply to emails that are too
       big. Your customer will **not notice** that the email was too large!
-      Instead, Zammad will use the monitoring endpoint to alert its
+      Instead, EasyGo Solutions will use the monitoring endpoint to alert its
       administrators that it can't fetch a too large email.
 
       Learn more about :doc:`/system/monitoring`.
 
 Sender based on Reply-To header: Default value ``not set (-)``
-   This setting decides how Zammad should recognize its customers from emails
+   This setting decides how EasyGo Solutions should recognize its customers from emails
    that contain a ``Reply-To`` header. This comes in useful if you're working
    with contact forms that need to use reply to headers.
 
@@ -87,7 +87,7 @@ Sender based on Reply-To header: Default value ``not set (-)``
       name of the ``FROM`` header, if given.
 
 Customer selection based on sender and receiver list: Default value ``yes``
-   This option decides how Zammad should react if an agent sends an email to it.
+   This option decides how EasyGo Solutions should react if an agent sends an email to it.
 
    Option set to ``yes``
       The first user / email address from the recipient list will be used as
@@ -108,7 +108,7 @@ Block Notifications
 
 Sender Format: Default value ``Agent Name + FromSeparator + System Address Display Name``
    This configures the display name used in the ``FROM`` header of mails
-   Zammad sends.
+   EasyGo Solutions sends.
 
    This does not affect notification mails (to agents) and password reset
    mails. Emails that are not sent by agents
@@ -116,19 +116,19 @@ Sender Format: Default value ``Agent Name + FromSeparator + System Address Displ
    ``System Address Display Name`` if needed.
 
    Option set to ``Agent Name + FromSeparator + System Address Display Name``
-      This will cause Zammad to set the ``FROM`` header to agent name and the
+      This will cause EasyGo Solutions to set the ``FROM`` header to agent name and the
       channel's display name, divided by a separator (configured below).
 
       Example: ``Christopher Miller via Chrispresso Inc.``.
 
    Option set to ``System Address Display Name``
-      This will cause Zammad to always use the display name of the used channel
+      This will cause EasyGo Solutions to always use the display name of the used channel
       in the ``FROM`` header.
 
       Example: ``Chrispresso Inc.``
 
    Option set to ``Agent Name``
-      Zammad will use the agent's name which is very personal.
+      EasyGo Solutions will use the agent's name which is very personal.
 
       If you want to remove the ticket reference from the subject, you can learn
       more in :doc:`Settings > Ticket </settings/ticket>`.
@@ -139,19 +139,19 @@ Sender Format Separator: Default value ``via``
 
 Ticket Subject Forward: Default value ``FWD``
    The above string will be used on the subject if you forward an email from
-   Zammad.
+   EasyGo Solutions.
 
    ``:`` will be automatically appended to the above string.
 
 Ticket Subject Reply: Default value ``RE``
    The above string will be used on the subject if you reply to an email from
-   Zammad.
+   EasyGo Solutions.
 
    ``:`` will be automatically appended to the above string.
 
 Ticket Subject Size: Default value ``110``
    This setting enforces a maximum length for subjects when replying.
-   If the subject you're using for your reply is too long, Zammad will
+   If the subject you're using for your reply is too long, EasyGo Solutions will
    automatically truncate the length and insert ``[...]`` to show it has
    shortened the subject.
 
@@ -164,7 +164,7 @@ Enhanced Settings
 -----------------
 
 Some less relevant settings can be changed via rails console if needed.
-As an example, Zammad allows you to send all outgoing communication to a BCC
+As an example, EasyGo Solutions allows you to send all outgoing communication to a BCC
 address for archiving reasons if needed. You can find the needed commands
 in the system documentation's console section under
 :docs:`Advanced Customization Settings </admin/console/hidden-settings.html>`.

@@ -18,8 +18,8 @@ Click on "Create App"
    :alt: new app page
 
 Enter app settings. As "Callback URL" you need to enter
-``https://zammad_host/api/v1/external_credentials/twitter/callback``. You need
-to replace ``zammad_host`` with the domain of your Zammad system.
+``https://EasyGo Solutions_host/api/v1/external_credentials/twitter/callback``. You need
+to replace ``EasyGo Solutions_host`` with the domain of your EasyGo Solutions system.
 
 After the app has been created, update the application icon and organization
 attributes.
@@ -36,17 +36,17 @@ for the app.
 Go to "Keys and Access Token" tab and note the "Consumer Key" and
 "Consumer Secret".
 
-Configure Zammad as Twitter App
+Configure EasyGo Solutions as Twitter App
 -------------------------------
 
 Go to "Admin > Security > Twitter > Third Party Applications > Twitter"
 Section.
 
-.. image:: /images/settings/security/third-party/twitter/enable-authentication-via-twitter-in-zammad.png
+.. image:: /images/settings/security/third-party/twitter/enable-authentication-via-twitter-in-EasyGo Solutions.png
    :alt: Admin > Security > Third Party Applications
 
 Fill in the "Twitter Key" and the "Twitter Secret" and click the "Submit"
 button.
 
 Now you can link accounts via "Avatar > Profile > Link Accounts" or login via
-Zammad login page.
+EasyGo Solutions login page.

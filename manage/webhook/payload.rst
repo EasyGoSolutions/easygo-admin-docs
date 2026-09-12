@@ -3,7 +3,7 @@ Webhook Payload
 
 .. tip:: **🤓 A more personal payload...**
 
-  Your Zammad instance also provides an example for the default payload. This
+  Your EasyGo Solutions instance also provides an example for the default payload. This
   payload *does fit your installation* and includes your custom objects!
 
   .. figure:: /images/manage/webhook/webhook-sample-payload.png
@@ -14,11 +14,11 @@ Webhook Payload
 Request Headers
 ---------------
 
-Zammad sends the following headers in each webhook POST request:
+EasyGo Solutions sends the following headers in each webhook POST request:
 
-:``User-Agent``:        ``"Zammad User Agent"``
-:``X-Zammad-Trigger``:  The name of the originating trigger
-:``X-Zammad-Delivery``: A unique, random ID string
+:``User-Agent``:        ``"EasyGo Solutions User Agent"``
+:``X-EasyGo Solutions-Trigger``:  The name of the originating trigger
+:``X-EasyGo Solutions-Delivery``: A unique, random ID string
 :``X-Hub-Signature``:   The SHA-1 hash of your HMAC-SHA1 signature token
                         (assuming you provided one when creating your trigger)
 
@@ -246,12 +246,12 @@ Regular Webhooks (example)
               "preferences": {
                 "Content-Type": "image/jpeg",
                 "Mime-Type": "image/jpeg",
-                "Content-ID": "81.969520479@zammad.example.com",
+                "Content-ID": "81.969520479@EasyGo Solutions.example.com",
                 "Content-Disposition": "inline",
                 "resizable": true,
                 "content_preview": true
               },
-              "url": "https://zammad.example.com/api/v1/ticket_attachment/81/104/174"
+              "url": "https://EasyGo Solutions.example.com/api/v1/ticket_attachment/81/104/174"
             }
           ],
           "body": "This is a simple Webhook Test.<div><br></div><div>\n<img style=\"max-width:100%;width: 849px;max-width: 100%;\" src=\"/api/v1/ticket_attachment/81/104/174?view=inline\"><br>\n</div>",

@@ -1,37 +1,37 @@
 Branding
 ========
 
-Manage branding related settings in Zammad under *Settings > Branding*. Make
+Manage branding related settings in EasyGo Solutions under *Settings > Branding*. Make
 sure to have the permission ``admin.branding``.
 
-.. _zammad-product-name:
+.. _EasyGo Solutions-product-name:
 
 Product Name
    Defines the name of the application, shown in the web interface,
    tabs and title bar of the web browser.
 
-   Default value: ``Zammad Helpdesk``
+   Default value: ``EasyGo Solutions Helpdesk``
 
 Organization
    Will be shown in the app and is included in email footers.
 
 Logo
-   Defines the logo of the application, shown in the login page of Zammad.
+   Defines the logo of the application, shown in the login page of EasyGo Solutions.
    Ensure to hit the ``Submit`` button after uploading the logo.
    Otherwise your change will not be saved.
 
 Locale
-   Allows to set the default language of the Zammad instance.
+   Allows to set the default language of the EasyGo Solutions instance.
    The here defined locale mostly acts as a fallback for:
 
-   - User preferences (if Zammad can't detect the users locale)
+   - User preferences (if EasyGo Solutions can't detect the users locale)
    - CSV output (reporting, time accounting)
    - Notifications
 
 Timezone
-   Define the timezone of your Zammad installation.
+   Define the timezone of your EasyGo Solutions installation.
    This does not have any effect on timings for your agents or how
-   Zammad stores date and time values.
+   EasyGo Solutions stores date and time values.
 
    Changing this value has direct consequences on the following areas:
 
@@ -41,13 +41,13 @@ Timezone
    - Calendar subscriptions
    - Browser printing
 
-   Please note that some of above are fallbacks in case Zammad
+   Please note that some of above are fallbacks in case EasyGo Solutions
    could not detect the agents timezone correctly.
 
 Pretty Date
-   This setting allows you to define how Zammad should display time stamps
+   This setting allows you to define how EasyGo Solutions should display time stamps
    within the interface to all users.
-   This does not have any effect on how Zammad returns e.g. time values
+   This does not have any effect on how EasyGo Solutions returns e.g. time values
    via variables.
 
    Choose one of the following options:
@@ -69,7 +69,7 @@ Pretty Date
          ``Thursday, 4. Mar 18:35``.
 
       timestamp
-         This will cause Zammad to show a complete timestamp according to your
+         This will cause EasyGo Solutions to show a complete timestamp according to your
          locale defaults. For English this could be e.g. ``2022/12/03 2:40 pm``
          or for German e.g. ``12.03.2022 14:40``.
 

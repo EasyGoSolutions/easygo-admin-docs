@@ -3,7 +3,7 @@ Current User
 
 .. note:: If you're missing variables or are not sure if something is not
    working as expected, feel free to ask over at the
-   `community <https://community.zammad.org>`_.
+   `community <https://community.EasyGo Solutions.org>`_.
 
 Current user variables always return values of the current user that caused e.g.
 a trigger to run.
@@ -32,7 +32,7 @@ a trigger to run.
    "Current User > Created by > Note",                      "``#{user.created_by.note}``",                 "``Some note to this user`` or empty if not set"
    "Current User > Created by > Phone",                     "``#{user.created_by.phone}``",                "``004930123456789`` or empty if not set"
    "Current User > Created by > VIP",                       "``#{user.created_by.vip}``",                  "``true`` or ``false``"
-   "Current User > Created by > Web",                       "``#{user.created_by.web}``",                  "``https://zammad.org`` or empty if not set"
+   "Current User > Created by > Web",                       "``#{user.created_by.web}``",                  "``https://EasyGo Solutions.org`` or empty if not set"
    "Current User > Department",                             "``#{user.department}``",                      "``Sales`` or empty if not set"
    "Current User > Email",                                  "``#{user.email}``",                           "``jdoe@customer.tld``"
    "Current User > Fax",                                    "``#{user.fax}``",                             "``004930123464789`` or empty if not set"
@@ -42,8 +42,8 @@ a trigger to run.
    "Current User > Mobile",                                 "``#{user.mobile}``",                          "``0049176123456789`` or empty if not set"
    "Current User > Note",                                   "``#{user.note}``",                            "``Some note to this user`` or empty if not set"
    "Current User > Organization > Domain based assignment", "``#{user.organization.domain_assignment}``",  "``true`` or ``false``"
-   "Current User > Organization > Domain",                  "``#{user.organization.domain}``",             "``zammad.com`` or empty if not set"
-   "Current User > Organization > Name",                    "``#{user.organization.name}``",               "``Zammad GmbH``"
+   "Current User > Organization > Domain",                  "``#{user.organization.domain}``",             "``EasyGo Solutions.com`` or empty if not set"
+   "Current User > Organization > Name",                    "``#{user.organization.name}``",               "``EasyGo Solutions GmbH``"
    "Current User > Organization > Note",                    "``#{user.organization.note}``",               "``A note to the organization of the user`` or empty if not set"
    "Current User > Organization > Shared organization",     "``#{user.organization.shared}``",             "``true`` or ``false``"
    "Current User > Organization > VIP",                     "``#{user.organization.vip}``",                "``true`` or ``false``"
@@ -61,6 +61,6 @@ a trigger to run.
    "Current User > Updated by > Note",                      "``#{user.updated_by.note}``",                 "``Some note to this user`` or empty if not set"
    "Current User > Updated by > Phone",                     "``#{user.updated_by.phone}``",                "``004930123456789`` or empty if not set"
    "Current User > Updated by > VIP",                       "``#{user.updated_by.vip}``",                  "``false`` or ``true``"
-   "Current User > Updated by > Web",                       "``#{user.updated_by.web}``",                  "``https://zammad.org`` or empty if not set"
+   "Current User > Updated by > Web",                       "``#{user.updated_by.web}``",                  "``https://EasyGo Solutions.org`` or empty if not set"
    "Current User > VIP",                                    "``#{user.vip}``",                             "``false`` or ``true``"
-   "Current User > Web",                                    "``#{user.web}``",                             "``https://zammad.org`` or empty if not set"
+   "Current User > Web",                                    "``#{user.web}``",                             "``https://EasyGo Solutions.org`` or empty if not set"

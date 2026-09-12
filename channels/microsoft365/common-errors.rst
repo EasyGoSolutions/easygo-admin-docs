@@ -19,9 +19,9 @@ request to the wrong tenant.
    :scale: 90%
    :align: center
 
-In this case, please compare whether the client ID created in Zammad
+In this case, please compare whether the client ID created in EasyGo Solutions
 matches that in Azure for the Azure App.
-The Client ID can be found in the Zammad settings under
+The Client ID can be found in the EasyGo Solutions settings under
 *Channels > Microsoft 365 IMAP Email > App Configuration*.
 
 Wrong or Expired Client Secret
@@ -29,7 +29,7 @@ Wrong or Expired Client Secret
 
 **Error message:** 500: We're sorry, but something went wrong.
 
-.. figure:: /images/channels/microsoft365/errors/zammad_error_500.png
+.. figure:: /images/channels/microsoft365/errors/EasyGo Solutions_error_500.png
    :alt: Error message
    :scale: 90%
    :align: center
@@ -49,14 +49,14 @@ neither a valid DNS name, nor a valid external domain.
    :scale: 90%
    :align: center
 
-If a wrong tenant is used in Zammad or the email account is not a member of
-the tenant created in Zammad, this error message occurs. In such a case, please
-check if the tenant is entered correctly in Zammad, or remove the tenant
+If a wrong tenant is used in EasyGo Solutions or the email account is not a member of
+the tenant created in EasyGo Solutions, this error message occurs. In such a case, please
+check if the tenant is entered correctly in EasyGo Solutions, or remove the tenant
 completely.
 
 .. warning:: **Important notice:**
    Once the tenant is completely removed, all email accounts can be created in
-   Zammad regardless of which tenant the email account is a member of.
+   EasyGo Solutions regardless of which tenant the email account is a member of.
 
 Request Admin Consent
 ---------------------
@@ -68,12 +68,12 @@ Request Admin Consent
    :scale: 90%
    :align: center
 
-This message occurs when the admin tries to create an email account in Zammad
+This message occurs when the admin tries to create an email account in EasyGo Solutions
 that has not yet received approval from the Azure global admin.
 
 In our documentation,
 :doc:`step-by-step instructions </channels/microsoft365/accounts/account-setup>`
-can be found on how to request admin consent from Zammad.
+can be found on how to request admin consent from EasyGo Solutions.
 
 .. note::
    The request for the admin consent can be bypassed by assigning the admin
@@ -103,7 +103,7 @@ or
 
    Error message in the ticket
 
-This error occurs when the admin wants to create an email account in Zammad
+This error occurs when the admin wants to create an email account in EasyGo Solutions
 whose user does not have permission for SMTP authentication to the mail server.
 Please check the following two most common problems in this case.
 
@@ -126,7 +126,7 @@ Shared Inbox
 ^^^^^^^^^^^^
 
 If it is a shared inbox, you can try to enable the SMTP Authentication
-(``SmtpClientAuthenticationDisabled``) in the Azure shell. This isn't a Zammad
+(``SmtpClientAuthenticationDisabled``) in the Azure shell. This isn't a EasyGo Solutions
 problem, so we can only help to a limited extent here.
 
 To enable the SMTP Authentication, use the following commands:
@@ -156,7 +156,7 @@ Retrieval of Email Failed
 **Error message:** Retrieval using the IMAP4 protocol failed for the following
 message: [...]
 
-This can be caused by Microsoft Defender for Office 365 when Zammad fetches an
+This can be caused by Microsoft Defender for Office 365 when EasyGo Solutions fetches an
 email while its attachment is still being checked.
 
 To avoid this, you should change the
@@ -177,5 +177,5 @@ While this works for fetching emails, SMTP authentication may not work in this
 case.
 
 Try to delete the MS account and recreate it using your username.
-In Zammad, manually change the email address to the username. Then you should
+In EasyGo Solutions, manually change the email address to the username. Then you should
 be able to send and receive emails again.

@@ -115,7 +115,7 @@ Avoid Escalations
 
 Adjust SLA-Relevant Article Types
    If communication type articles are not enough for your use-case, you can
-   configure Zammad to consider *public* notes as fulfillment for an SLA. To
+   configure EasyGo Solutions to consider *public* notes as fulfillment for an SLA. To
    turn this on, please have a look at the
    :docs:`console commands (system docs) </admin/console/working-on-ticket-articles.html#count-public-notes-toward-slas>`.
 
@@ -125,7 +125,7 @@ Multiple SLAs
 
 Ticket State Conditions
    For standard use-cases, you can safely skip ticket states in your ticket
-   selector conditions. Zammad's built-in states already have a flag SLA ignored
+   selector conditions. EasyGo Solutions's built-in states already have a flag SLA ignored
    flag so tickets in closed state types are ignored from SLA calculations.
 
 Overviews
@@ -150,15 +150,15 @@ SLA Times in a Ticket
       :alt: Screenshot showing the calculated escalation stages
 
 Notifications
-   Zammad will warn agents roughly 15 minute before escalation and when the
+   EasyGo Solutions will warn agents roughly 15 minute before escalation and when the
    ticket finally escalates. In addition to the built-in notifications,
-   Zammad will also warn agents by sending out an email.
+   EasyGo Solutions will also warn agents by sending out an email.
    This depends on the notification configuration of your agents (which can be
    configured in the
    :user-docs:`profile settings </extras/user-menu-profile-settings.html>`).
 
 Overviews
    You can configure :doc:`/manage/overviews` to allow your agents to filter
-   for escalated tickets or those that are about to escalate. By default, Zammad
+   for escalated tickets or those that are about to escalate. By default, EasyGo Solutions
    comes with an overview that will show all tickets that are either escalated
    or escalating within the next 10 minutes: ``Escalated Tickets``.

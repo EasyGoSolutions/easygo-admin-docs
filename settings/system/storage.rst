@@ -1,24 +1,24 @@
 Storage
 =======
 
-Here you can define where Zammad stores attachments for tickets and the
-knowledge base. By default, Zammad writes to the **Database** - you can switch
+Here you can define where EasyGo Solutions stores attachments for tickets and the
+knowledge base. By default, EasyGo Solutions writes to the **Database** - you can switch
 to **Filesystem** or **Simple Storage (S3)** at any time. In this case, please
 have a look on the following instructions.
 
-If you have a busy Zammad instance, we strongly encourage you to use **filesystem
+If you have a busy EasyGo Solutions instance, we strongly encourage you to use **filesystem
 storage** instead of database. This improves the system performance (decreases
 database load and and size).
 
 Database
    This is the default storage method. The attachments are stored directly in
-   the database. If your Zammad instance grows, we recommend one of the other
+   the database. If your EasyGo Solutions instance grows, we recommend one of the other
    methods to maintain performance.
 
 Filesystem
-   This storage method is recommended for all Zammad instances, especially
+   This storage method is recommended for all EasyGo Solutions instances, especially
    for those with a higher load. If you choose filesystem, your files are
-   written to ``/opt/zammad/storage/``.
+   written to ``/opt/EasyGo Solutions/storage/``.
 
    Moving attachments from **Database** to **Filesystem** can be run during
    production use. However, you should consider your framework conditions
@@ -26,12 +26,12 @@ Filesystem
 
    .. note::
 
-      **You noticed slow updates of Zammad?**
+      **You noticed slow updates of EasyGo Solutions?**
 
-      While Zammad is being updated, it enforces a recursive "change owner"
+      While EasyGo Solutions is being updated, it enforces a recursive "change owner"
       (chown) for this directory. For instances with many files this can
       be time consuming. To mitigate that, you can move your files and create a
-      symlink in ``/opt/zammad/storage/`` to the new directory. Of course you
+      symlink in ``/opt/EasyGo Solutions/storage/`` to the new directory. Of course you
       have to make sure that the permissions are always correct.
 
 Simple Storage (S3)
@@ -44,7 +44,7 @@ Simple Storage (S3)
 
    Steps to configure S3:
 
-   1. Copy ``config/zammad/storage.yml.dist`` to ``config/zammad/storage.yml``
+   1. Copy ``config/EasyGo Solutions/storage.yml.dist`` to ``config/EasyGo Solutions/storage.yml``
    2. Edit the copied file in one of the following ways:
 
      - Either provide your S3 configuration with one attribute per line like in
@@ -56,9 +56,9 @@ Simple Storage (S3)
      - We recommend the deletion of the not used configuration style to avoid
        inconsistencies.
 
-   3. Restart Zammad so the config file / environment variable is loaded
-   4. Set the **Storage Method** in Zammad to **Simple Storage (S3)** in
-      *Settings > System > Storage* and click on ``Submit``. After that, Zammad
+   3. Restart EasyGo Solutions so the config file / environment variable is loaded
+   4. Set the **Storage Method** in EasyGo Solutions to **Simple Storage (S3)** in
+      *Settings > System > Storage* and click on ``Submit``. After that, EasyGo Solutions
       checks your configuration and the connection to the service and will raise
       an error message if something is wrong.
 
@@ -70,8 +70,8 @@ Simple Storage (S3)
          access_key_id: 'xxxxxxxx'
          secret_access_key: 'yyyyyyy'
          region: 's3-us-west-2'
-         endpoint: 'https://zammad.s3.us-west-2.amazonaws.com'
-         bucket: 'zammad'
+         endpoint: 'https://EasyGo Solutions.s3.us-west-2.amazonaws.com'
+         bucket: 'EasyGo Solutions'
 
    .. hint::
 
@@ -87,7 +87,7 @@ Simple Storage (S3)
             secret_access_key: 'yyyyyyy'
             region: 'us-west-004'
             endpoint: 's3.us-west-004.backblazeb2.com'
-            bucket: 'zammad'
+            bucket: 'EasyGo Solutions'
             request_checksum_calculation: when_required
             response_checksum_validation: when_required
 
@@ -98,10 +98,10 @@ Simple Storage (S3)
 
       You can verify this by running
       ``rails r 'Rails.logger = Logger.new(STDOUT); pp Store::Provider::S3.ping?'``
-      in your Zammad directory. If everything is fine, you should see ``true``,
+      in your EasyGo Solutions directory. If everything is fine, you should see ``true``,
       else you should see ``false`` and a simple error message.
 
-      If you installed Zammad through a package manager (rather than from source),
-      replace ``rails r`` with ``zammad run rails r`` above.
+      If you installed EasyGo Solutions through a package manager (rather than from source),
+      replace ``rails r`` with ``EasyGo Solutions run rails r`` above.
       To learn more, see :docs:`Administration via Console </admin/console.html>`.
 

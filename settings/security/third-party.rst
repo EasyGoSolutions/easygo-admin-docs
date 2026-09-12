@@ -1,15 +1,15 @@
 Third-Party Applications
 ========================
 
-Third-party authentication is a great way to help your users to login to Zammad
-more easily. If the account is not yet known, Zammad will create a new user
+Third-party authentication is a great way to help your users to login to EasyGo Solutions
+more easily. If the account is not yet known, EasyGo Solutions will create a new user
 automatically without users being required to interact (e.g. type in their name).
 Another big advantage of this feature is that users don't need to remember
 another password. You can deactivate the login via
 :ref:`password <security_password_login>` if any of the mentioned authentication
 providers are enabled in your instance.
 
-You can find the configuration in Zammad's admin settings under
+You can find the configuration in EasyGo Solutions's admin settings under
 *Settings > Security > Third-party Applications*.
 
 We recommend to check your third-party authentication provider's
@@ -35,9 +35,9 @@ they are partially outdated.
 Automatic Account Link on Initial Logon
 ---------------------------------------
 
-In general there's two possible options for Zammad on how to deal with
+In general there's two possible options for EasyGo Solutions on how to deal with
 already known users as they try to authenticate against a third-party
-application. By default, Zammad will not automatically link "unknown"
+application. By default, EasyGo Solutions will not automatically link "unknown"
 authentication providers to existing accounts.
 
 This means that the user has to manually link authentication providers to their
@@ -57,12 +57,12 @@ it to ``yes``.
 Automatic Account Linking Notification
 --------------------------------------
 
-To improve security and your users awareness, you can enable Zammad to
+To improve security and your users awareness, you can enable EasyGo Solutions to
 notify your users when a new third-party application has been linked to their
 account by setting it to ``yes``.
 
 This notification is sent out once per third-party application.
-Zammad does also mention the method used, e.g.: ``Microsoft``.
+EasyGo Solutions does also mention the method used, e.g.: ``Microsoft``.
 
 By default this setting is not active (set to ``no``).
 
@@ -81,8 +81,8 @@ By default this setting is not active (set to ``no``).
 No User Creation on Logon
 -------------------------
 
-By default, Zammad will create a new user account if the user logs in via a
+By default, EasyGo Solutions will create a new user account if the user logs in via a
 third-party application and the account doesn't exist yet.
 
-If you want to prevent Zammad from creating new accounts on logon, you can
+If you want to prevent EasyGo Solutions from creating new accounts on logon, you can
 disable this feature by setting **No user creation on logon** to ``yes``.

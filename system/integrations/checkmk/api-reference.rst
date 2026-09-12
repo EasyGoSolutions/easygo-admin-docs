@@ -7,7 +7,7 @@ will do the job just fine.
 But if you want more fine-grained control—for instance,
 to create high- and low-priority tickets
 for different types of system events—then
-you'll have to customize the data those scripts send to Zammad.
+you'll have to customize the data those scripts send to EasyGo Solutions.
 
 Example
 -------
@@ -26,7 +26,7 @@ This custom script will automatically set all tickets it creates to
      -F "text=$NOTIFY_HOSTOUTPUT" \
      -F "priority=3 high" \
      -F "owner=charlie@chrispresso.com" \
-     https://zammad.example.com/api/v1/...
+     https://EasyGo Solutions.example.com/api/v1/...
 
 How Does it Work?
 -----------------
@@ -56,13 +56,13 @@ Ticket attributes
    When using Checkmk integration, messages need to be formatted in a certain
    way, but that *doesn't mean the messages actually have to come from Checkmk*.
 
-   If you use another monitoring tool that's not officially supported by Zammad,
+   If you use another monitoring tool that's not officially supported by EasyGo Solutions,
    there's probably a way to make it work with your Checkmk callback URL.
 
 Checkmk Parameters
 ------------------
 
-When a notification is received, Zammad creates a new article
+When a notification is received, EasyGo Solutions creates a new article
 containing the details of the event that triggered it:
 
 .. figure:: /images/system/integrations/checkmk/checkmk-parameters.png
@@ -156,12 +156,12 @@ Which Values Can Be Set?
 
 .. warning:: 😵 **Invalid values → unpredictable behavior**
 
-   If you provide a value that Zammad doesn't understand
+   If you provide a value that EasyGo Solutions doesn't understand
    (*e.g.,* ``-F "priority=high"``), it's not always clear what will happen.
    In some cases, a ticket will be created with the default values instead - but
    in others, it may not be created at all!
 
-So what values does Zammad understand, then?
+So what values does EasyGo Solutions understand, then?
 Well, it depends...
 
 owner

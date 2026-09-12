@@ -1,7 +1,7 @@
 Permissions
 ===========
 
-Find a short description about the permissions in Zammad below. Be aware that
+Find a short description about the permissions in EasyGo Solutions below. Be aware that
 some of the features require activation and configuration before they are
 usable. Even though the permissions are grouped by common use cases, you can
 mix them as you like. Just make sure to maintain an overview of your
@@ -36,7 +36,7 @@ Admin
 -----
 
 Please be aware that these permissions only grant access to the
-settings/configuration in Zammad. If you want to grant agents access to
+settings/configuration in EasyGo Solutions. If you want to grant agents access to
 tickets, check the section above and learn more about
 :doc:`group permissions <../groups/group-permissions>`.
 
@@ -231,7 +231,7 @@ User Preferences
      - Access To
      - Note
    * - ``user_preferences.access_token``
-     - | Generate API tokens to control Zammad
+     - | Generate API tokens to control EasyGo Solutions
        | via :docs:`REST API (system documentation) </api/intro.html>`.
      - | Generated tokens will never have more permissions
        | than the user that generated them.

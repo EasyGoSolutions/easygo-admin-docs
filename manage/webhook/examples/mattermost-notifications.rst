@@ -1,7 +1,7 @@
 Mattermost Notifications
 ========================
 
-Follow the steps below to configure a webhook for receiving Zammad notifications
+Follow the steps below to configure a webhook for receiving EasyGo Solutions notifications
 in a Mattermost channel.
 
 Step 1 - Setup Incoming Webhooks Integration for your Mattermost Channel
@@ -30,7 +30,7 @@ and choose a target **Channel** for the notification messages.
 
 Optionally, you may choose to check **Lock to this channel** to limit
 notifications to a single Mattermost channel. If unset, it will be possible to
-configure the target channel from Zammad side as well.
+configure the target channel from EasyGo Solutions side as well.
 
 .. figure:: /images/manage/webhook/webhook-mattermost-incoming-webhook-setup.png
    :alt: Incoming Webhook Setup
@@ -48,10 +48,10 @@ the field.
 
 Finally, close the incoming webhook setup by clicking ``Done``.
 
-Step 2 - Add a Pre-defined Webhook in Zammad
+Step 2 - Add a Pre-defined Webhook in EasyGo Solutions
 --------------------------------------------
 
-Go to :doc:`Webhook </manage/webhook/add>` management screen in your Zammad
+Go to :doc:`Webhook </manage/webhook/add>` management screen in your EasyGo Solutions
 instance and click on the arrow next to the green button in the upper right
 corner. Choose **Pre-defined Webhook** from the dropdown menu.
 
@@ -74,7 +74,7 @@ In the new dialog, paste the **webhook endpoint URL** from Mattermost into
 **Endpoint** field.
 
 Optionally, you can set **Messaging Username** which will be used to post the
-Zammad notifications. Default value is *zammad*.
+EasyGo Solutions notifications. Default value is *EasyGo Solutions*.
 
 Optionally, you can also set **Messaging Channel**, if you would like to post
 to a different target channel than configured in the Mattermost incoming
@@ -99,7 +99,7 @@ Once the trigger is in place, your webhook is ready for use!
 Sample Mattermost Channel Notification
 --------------------------------------
 
-From now on, whenever a ticket is created or updated in your Zammad system, a
+From now on, whenever a ticket is created or updated in your EasyGo Solutions system, a
 suitable notification will be posted in the configured Mattermost Channel. The
 notification will contain the link to the ticket, updated data and
 :ref:`content of the last article <mattermost-removing-article-body>`. It will

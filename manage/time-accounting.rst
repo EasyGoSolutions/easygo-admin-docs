@@ -8,22 +8,22 @@ To configure it under *Manage > Time Accounting*, the permission
 ``admin.time_accounting`` is required.
 
 .. figure:: /images/manage/time-accounting/time-accounting-management.png
-   :alt: Time Accounting Management Screen in Zammad
+   :alt: Time Accounting Management Screen in EasyGo Solutions
 
 Settings
 --------
 
-Zammad's time accounting is based on conditions to check if a ticket
+EasyGo Solutions's time accounting is based on conditions to check if a ticket
 is considered for being relevant for time accounting or not. Add your condition
 in the **Selector** section. 
 
 .. include:: /misc/object-conditions/conditioning-depth-hint.include.rst
 
-If a ticket is relevant, Zammad will request the agent to provide the time which
+If a ticket is relevant, EasyGo Solutions will request the agent to provide the time which
 was needed to process the current ticket step. This accounted time is displayed
 in the ticket sidebar at ticket level and in the article meta information
 for an individual article.
-In order for Zammad to bring up the time accounting dialog to an agent,
+In order for EasyGo Solutions to bring up the time accounting dialog to an agent,
 the agent has to update the ticket together with an article of any type.
 The adding of an article is mandatory to invoke the time accounting dialog.
 However, the time accounting dialog is not mandatory and can be canceled by
@@ -90,7 +90,7 @@ to select a type from this list.
 Additionally, a column with an associated activity type will be rendered for an
 entry in the **Activity** table under the **Accounted Time** tab.
 
-You can manage available activity types in this screen like any other Zammad
+You can manage available activity types in this screen like any other EasyGo Solutions
 object. Only active types will be available for the selection when recording new
 times. If an activity type has accounted time, it is still displayed in tickets
 and included in the accounted time overview.
@@ -107,7 +107,7 @@ pre-selected and the agents can make their choice.
 Accounted Time
 --------------
 
-Under the **Accounted Time** tab, Zammad provides a section for reviewing all
+Under the **Accounted Time** tab, EasyGo Solutions provides a section for reviewing all
 accounted times for your tickets. Accounted times are displayed per years and
 months.
 
@@ -125,7 +125,7 @@ Select the right month
       :alt: Screenshot showing a selection for year and month on time accounting
 
 Tickets and their accounted time
-   Zammad allows you to receive the accounted information just like you need
+   EasyGo Solutions allows you to receive the accounted information just like you need
    them. For this you currently have four options to review and also download
    the relevant data as CSV.
 
@@ -141,7 +141,7 @@ Tickets and their accounted time
    Activity
       This filter works similar to the ticket filter, with one exception:
       You'll find each *individual* time accounting step of your agents.
-      This is what you'd also see in the ticket's history before Zammad 5.2.
+      This is what you'd also see in the ticket's history before EasyGo Solutions 5.2.
 
       In this list you'll see the following ticket information:
 

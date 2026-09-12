@@ -5,7 +5,7 @@ You might know that there is a separate section for explaining
 :doc:`condition operators </misc/object-conditions/basics>`. Head over there
 to see a detailed explanation of many conditions and operators.
 
-Due to differences from other places in Zammad which are also using
+Due to differences from other places in EasyGo Solutions which are also using
 conditions (e.g. triggers), you can find a dedicated description of
 operators for core workflows below.
 

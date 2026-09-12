@@ -6,8 +6,8 @@
 
    How should old emails be imported?
 
-During the process of setting up an email based channel, Zammad checks if emails
-are present in the inbox. If Zammad detects at least one email, the archive
+During the process of setting up an email based channel, EasyGo Solutions checks if emails
+are present in the inbox. If EasyGo Solutions detects at least one email, the archive
 mode dialog is triggered and the archive mode is turned on by default.
 This dialog is also present if you edit an existing email based channel.
 The archive mode lets you:
@@ -26,7 +26,7 @@ as regular tickets, the date and time is always the time of the import.
 To import all emails as regular tickets, just turn the archive mode toggle off.
 
 .. danger::
-   If you turn off the archive mode, Zammad treats **all emails** (even old ones)
+   If you turn off the archive mode, EasyGo Solutions treats **all emails** (even old ones)
    as if they had been sent today. This means senders will receive
    auto-replies and tickets are created with state "new" for each message.
 

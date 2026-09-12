@@ -5,21 +5,21 @@ i-doit
 CMDB (configuration management database) tool which is capable of managing
 information about your physical and digital IT infrastructure.
 If you use tickets to track issues with your IT components, you may want
-to connect them with your CMDB. With Zammad, you can do that in two ways!
+to connect them with your CMDB. With EasyGo Solutions, you can do that in two ways!
 
-1. Add i-doit Links to Zammad Tickets
+1. Add i-doit Links to EasyGo Solutions Tickets
 -------------------------------------
 
 What Users See
 ^^^^^^^^^^^^^^
 
 .. figure:: /images/system/integrations/i-doit/ticket-pane-demo.gif
-   :alt: i-doit integration in Zammad's ticket sidebar
+   :alt: i-doit integration in EasyGo Solutions's ticket sidebar
    :align: center
 
    The i-doit integration will appear under a new 🖨 tab in the ticket sidebar.
 
-i-doit integration puts a new tab in Zammad's ticket sidebar where you can add
+i-doit integration puts a new tab in EasyGo Solutions's ticket sidebar where you can add
 links to existing i-doit devices for easy reference.
 (See our
 :user-docs:`user documentation </extras/i-doit-track-company-property.html>` to
@@ -35,7 +35,7 @@ have it properly set up. Use the following setting:
    - Active: ``Yes``
    - Enforce authentication by username and password: ``No``
 
-To set it up, enable the integration in the Zammad admin settings
+To set it up, enable the integration in the EasyGo Solutions admin settings
 under *System > Integrations > i-doit*:
 
 .. figure:: /images/system/integrations/i-doit/settings.png
@@ -55,24 +55,24 @@ API token
       :width: 80%
 
 Client ID
-   A unique name to identify Zammad within i-doit. Zammad does not require you
+   A unique name to identify EasyGo Solutions within i-doit. EasyGo Solutions does not require you
    to enter a value here, but i-doit might!
 
 SSL verification
    Here you can decide if the certificate of your i-doit system has to be
    verified or not. In case you are using custom certificates, please have
-   a look at :doc:`how to add them to Zammad </settings/security/ssl-certificates>`.
+   a look at :doc:`how to add them to EasyGo Solutions </settings/security/ssl-certificates>`.
 
    .. include:: /includes/ssl-verification-warning.rst
 
-2. List / Create Zammad Tickets in i-doit
+2. List / Create EasyGo Solutions Tickets in i-doit
 -----------------------------------------
 
 What Users See
 ^^^^^^^^^^^^^^
 
 .. figure:: /images/system/integrations/i-doit/i-doit-demo.gif
-   :alt: Zammad integration in i-doit's device view
+   :alt: EasyGo Solutions integration in i-doit's device view
    :align: center
 
 i-doit's ticket system integration gives you a way to see
@@ -93,10 +93,10 @@ Enable this integration in the i-doit admin settings under
    :width: 80%
 
 TTS-Type
-   ``Zammad``
+   ``EasyGo Solutions``
 
 Username / Password
-   Login credentials for a Zammad agent.
+   Login credentials for a EasyGo Solutions agent.
 
    This agent must have **read permission** for all
    :doc:`groups </manage/groups/index>` that plan on using the i-doit
@@ -107,4 +107,4 @@ Username / Password
    you will have to remember to update it here).
 
 URL incl. protocol
-   ``https://your.zammad.domain``
+   ``https://your.EasyGo Solutions.domain``

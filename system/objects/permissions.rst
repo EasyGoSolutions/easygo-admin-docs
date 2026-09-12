@@ -18,14 +18,14 @@ and if the input in the field is mandatory for different screens and
 Based on the object context (ticket, agent, organization, user), the selectable
 roles (to be precise: the required permissions) and screens differ. Be aware that
 these settings aren't affecting data creation via other channels
-than the UI. If you want further customization, have a look at Zammad's
+than the UI. If you want further customization, have a look at EasyGo Solutions's
 :doc:`core workflows </system/core-workflows>`.
 
 Screens
 -------
 
 In the table below you can find an overview about the different
-permissions and the available screens Zammad distinguishes between.
+permissions and the available screens EasyGo Solutions distinguishes between.
 
 .. list-table::
    :header-rows: 1

@@ -39,7 +39,7 @@ Ticket Hook Position
 
       Please ensure to take a look at your channel settings when using
       email-based channels to ensure you have at least one reference
-      that helps Zammad to assign follow-ups correctly.
+      that helps EasyGo Solutions to assign follow-ups correctly.
 
       Disabling this and not setting up any further follow up detection will
       lead to unexpected results!
@@ -47,13 +47,13 @@ Ticket Hook Position
    Default: ``right``
 
 Ticket Last Contact Behaviour
-   This setting changes the way Zammad updates the ``Last Contact`` value of a
+   This setting changes the way EasyGo Solutions updates the ``Last Contact`` value of a
    ticket. This is fairly important for overviews and what you expect upon
    ticket updates of a customer.
 
    Use the start time of the last customer thread (which may consist of multiple articles).
-      If this option is chosen, Zammad will update the last updated value just
-      once if a customer replies. After that, Zammad will wait for an agent to
+      If this option is chosen, EasyGo Solutions will update the last updated value just
+      once if a customer replies. After that, EasyGo Solutions will wait for an agent to
       react.
 
       This comes in handy if you want to work tickets in the order of their
@@ -61,13 +61,13 @@ Ticket Last Contact Behaviour
       "bump" the ticket affected.
 
    Use the time of the very last customer article.
-      When setting this option, Zammad will always update the last updated
+      When setting this option, EasyGo Solutions will always update the last updated
       value. This means that if ordering by ``Last Update``, ticket orders will
       change if customers "bump" the ticket.
 
    .. list-table::
 
-      * - .. image:: /images/settings/Zammad_Helpdesk_-_Open.jpg
+      * - .. image:: /images/settings/EasyGo Solutions_Helpdesk_-_Open.jpg
         - .. image:: /images/settings/Trigger-last-contact.jpg
 
       * - Last contact value used on :doc:`/manage/overviews`
@@ -76,16 +76,16 @@ Ticket Last Contact Behaviour
    Default: ``Use the start time of the last customer thread (which may consist of multiple articles).``
 
 Ticket Organization Reassignment
-   This setting changes the way Zammad updates the organization field of the
+   This setting changes the way EasyGo Solutions updates the organization field of the
    tickets whenever the primary organization of a user is changed.
 
    Update the most recent tickets.
-      If this option is chosen, Zammad will update the 100 most recent tickets
+      If this option is chosen, EasyGo Solutions will update the 100 most recent tickets
       where the user is the ticket customer. The ticket organization field will
       be automatically set to the new primary organization of the user.
 
    Do not update any tickets.
-      When choosing this option, Zammad will not update any tickets when the
+      When choosing this option, EasyGo Solutions will not update any tickets when the
       user's primary organization is changed.
 
       .. warning:: **Use with care!**
@@ -103,7 +103,7 @@ Number
 ------
 
 Ticket Number Format
-   This setting defines the way Zammad's ticket number will look.
+   This setting defines the way EasyGo Solutions's ticket number will look.
    Changing this setting in production will cause follow up detection to fail.
 
    Increment (SystemID.Counter)
@@ -139,7 +139,7 @@ OPTIONS
 
    Min. size of Number
       This setting defines the minimum length of your ticket number. If your
-      counter is not yet high enough, Zammad will fill the number with zeros
+      counter is not yet high enough, EasyGo Solutions will fill the number with zeros
       to ensure the wanted length.
 
       Please note that the minimum length is ``3`` (SystemID + at least one
@@ -158,7 +158,7 @@ OPTIONS
 Auto-Assignment
 ---------------
 
-In a larger Zammad environment, it happens that several agents open the same
+In a larger EasyGo Solutions environment, it happens that several agents open the same
 ticket at the same time. Although collision detection is then effective, the
 efficiency of processing can be increased by means of the automatic assignment
 of tickets when a ticket is opened.
@@ -180,11 +180,11 @@ you with the configuration.
 Language Detection
 ------------------
 
-Zammad offers a built in language detection for articles. By default, it is
+EasyGo Solutions offers a built in language detection for articles. By default, it is
 turned off. Turn it on by selecting a backend service and confirm by clicking
 ``Submit``.
 
-After enabling it, Zammad tries to detect the language of each **new** article.
+After enabling it, EasyGo Solutions tries to detect the language of each **new** article.
 The language is not detected for existing articles.
 
 .. note::

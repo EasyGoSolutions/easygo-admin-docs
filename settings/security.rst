@@ -2,7 +2,7 @@ Security
 ========
 
 To configure security-related settings under *Settings > Security*, the
-permission ``admin.security`` is required. The configuration in Zammad is split
+permission ``admin.security`` is required. The configuration in EasyGo Solutions is split
 into tabs. This is reflected in this documentation by having a sub-page for
 each of the tabs:
 

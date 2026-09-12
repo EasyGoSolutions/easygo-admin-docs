@@ -1,7 +1,7 @@
 Network
 =======
 
-This page covers the proxy configuration in Zammad via GUI. As an alternative,
+This page covers the proxy configuration in EasyGo Solutions via GUI. As an alternative,
 the proxy configuration is also possible via environment variables. You can find
 more information about that in the
 :docs:`proxy section of the system documentation </appendix/proxy.html>`.
@@ -21,7 +21,7 @@ more information about that in the
    - WhatsApp
    - Zendesk Migrator
    - Elasticsearch plugin installation (ES < 8)
-   - Zammad update process
+   - EasyGo Solutions update process
 
    If you use one of these features/services and want to route their traffic
    through a proxy, you need to provide the proxy configuration via environment
@@ -30,13 +30,13 @@ more information about that in the
 Find the individual settings you can configure below. Be aware that the proxy
 settings can only be saved after successfully testing proxy connection. To do
 so, click the ``Test Connection`` button after providing the required
-information. Zammad then shows you if the test was successful or not. If the
+information. EasyGo Solutions then shows you if the test was successful or not. If the
 test was successful, make sure to click the ``Submit`` button to save the
 configuration.
 
 Proxy Address
    Allows you to provide a proxy server if needed.
-   This is relevant for network communication by Zammad.
+   This is relevant for network communication by EasyGo Solutions.
 
    It **does not** affect the update process or Elasticsearch.
 
@@ -54,4 +54,4 @@ No proxy for the following hosts
 
    .. hint:: In case you are using the default Docker Compose stack behind a
       proxy, make sure to add the Elasticsearch container to the exception list.
-      The default container name is ``zammad-elasticsearch``.
+      The default container name is ``EasyGo Solutions-elasticsearch``.

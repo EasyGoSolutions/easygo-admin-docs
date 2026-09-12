@@ -18,7 +18,7 @@ Manage Calendars
 ----------------
 
 .. figure:: /images/manage/calendars/calendar-management.png
-   :alt: Screenshot shows Zammad's calendar configuration.
+   :alt: Screenshot shows EasyGo Solutions's calendar configuration.
 
 New Calendar
    To create a new calendar, click the ``New Calendar`` button on the top right

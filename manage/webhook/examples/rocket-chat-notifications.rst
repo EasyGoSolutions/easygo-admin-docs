@@ -1,7 +1,7 @@
 Rocket Chat Notifications
 =========================
 
-Follow the steps below to configure a webhook for receiving Zammad notifications
+Follow the steps below to configure a webhook for receiving EasyGo Solutions notifications
 in a Rocket Chat channel.
 
 Step 1 - Setup Incoming Webhooks Integration for your Rocket Chat Channel
@@ -44,10 +44,10 @@ shown inside the field.
 
 Finally, close the Administration panel by clicking on ``X`` on the left side.
 
-Step 2 - Add a Pre-defined Webhook in Zammad
+Step 2 - Add a Pre-defined Webhook in EasyGo Solutions
 --------------------------------------------
 
-Go to :doc:`Webhook </manage/webhook/add>` management screen in your Zammad
+Go to :doc:`Webhook </manage/webhook/add>` management screen in your EasyGo Solutions
 instance and click on the arrow next to the green button in the upper right
 corner. Choose **Pre-defined Webhook** from the dropdown menu.
 
@@ -70,7 +70,7 @@ In the new dialog, paste *the webhook endpoint URL* from Rocket Chat into
 **Endpoint** field.
 
 Optionally, you can set **Messaging Username** which will be used to post the
-Zammad notifications.
+EasyGo Solutions notifications.
 
 Optionally, you can also set **Messaging Channel**, if you would like to post
 to a different target channel than configured in the Rocket Chat incoming
@@ -95,7 +95,7 @@ Once the trigger is in place, your webhook is ready for use!
 Sample Rocket Chat Channel Notification
 ---------------------------------------
 
-From now on, whenever a ticket is created or updated in your Zammad system, a
+From now on, whenever a ticket is created or updated in your EasyGo Solutions system, a
 suitable notification will be posted in the configured Rocket Chat Channel. The
 notification will contain the link to the ticket, updated data and
 :ref:`content of the last article <rocket-chat-removing-article-body>`. It will

@@ -1,4 +1,4 @@
-Setup Placetel connection for Zammad
+Setup Placetel connection for EasyGo Solutions
 ====================================
 
 .. note::
@@ -10,23 +10,23 @@ Setup Placetel connection for Zammad
 The following actions can be configured via the
 `Placetel web interface <https://web.placetel.de>`_.
 
-Step 1: Activate Zammad integration
+Step 1: Activate EasyGo Solutions integration
    Within Integrations, scroll down to Partner integrations and select
-   Zammad.
+   EasyGo Solutions.
 
    You can alternatively filter by "Ticket Systems" to reduce
    the number of entries on the page. You'll still want to look for
    Partner integrations. 🤓
 
-   Within the Zammad integration now press "Activate".
+   Within the EasyGo Solutions integration now press "Activate".
    A new tab ``API`` becomes available - open this tab.
 
    Now tick "Enable Call Control / Notify API" and paste the Placetel
-   endpoint from your Zammad instance into the field "URL of your API endpoint".
+   endpoint from your EasyGo Solutions instance into the field "URL of your API endpoint".
    Save to apply the settings
 
-   .. figure:: /images/system/integrations/cti/placetel/step1-activate-zammad-integration.gif
-      :alt: Screencast showing how to activate the Zammad integration
+   .. figure:: /images/system/integrations/cti/placetel/step1-activate-EasyGo Solutions-integration.gif
+      :alt: Screencast showing how to activate the EasyGo Solutions integration
 
 Step 2: Generate API Token for Placetel
    Go back to the integrations page and scroll down to "Web API".
@@ -42,16 +42,16 @@ Step 2: Generate API Token for Placetel
          due to token resets!
 
          Copy the provided API token and insert it into the "API Token" field
-         within Zammad's Placetel integration.
+         within EasyGo Solutions's Placetel integration.
 
          Apply your changes by using the "Save" button on the bottom of the
          Placetel integration page and activate the Placetel integration.
 
-   .. figure:: /images/system/integrations/cti/placetel/step2-create-api-token-for-zammad.gif
-      :alt: Screencast showing how to retrieve an API token from Placetel for Zammad
+   .. figure:: /images/system/integrations/cti/placetel/step2-create-api-token-for-EasyGo Solutions.gif
+      :alt: Screencast showing how to retrieve an API token from Placetel for EasyGo Solutions
 
 Step 3: Restrict the numbers to notify on
-   Having a lot of numbers that shouldn't be used for notifying Zammad?
+   Having a lot of numbers that shouldn't be used for notifying EasyGo Solutions?
    Within the the Integrations page of the Placetel web interface, go to
    "Notify API".
 
@@ -66,13 +66,13 @@ Step 3: Restrict the numbers to notify on
       This menu point also provides a API request log from Placetel view.
       Just open "Recent responses of your API endpoint" to learn more.
 
-      If you want to see Zammad's perspective, use the "Recent Logs" part from
+      If you want to see EasyGo Solutions's perspective, use the "Recent Logs" part from
       within the Placetel integration page.
 
       .. figure:: /images/system/integrations/cti/placetel/recent-responses-of-your-api-endpoint.png
-         :alt: Screenshot showing sample log entries for Placetels API calls to Zammad
+         :alt: Screenshot showing sample log entries for Placetels API calls to EasyGo Solutions
 
 Step 4 (optional): Further configurations for Placetel
-   If needed, you can now configure Zammad's Placetel integration in more detail.
+   If needed, you can now configure EasyGo Solutions's Placetel integration in more detail.
    You can learn more about your options here:
    :ref:`Placetel integration settings <placetel_settings>`.

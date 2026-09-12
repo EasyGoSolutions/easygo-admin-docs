@@ -2,7 +2,7 @@ Preparation
 ===========
 
 Here you can find instructions for the required steps you need to take before
-you can use the WhatsApp channel in Zammad.
+you can use the WhatsApp channel in EasyGo Solutions.
 Please note that these steps may change in the future, depending on changes on
 Meta's side. You should also consider to read their docs if you have issues:
 
@@ -107,4 +107,4 @@ Now go to **API Setup** and choose or add a phone number.
 Click through the steps adding your information. You have to verify your number
 by receiving a security code and repeating it when asked.
 After you successfully performed these steps, you are now good to go with
-the :doc:`channel setup on Zammad side <setup>`.
+the :doc:`channel setup on EasyGo Solutions side <setup>`.

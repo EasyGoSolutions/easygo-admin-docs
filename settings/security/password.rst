@@ -5,7 +5,7 @@ This section allows you to define password requirements for the user accounts.
 
 .. note::
 
-   Zammad does **not** allow you to change your LDAP password. Instead, it will
+   EasyGo Solutions does **not** allow you to change your LDAP password. Instead, it will
    set a password in its local database.
 
 .. warning:: **Exception for admins**
@@ -24,7 +24,7 @@ Maximum Failed Logins
 ---------------------
 
 You can choose a value between ``4`` and ``20``. This defines how often a login
-to a user account may fail until Zammad will lock it.
+to a user account may fail until EasyGo Solutions will lock it.
 Your users can always use the **Forgot password?** function to change their
 password and unlock their account.
 

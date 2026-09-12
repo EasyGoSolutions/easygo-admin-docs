@@ -20,7 +20,7 @@ Configure Twilio
   **Webhook** field. Copy the complete URL and switch back to the Twilio
   console.
 - Go to the `Twilio console <https://console.twilio.com>`_ and log in.
-- Go to the configuration of your number you want to use with Zammad, switch to
+- Go to the configuration of your number you want to use with EasyGo Solutions, switch to
   the **Configure** tab and scroll to **Messaging Configuration**.
 - Paste it for the "A message comes in" event in the **URL** field and make sure
   to select ``HTTP POST`` as HTTP option as in the following screenshot:
@@ -54,7 +54,7 @@ as sender to the customer. You can even add a name here.
 
 You can now ``Test`` your configuration by clicking the button. After
 successfully testing your configuration, save it by clicking the ``Submit``
-button. Now the communication via SMS is available in Zammad.
+button. Now the communication via SMS is available in EasyGo Solutions.
 
 Configure SMS Notifications
 ---------------------------

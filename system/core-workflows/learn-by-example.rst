@@ -8,7 +8,7 @@ Basics
 ------
 
 All core workflow examples below are configured in the same system. Compared to
-a fresh installation of Zammad, the system has some additional groups and some
+a fresh installation of EasyGo Solutions, the system has some additional groups and some
 custom object attributes you can find in the respective examples.
 See these examples as inspiration and adapt the workflows to your processes.
 
@@ -188,7 +188,7 @@ Workflow configuration
       .. tab:: Workflow 1
 
          This workflow hides the field in general. Please note the lower
-         priority which tells Zammad to execute this workflow first.
+         priority which tells EasyGo Solutions to execute this workflow first.
 
          .. list-table::
             :widths: 20,50,30

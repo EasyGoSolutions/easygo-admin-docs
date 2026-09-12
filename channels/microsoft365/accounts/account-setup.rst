@@ -1,18 +1,18 @@
 Account Setup
 =============
 
-After you've :doc:`registered Zammad as an OAuth app <register-app>`
+After you've :doc:`registered EasyGo Solutions as an OAuth app <register-app>`
 in your Entra admin center, you can begin connecting Microsoft accounts to
-Zammad.
+EasyGo Solutions.
 
 ☠️ **But first, a word of warning!**
 The import process does things you might not expect:
 
 .. danger::
-   - By default, Zammad will **delete all emails** in your inbox during the
+   - By default, EasyGo Solutions will **delete all emails** in your inbox during the
      import process. Use the *Keep Messages on Server* setting to
      :ref:`disable this behavior <microsoft365-keep-messages-on-server>`.
-   - Zammad will **send an auto-reply message to every email it imports**
+   - EasyGo Solutions will **send an auto-reply message to every email it imports**
      (including the old ones!). Make sure to
      :doc:`disable this behavior </manage/trigger>` prior adding an email
      account, and to turn it back on once all your messages have been imported.
@@ -29,7 +29,7 @@ The import process does things you might not expect:
 If you've already added your Microsoft 365 account as a regular email channel,
 you'll have to convert it to a Microsoft 365 channel eventually:
 Microsoft is planning to end support for simple password authentication
-in third-party email clients (like Zammad).
+in third-party email clients (like EasyGo Solutions).
 
 Please refer the :doc:`migrate-from-email-channel` guide.
 
@@ -42,14 +42,14 @@ If you do not use this kind of security measurement, simply skip to
 `Add a New Account`_.
 
 Requesting the consent
-   Within Zammad click on ``Request Admin Consent`` in order to request consent
+   Within EasyGo Solutions click on ``Request Admin Consent`` in order to request consent
    from your administrators. This is required in some tenants.
 
    If your admin already provided consent, you'll be automatically
    authenticated, if this happens, continue with `Add a New Account`_.
 
    After authenticating against Microsoft and providing a reason for your
-   request, you'll be redirect to the Zammad app. Zammad will then tell you to
+   request, you'll be redirect to the EasyGo Solutions app. EasyGo Solutions will then tell you to
    wait for your administrators consent. The consent grant or denial will be
    sent by mail.
 
@@ -68,11 +68,11 @@ Add a New Account
 -----------------
 
 .. figure:: /images/channels/microsoft365/accounts/account-setup/add-account.png
-   :alt: Click on Add Account to add your Microsoft 365 account to Zammad
+   :alt: Click on Add Account to add your Microsoft 365 account to EasyGo Solutions
    :scale: 60%
    :align: center
 
-Click **Add Account** to connect your Microsoft 365 accounts to Zammad.
+Click **Add Account** to connect your Microsoft 365 accounts to EasyGo Solutions.
 You will be redirected to a Microsoft sign-in and confirmation page. Enter
 your credentials and confirm it by clicking the ``Accept`` button.
 
@@ -118,16 +118,16 @@ Folder
    .. _microsoft365-keep-messages-on-server:
 
 Keep messages on server
-   Specify what happens to your emails after Zammad imports them:
+   Specify what happens to your emails after EasyGo Solutions imports them:
 
-   - ``no`` Zammad deletes all imported messages
+   - ``no`` EasyGo Solutions deletes all imported messages
 
-   - ``yes`` Zammad marks imported messages as read
+   - ``yes`` EasyGo Solutions marks imported messages as read
 
-     (With this option, Zammad will only import unread messages.
-     This means Zammad may miss messages if the mailbox is externally modified.)
+     (With this option, EasyGo Solutions will only import unread messages.
+     This means EasyGo Solutions may miss messages if the mailbox is externally modified.)
 
-   .. note:: **Why does Zammad delete messages by default?**
+   .. note:: **Why does EasyGo Solutions delete messages by default?**
 
       If you never clean up your inbox, you reach a storage limit some day
       and your mail server will start **rejecting incoming messages**.
@@ -143,7 +143,7 @@ Archive Mode
 
 After adding the account
    After successfully adding the Microsoft 365 mail account, you can adjust
-   the default group Zammad is going to assign incoming new tickets to by
+   the default group EasyGo Solutions is going to assign incoming new tickets to by
    clicking the group name under "Destination Group":
 
    .. figure:: /images/channels/microsoft365/accounts/account-setup/change-destination-group.png
@@ -160,7 +160,7 @@ After adding the account
 Troubleshooting
 ---------------
 
-I successfully added my account, but Zammad isn't fetching new email
+I successfully added my account, but EasyGo Solutions isn't fetching new email
    If you specified a
    :ref:`custom folder/label to fetch from <microsoft365-folder>`,
    are you sure incoming mail is arriving in that folder?
@@ -171,7 +171,7 @@ My mailbox was working fine but suddenly it fails with ``EXPUNGE FAILED``
    `Microsofts documentation <https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-user-mailboxes/change-deleted-item-retention>`_
    which might allow you to solve the issue on your own.
 
-   As soon as the issue has been fixed, the Zammad channel will recover
+   As soon as the issue has been fixed, the EasyGo Solutions channel will recover
    automatically.
 
 Have a look at the :doc:`common errors section <../common-errors>` if you still

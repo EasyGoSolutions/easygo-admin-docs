@@ -2,12 +2,12 @@ Telegram
 ========
 
 Enable the Telegram channel to allow ticket creation and answering from within
-Zammad. To configure it under *Channels > Telegram*, you need the permission
+EasyGo Solutions. To configure it under *Channels > Telegram*, you need the permission
 ``admin.channel_telegram``.
 
 .. note::
 
-   - Your Zammad instance needs to be publicly available via HTTPS (usage of
+   - Your EasyGo Solutions instance needs to be publicly available via HTTPS (usage of
      Telegram webhooks).
    - The attachment size is limited to 20MB by
      `Telegram's Bot API <https://core.telegram.org/bots/api#getfile>`_.
@@ -35,25 +35,25 @@ Get your API token
    .. image:: /images/channels/telegram/telegram_bot_finish.png
       :alt: Screenshot shows BotFather chat after creating the bot
 
-Configure Zammad as Telegram Bot
+Configure EasyGo Solutions as Telegram Bot
 --------------------------------
 
-In Zammad's Telegram configuration, click ``Add Bot``. Enter
+In EasyGo Solutions's Telegram configuration, click ``Add Bot``. Enter
 your API token, a welcome message and a goodbye message and choose a group in
 which the tickets should be created.
 
 .. image:: /images/channels/telegram/telegram-configuration.png
-   :alt: Screenshot shows Zammad's Telegram configuration dialog
+   :alt: Screenshot shows EasyGo Solutions's Telegram configuration dialog
    :align: center
 
 After successfully creating the bot by clicking the ``Submit`` button, you can
 see your bot now in the channel detail section.
 
 .. image:: /images/channels/telegram/telegram_created.png
-   :alt: Screenshot shows existing Telegram bot in Zammad
+   :alt: Screenshot shows existing Telegram bot in EasyGo Solutions
    :align: center
    :scale: 80%
 
-That's it. Now you can start using the Telegram channel in Zammad. To add
+That's it. Now you can start using the Telegram channel in EasyGo Solutions. To add
 another bot or edit, deactivate or delete the created bot, use the respective
 buttons to do so.

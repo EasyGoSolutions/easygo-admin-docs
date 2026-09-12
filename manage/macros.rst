@@ -1,12 +1,12 @@
 Macros
 ======
 
-Zammad's macro feature lets you pre-define ticket changes which can be applied
+EasyGo Solutions's macro feature lets you pre-define ticket changes which can be applied
 with just a click. When you or your agents apply the same changes to many
 tickets repeatedly, you can bundle those changes in a macro to apply them
-by executing it. To add or edit macros in Zammad's admin settings under
+by executing it. To add or edit macros in EasyGo Solutions's admin settings under
 *Manage > Macros*, the permission ``admin.macro`` is required. For action- or
-time-based automation, have a look at Zammad's :doc:`triggers <trigger>` and
+time-based automation, have a look at EasyGo Solutions's :doc:`triggers <trigger>` and
 :doc:`schedulers <scheduler>`.
 
 Macros can be executed in two ways:
@@ -56,12 +56,12 @@ Actions
       doesn't set it, then no actions will be applied.
 
 Once completed
-   After running this macro, should Zammad remain on the current tab, close it
+   After running this macro, should EasyGo Solutions remain on the current tab, close it
    or automatically switch to the next ticket? This does not apply when
    executing macros in bulk.
 
 Note
-   What should other Zammad admins know about this macro? Only visible for
+   What should other EasyGo Solutions admins know about this macro? Only visible for
    admins.
 
 Groups

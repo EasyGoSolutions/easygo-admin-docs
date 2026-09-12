@@ -14,7 +14,7 @@ Group
    :ref:`API alerts <checkmk-api-alerts>` only.
 
 Auto close
-   Should Zammad automatically close tickets if a service has recovered on
+   Should EasyGo Solutions automatically close tickets if a service has recovered on
    its own? Agents will receive notifications for such closures as appropriate.
 
 Auto-close state
@@ -35,8 +35,8 @@ Recent Logs
    :alt: Screenshot of Checkmk "Recent Logs" section
    :align: center
 
-If you're having trouble getting Zammad and Checkmk to play nicely together,
+If you're having trouble getting EasyGo Solutions and Checkmk to play nicely together,
 this section can help you troubleshoot.
 
-It contains a record of the fifty most recent transactions that Zammad knows
+It contains a record of the fifty most recent transactions that EasyGo Solutions knows
 about, including each one's request/response details and return status.

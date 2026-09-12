@@ -1,8 +1,8 @@
 Translations
 ============
 
-Translations of Zammad are processed centrally in our
-`Weblate instance <https://translations.zammad.org/>`_.
+Translations of EasyGo Solutions are processed centrally in our
+`Weblate instance <https://translations.EasyGo Solutions.org/>`_.
 This allows non-developers to review and update translation texts of the
 language they actually speak.
 
@@ -29,9 +29,9 @@ or even custom states and priorities. To manage them under
 Updating Translations
 ---------------------
 
-Because of how Zammad ships translations, the only way to update the system
-translations is to update your Zammad installation. The benefit of this is that
-you no longer need internet access during a Zammad upgrade as the package has
+Because of how EasyGo Solutions ships translations, the only way to update the system
+translations is to update your EasyGo Solutions installation. The benefit of this is that
+you no longer need internet access during a EasyGo Solutions upgrade as the package has
 everything it requires already.
 
 Translation of Custom Objects
@@ -70,7 +70,7 @@ you need to translate for a different language, simply change the selection
 before submitting.
 
 All your custom translations will show up in the overview table when added. And
-they will even persist across Zammad updates!
+they will even persist across EasyGo Solutions updates!
 
 .. hint:: Make sure to reload your browser if a translated string is not
    displayed.

@@ -8,15 +8,15 @@ Monitoring
 General
 -------
 
-On the monitoring page, you can see the current health state of Zammad under
+On the monitoring page, you can see the current health state of EasyGo Solutions under
 **Current Status** at the bottom. This can be useful if you want to have a look
 if everything is up and running.
 As an example, you could have a look in the monitoring when you assume that
-some emails aren't processed from Zammad.
+some emails aren't processed from EasyGo Solutions.
 
 .. note:: **Can't receive an email and the monitoring response is "healthy"?**
 
-   Zammad will just inform you about unprocessable emails. This is not the case
+   EasyGo Solutions will just inform you about unprocessable emails. This is not the case
    for oversized emails. You can adjust the maximum email size in
    :doc:`../channels/email/settings`.
 
@@ -24,7 +24,7 @@ Monitoring API
 --------------
 
 Beside the indication in the monitoring page, you can also use an external
-monitoring tool to monitor Zammad's health. To request the health of Zammad,
+monitoring tool to monitor EasyGo Solutions's health. To request the health of EasyGo Solutions,
 you need to provide the API key (token) to the external monitoring tool.
 You can copy the token from the **Current Token** field as well as the whole API
 endpoint of your system (**Health Check** field), in which the API token is
@@ -44,7 +44,7 @@ Example Output
 
 :No issues found:
 
-   **Indicator in Zammad**:
+   **Indicator in EasyGo Solutions**:
 
    .. figure:: /images/system/monitoring/monitoring-no-issues-indicator.png
       :alt: Screenshot showing monitoring with no issues
@@ -61,7 +61,7 @@ Example Output
 
 :Issues were found:
 
-   **Indicator in Zammad**:
+   **Indicator in EasyGo Solutions**:
 
    .. figure:: /images/system/monitoring/monitoring-issues-indicator.png
       :alt: Screenshot showing monitoring with issues

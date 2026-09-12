@@ -4,13 +4,13 @@ Form
 Configure a feedback or contact form for your website so customers can get
 in touch with you without using their email client.
 Usually, such contact forms generate an email which is sent to somebody who
-forwards it and so on. With Zammad, it's quite easy to integrate these forms
+forwards it and so on. With EasyGo Solutions, it's quite easy to integrate these forms
 into your website and directly generate tickets out of them. To configure a form
 under *Channels > Form*, you need to have the permission
 ``admin.channel_formular``.
 
 .. figure:: /images/channels/form/form-channel-management.png
-   :alt: Screenshot shows Zammad's form management configuration.
+   :alt: Screenshot shows EasyGo Solutions's form management configuration.
 
 Limitations
 -----------
@@ -28,7 +28,7 @@ Limitations
 Settings
 --------
 
-Zammad comes with certain settings for forms.
+EasyGo Solutions comes with certain settings for forms.
 
 Active
    By default, the form channel is inactive. Use the switch to activate this
@@ -37,7 +37,7 @@ Active
 
 Group selection for ticket creation
    The group you set here defines where tickets should be created if they're
-   supplied by Zammad's web form.
+   supplied by EasyGo Solutions's web form.
 
 Spam Protection
 ^^^^^^^^^^^^^^^
@@ -90,12 +90,12 @@ chosen, you get a code you need to copy to your website.
 
 .. warning::
 
-   The designer's changes are not stored anywhere in Zammad.
+   The designer's changes are not stored anywhere in EasyGo Solutions.
    This means that the provided source code needs to be copied every time
    you change settings here.
 
 .. figure:: /images/channels/form/form-channel-designer.png
-   :alt: Screenshot shows Zammad's form designer with an initial configuration.
+   :alt: Screenshot shows EasyGo Solutions's form designer with an initial configuration.
    :align: center
 
 Title of the form
@@ -105,7 +105,7 @@ Title of the form
    Default: ``Feedback Form``
 
 Name of form submit button
-   If Zammad's default display name of the submit button does not fit, you can
+   If EasyGo Solutions's default display name of the submit button does not fit, you can
    provide your own wording with this option. It will be used every time the
    form is shown.
 
@@ -118,7 +118,7 @@ Message after sending form
       Thank you for your inquiry (#31015)! We'll contact you as soon as possible.
 
 Options
-   Zammad provides the following additional configuration options for your form.
+   EasyGo Solutions provides the following additional configuration options for your form.
 
    Enable debugging for implementation
       This option activates detailed debug information in your browser's
@@ -140,7 +140,7 @@ Options
       This option is set by default.
 
    Don't load CSS for the form. You need to generate your own CSS for the form.
-      By default, Zammad's form comes with basic CSS. This may not fit your
+      By default, EasyGo Solutions's form comes with basic CSS. This may not fit your
       website's design or even interfere with it.
       Selecting this option allows you to freely design the form without having
       to overwrite existing directives.
@@ -169,7 +169,7 @@ Options
 Preview
 -------
 
-Below the form options, Zammad provides a preview section to visualize the
+Below the form options, EasyGo Solutions provides a preview section to visualize the
 settings you've just chosen. By default, you'll see a button named ``Feedback``.
 Clicking on the button will open the form modal. If the form channel is set
 to active, you are already able to create tickets; even from the preview.
@@ -183,10 +183,10 @@ Requirements
 ------------
 
 The requirement section provides you with everything you need in order to
-apply Zammad's web form to your website. It basically consists of two parts.
+apply EasyGo Solutions's web form to your website. It basically consists of two parts.
 
 Header section
-   The first code block provides you with Zammad's current jQuery dependency.
+   The first code block provides you with EasyGo Solutions's current jQuery dependency.
    This script section usually belongs to your website's header section.
 
    The channel form suggests the following script tag, which loads the
@@ -204,7 +204,7 @@ Body section
    The second code block is the actual code required for your form to run.
    It is updated automatically when changing settings in the designer above.
 
-   The first line containing ``id="zammad-feedback-form"`` highly depends on
+   The first line containing ``id="EasyGo Solutions-feedback-form"`` highly depends on
    the settings selected above. This part belongs into the place you actually
    want the form or form button to appear. The rest can either be placed at the
    same level or somewhere else on the same page.
@@ -215,11 +215,11 @@ Body section
       As you're responsible for your own website, you're on your own
       figuring out where exactly to place what.
 
-Take the Zammad website as an example, the embedded form version can look
+Take the EasyGo Solutions website as an example, the embedded form version can look
 like this if you apply custom CSS to it:
 
-.. figure:: /images/channels/form/zammad-contact-form.png
-   :alt: Screenshot shows the zammad.com website with embedded web form
+.. figure:: /images/channels/form/EasyGo Solutions-contact-form.png
+   :alt: Screenshot shows the EasyGo Solutions.com website with embedded web form
    :scale: 50%
    :align: center
 
@@ -227,8 +227,8 @@ Potential Spam Issue
 --------------------
 
 The form channel could be abused by sending a high amount of
-messages / tickets to your Zammad instance. If you do not use the form, you
-should disable it. If you want to use it, don't worry: Zammad limits the maximum
+messages / tickets to your EasyGo Solutions instance. If you do not use the form, you
+should disable it. If you want to use it, don't worry: EasyGo Solutions limits the maximum
 amount of created tickets based on different criteria. It also ensures that the
 provided email address is valid (with MX-check on the email's domain).
 
@@ -239,7 +239,7 @@ You can change the default values by using the console settings below. Please
 keep in mind, that setting those values higher might lead to problems in terms
 of created tickets. Read the
 :docs:`console section in the system documentation </admin/console.html>` about
-how to use Zammad's Rails console.
+how to use EasyGo Solutions's Rails console.
 
 .. list-table:: Form settings to limit ticket creation
    :header-rows: 1
@@ -282,10 +282,10 @@ Change the ticket creation per day to 500:
 Further Options to Make it Harder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Another way to make it harder for bots to automate against your Zammad instance
-is to change the location of ``form.js`` ( ``/opt/zammad/assets/form/form.js`` ).
+Another way to make it harder for bots to automate against your EasyGo Solutions instance
+is to change the location of ``form.js`` ( ``/opt/EasyGo Solutions/assets/form/form.js`` ).
 
 Please keep in mind: if you change the location of ``form.js``
 (e.g. by copying), you need to ensure that your ``form.js`` stays up to date if
-you update Zammad. It's not recommended to delete ``form.js`` from its location
+you update EasyGo Solutions. It's not recommended to delete ``form.js`` from its location
 in that case, but to forbid access to it via your web server configuration.

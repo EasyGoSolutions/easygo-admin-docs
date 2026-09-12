@@ -3,7 +3,7 @@ Recent Logs
 
 .. container:: cfloat-left
 
-   With recent logs Zammad allows you to view the latest calls for the CTI
+   With recent logs EasyGo Solutions allows you to view the latest calls for the CTI
    functionality. This usually comes in handy, when you're looking for errors.
 
 .. container:: cfloat-right
@@ -17,7 +17,7 @@ Recent Logs
 
 .. container:: cfloat-left
 
-   By clicking on the entry of interest, Zammad will provide more details on
+   By clicking on the entry of interest, EasyGo Solutions will provide more details on
    the call in question. You'll see the payload it received and also the
    response that was sent.
 

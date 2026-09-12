@@ -23,12 +23,12 @@ Learn more about managing organizations...
 
    via admin settings <via-admin-settings>
    via CSV import <via-csv-import>
-   via REST API (system documentation) <https://docs.zammad.org/en/latest/api/intro.html>
+   via REST API (system documentation) <https://docs.EasyGo Solutions.org/en/latest/api/intro.html>
 
 **There are some technical limitations:**
 
 - Organizations currently cannot be removed. The only exception
-  is Zammad's :doc:`/system/data-privacy` function.
+  is EasyGo Solutions's :doc:`/system/data-privacy` function.
 - Unlike users, agents cannot create new organizations.
   Check the :doc:`roles section </manage/roles/index>`
   to learn more.
@@ -62,7 +62,7 @@ Shared Organization
    .. danger::
 
       This can cause serious issues if you have e.g. human resources working
-      in the same Zammad instance. Shared organizations usually are relevant
+      in the same EasyGo Solutions instance. Shared organizations usually are relevant
       for Support companies with fairly big customers and support contingents.
 
    Setting this option to yes also provides access to overviews being
@@ -83,7 +83,7 @@ Shared Organization
       Members of shared organization have access to organization based overviews
 
 Domain based assignment
-   Activating domain based assignment will cause Zammad to automatically add
+   Activating domain based assignment will cause EasyGo Solutions to automatically add
    *newly created* users to said organization. This can greatly reduce your
    maintenance effort and is seen as workaround for not being able to map
    organizations via LDAP.
@@ -95,7 +95,7 @@ Domain
    on user creation to determine the assignment. This option belongs to
    domain based assignment and is required if set to ``yes``.
 
-   Currently, Zammad allows *one* domain per organization. You may also want
+   Currently, EasyGo Solutions allows *one* domain per organization. You may also want
    to ensure to not use free mailer domains like ``gmail.com`` for these
    assignments.
 

@@ -1,14 +1,14 @@
 Objects
 =======
 
-In Zammad you can add your own fields to tickets, users, organizations and even
+In EasyGo Solutions you can add your own fields to tickets, users, organizations and even
 groups (these are called "objects"). These fields are called object attributes.
 This can be useful if you need to add further information to a ticket or any
-other object in Zammad and the information doesn't fit in any existing field.
+other object in EasyGo Solutions and the information doesn't fit in any existing field.
 
 .. note::
 
-   Try to avoid deleting attributes (and disable them instead) as Zammad might
+   Try to avoid deleting attributes (and disable them instead) as EasyGo Solutions might
    run into unexpected conditions if they are referenced somewhere.
 
 .. image:: /images/system/objects/object-overview.png
@@ -21,13 +21,13 @@ trash bin on the right side) just by clicking on them.
 
 .. note::
 
-   Attributes you add to Zammad, no matter if they have default values or
+   Attributes you add to EasyGo Solutions, no matter if they have default values or
    not, will not update existing information. This means a new ticket field
    technically will be empty unless you populate it.
 
    Especially in ticket scope this also means that newly added attributes
    will be indicated as "changed" to agents that view the ticket. This may
-   interfere with Zammad's tabs behavior.
+   interfere with EasyGo Solutions's tabs behavior.
 
 .. toctree::
    :maxdepth: 1
@@ -40,9 +40,9 @@ Ordering Attributes
 -------------------
 
 You can (re-)arrange the attribute order in the UI by specifying a number that
-Zammad uses for ordering. The relevant field is called **Position**. It even
+EasyGo Solutions uses for ordering. The relevant field is called **Position**. It even
 allows you to insert custom object attributes between the default attributes.
-In case two attributes have the same position value, Zammad will sort
+In case two attributes have the same position value, EasyGo Solutions will sort
 alphabetically by name automatically.
 
 Please note that you cannot change the positioning of default attributes.
@@ -55,15 +55,15 @@ Please note that you cannot change the positioning of default attributes.
 Updating Database After Adding or Editing Attributes
 ----------------------------------------------------
 
-When adding or changing attributes, Zammad will not apply the changes instantly,
+When adding or changing attributes, EasyGo Solutions will not apply the changes instantly,
 but instead shows you the changed attributes first.
 If you're ready to go, just click on ``Update Database`` to apply the changes
-to Zammad. If you made a mistake or just want to discard your changes, click
+to EasyGo Solutions. If you made a mistake or just want to discard your changes, click
 "Discard changes".
 
-After updating the database, a restart of Zammad is **mandatory**. In most
+After updating the database, a restart of EasyGo Solutions is **mandatory**. In most
 cases, the restart of the service works out of the box (see
-:docs:`console commands </admin/console/zammad-settings.html>` for more
+:docs:`console commands </admin/console/EasyGo Solutions-settings.html>` for more
 information).
 However, if your system is configured differently and you don't perform the
 restart, you may experience unexpected behavior or even errors. You may want
@@ -79,8 +79,8 @@ to do this kind of configuration during maintenance windows.
 System Attributes
 -----------------
 
-Zammad comes with pre-configured attributes. Some of them can't be edited via
-UI (or at all). This is required for proper operation of Zammad and not a bug.
+EasyGo Solutions comes with pre-configured attributes. Some of them can't be edited via
+UI (or at all). This is required for proper operation of EasyGo Solutions and not a bug.
 
 .. _ticket-state-reference:
 
@@ -134,12 +134,12 @@ Ticket state in detail
       This is the name of the state and what you and your agents are seeing when
       choosing a state somewhere (e.g. in tickets, trigger configuration).
 
-   .. Reference for linking from Zammad state edit/create modal
+   .. Reference for linking from EasyGo Solutions state edit/create modal
 
    .. _state-type-reference:
 
    Type
-      There are different state types you can choose from. By default, Zammad
+      There are different state types you can choose from. By default, EasyGo Solutions
       comes with one state per state type.
 
         - **new**: for states for tickets that are new and it hasn't been
@@ -169,7 +169,7 @@ Ticket state in detail
       Set the state to **active** or **inactive**.
 
       .. note:: it is technically possible to set all states to inactive. To
-         keep Zammad working in such a case, the inactive flag of one of the
+         keep EasyGo Solutions working in such a case, the inactive flag of one of the
          states is ignored.
 
    .. _example-state:

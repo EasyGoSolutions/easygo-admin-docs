@@ -1,6 +1,6 @@
-This integration enables Zammad to provide a caller log to your agents.
+This integration enables EasyGo Solutions to provide a caller log to your agents.
 With this, your agents can greet your customers by their name and are
-supported by Zammad with automatically opening a new ticket dialog or
+supported by EasyGo Solutions with automatically opening a new ticket dialog or
 the user profile.
 
 To activate or deactivate this integration, click the toggle next to the heading.
@@ -20,7 +20,7 @@ Please note the following limitations to reduce confusion later on:
 
 - CTI integrations provide caller log functions only.
 - This integration does not provide any VoIP functionalities;
-  you can't make phone calls from within Zammad.
+  you can't make phone calls from within EasyGo Solutions.
 - If your browser supports ``tel``-URLs, you can click on phone numbers
   for automatic dialing. This requires additional software / configuration
   on your agent's computers.

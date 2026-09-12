@@ -9,7 +9,7 @@ For a fine-grained control over the fields visible to customers,
 consider using :doc:`core workflows </system/core-workflows>`.
 
 .. figure:: /images/channels/web/setting-overview_web-channel.png
-   :alt: Screenshot shows the web channel settings page of Zammad
+   :alt: Screenshot shows the web channel settings page of EasyGo Solutions
 
 Enable Ticket Creation
 ----------------------
@@ -40,7 +40,7 @@ Tab Behavior After Ticket Creation
 This setting allows administrators to provide a default behavior after a ticket
 update. Users can always override this behavior (see screenshot below). If your
 user decides to select a different tab behavior on any ticket, this action will
-be the new default behavior for that user. Zammad remembers the decision of the
+be the new default behavior for that user. EasyGo Solutions remembers the decision of the
 user.
 
 .. note:: This setting is also valid for agents. 

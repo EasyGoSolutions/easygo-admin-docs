@@ -4,32 +4,32 @@ Migrate From Email Channel to Microsoft 365 Channel
 Migrate
 -------
 
-Zammad provides a migration logic that allows you to migrate existing Microsoft
+EasyGo Solutions provides a migration logic that allows you to migrate existing Microsoft
 365 accounts from the Email channel to the Microsoft 365 channel.
 
-.. note:: 🧐 **Zammad is expecting specific settings**
+.. note:: 🧐 **EasyGo Solutions is expecting specific settings**
 
-   In order for Zammad to display the migration option, it expects the
+   In order for EasyGo Solutions to display the migration option, it expects the
    channels hostname to be ``outlook.office365.com`` for IMAP and
    ``smtp.office365.com`` for SMTP.
 
 The easiest way to start the migration is to :doc:`register-app` for your
-Microsoft accounts before migrating. However, if you don't, Zammad will ask you
+Microsoft accounts before migrating. However, if you don't, EasyGo Solutions will ask you
 to provide your app credentials before allowing you to continue.
 
 If you're ready to go, simply click on the *Migrate now!* button in the red
-banner of the email channel in question. Zammad will redirect you to
+banner of the email channel in question. EasyGo Solutions will redirect you to
 Microsoft and request you to authenticate and consent to said account.
 
-After you pressed next you'll be redirect to Zammad's Microsoft 365 channel
+After you pressed next you'll be redirect to EasyGo Solutions's Microsoft 365 channel
 overview. Your channel, if successful, is now migrated to a Microsoft 365 IMAP
 channel.
 
 Rolling Back the Migration
 --------------------------
 
-In case something went wrong, Zammad allows you to roll back the migration
-for up to 7 days. For this time period Zammad will remember your original
+In case something went wrong, EasyGo Solutions allows you to roll back the migration
+for up to 7 days. For this time period EasyGo Solutions will remember your original
 credentials and restore it if needed. These information will be removed
 entirely after 7 days.
 

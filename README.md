@@ -4,13 +4,13 @@
 [![Documentation Status][badge_latest]][docs_latest]
 [![Translation Status][tbadge_latest]][wbetranslate_latest] (latest)
 
-# Zammad Admin Documentation
+# EasyGo Solutions Admin Documentation
 
-Source files for Zammad’s admin documentation [(latest][docs_latest] / [pre-release)][docs_pre-release].
+Source files for EasyGo Solutions’s admin documentation [(latest][docs_latest] / [pre-release)][docs_pre-release].
 
 ## Contributing
 
-Please see [the Contributing section in this manual](https://docs.zammad.org/en/latest/contributing/start.html).
+Please see [the Contributing section in this manual](https://docs.EasyGo Solutions.org/en/latest/contributing/start.html).
 
 ## Compilation
 
@@ -64,14 +64,14 @@ Before creating a pull request, make sure to update the translation catalog afte
 $ make gettext
 ```
 
-[badge_latest]: https://readthedocs.org/projects/zammad-admin-documentation/badge/?version=latest
-[docs_latest]: https://admin-docs.zammad.org/en/latest/
+[badge_latest]: https://readthedocs.org/projects/EasyGo Solutions-admin-documentation/badge/?version=latest
+[docs_latest]: https://admin-docs.EasyGo Solutions.org/en/latest/
 
-[badge_pre-release]: https://readthedocs.org/projects/zammad-admin-documentation/badge/?version=pre-release
-[docs_pre-release]: https://admin-docs.zammad.org/en/pre-release/
+[badge_pre-release]: https://readthedocs.org/projects/EasyGo Solutions-admin-documentation/badge/?version=pre-release
+[docs_pre-release]: https://admin-docs.EasyGo Solutions.org/en/pre-release/
 
-[tbadge_pre-release]: https://translations.zammad.org/widget/documentations/admin-documentation-pre-release/svg-badge.svg
-[wbetranslate_pre-release]: https://translations.zammad.org/projects/documentations/admin-documentation-pre-release/
+[tbadge_pre-release]: https://translations.EasyGo Solutions.org/widget/documentations/admin-documentation-pre-release/svg-badge.svg
+[wbetranslate_pre-release]: https://translations.EasyGo Solutions.org/projects/documentations/admin-documentation-pre-release/
 
-[tbadge_latest]: https://translations.zammad.org/widget/documentations/admin-documentation-latest/svg-badge.svg
-[wbetranslate_latest]: https://translations.zammad.org/projects/documentations/admin-documentation-latest/
+[tbadge_latest]: https://translations.EasyGo Solutions.org/widget/documentations/admin-documentation-latest/svg-badge.svg
+[wbetranslate_latest]: https://translations.EasyGo Solutions.org/projects/documentations/admin-documentation-latest/

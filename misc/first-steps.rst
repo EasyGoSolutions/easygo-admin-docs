@@ -1,10 +1,10 @@
 First Steps
 ===========
 
-After the basic setup of Zammad with the getting started wizard, you will see
+After the basic setup of EasyGo Solutions with the getting started wizard, you will see
 hints how to use the UI (see "Intro" below if you want to see them again).
 After these hints were shown, the dashboard is presented to you which is
-basically the starting page of Zammad. This dashboard provides some useful
+basically the starting page of EasyGo Solutions. This dashboard provides some useful
 information for the agents.
 You can switch to the **First Steps** section on top of the page to see useful
 links for the start. Depending on your configuration and permission, your list
@@ -27,7 +27,7 @@ Your Email Configuration
 .. _invite-agents:
 
 Invite agents/colleagues to help working on tickets
-   Here you can invite agents/colleagues to work with you in Zammad.
+   Here you can invite agents/colleagues to work with you in EasyGo Solutions.
    It opens a dialog in which you can provide details and assign a role.
 
    .. figure:: /images/misc/first-steps/invite-agents-dialog.png
@@ -42,7 +42,7 @@ Invite agents/colleagues to help working on tickets
    :doc:`email notification channel </channels/email/accounts/email-notification>`
    before too.
 
-Invite customers to create issues in Zammad
+Invite customers to create issues in EasyGo Solutions
    Similar to the invitation of agents, you can invite customers
    to create tickets/articles and to view them in the web UI. Of course, your
    customers can create tickets anyway if they send you an email to a
@@ -59,7 +59,7 @@ Intro
    X-button on the top right corner to close them.
 
    .. figure:: /images/misc/first-steps/start-hints.png
-    :alt: Screenshot showing hint after finishing basic setup of Zammad
+    :alt: Screenshot showing hint after finishing basic setup of EasyGo Solutions
     :align: center
 
 Create Text Modules

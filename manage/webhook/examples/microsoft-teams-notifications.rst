@@ -10,16 +10,16 @@ Microsoft Teams Notifications
 
    In the transitional period, we decided to keep this guide as is. Make sure
    to follow Microsoft's guide as a replacement for **step 1** below, to
-   connect Teams and Zammad via Workflows.
+   connect Teams and EasyGo Solutions via Workflows.
 
    If you already use this webhook and *didn't customize* the payload, the new
-   webhook is used automatically after updating Zammad. In this case, you just
+   webhook is used automatically after updating EasyGo Solutions. In this case, you just
    need to create the workflow for your channel in Microsoft Teams. Otherwise
-   you have to manually adjust the payload in Zammad, too. See
+   you have to manually adjust the payload in EasyGo Solutions, too. See
    :doc:`Microsoft Teams Payload </manage/webhook/examples/microsoft-teams-payload>`
    where you can find the old and new defaults in case you need it.
 
-   To manage the connection in Zammad, you can go on with **step 2** on this
+   To manage the connection in EasyGo Solutions, you can go on with **step 2** on this
    page.
 
 .. toctree::
@@ -27,7 +27,7 @@ Microsoft Teams Notifications
 
    /manage/webhook/examples/microsoft-teams-payload
 
-Follow the steps below to configure a webhook for receiving Zammad notifications
+Follow the steps below to configure a webhook for receiving EasyGo Solutions notifications
 in a Microsoft Teams channel.
 
 Step 1 - Setup Incoming Webhook Connector in your Teams Channel
@@ -69,10 +69,10 @@ to the field.
 
 Finally, close the connector configuration by clicking ``Done``.
 
-Step 2 - Add a Pre-defined Webhook in Zammad
+Step 2 - Add a Pre-defined Webhook in EasyGo Solutions
 --------------------------------------------
 
-Go to :doc:`Webhook </manage/webhook/add>` management screen in your Zammad
+Go to :doc:`Webhook </manage/webhook/add>` management screen in your EasyGo Solutions
 instance and click on the arrow next to the green button in the upper right
 corner. Choose **Pre-defined Webhook** from the dropdown menu.
 
@@ -113,7 +113,7 @@ Once the trigger is in place, your webhook is ready for use!
 Sample Teams Channel Notification
 ---------------------------------
 
-From now on, whenever a ticket is created or updated in your Zammad system, a
+From now on, whenever a ticket is created or updated in your EasyGo Solutions system, a
 suitable notification will be posted in the configured Teams Channel. The
 notification will contain the link to the ticket, updated data and
 :ref:`content of the last article <teams-removing-article-body>`. It will also

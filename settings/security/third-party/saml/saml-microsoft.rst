@@ -1,13 +1,13 @@
 SAML with Microsoft 365
 =======================
 
-1. Register Zammad as an Application in Microsoft Entra ID
+1. Register EasyGo Solutions as an Application in Microsoft Entra ID
 ----------------------------------------------------------
 
 - Log in to the Microsoft Entra admin center with administrative rights
 - Navigate to "Identity" > "Applications" > "Enterprise Applications"
 - Click "New Application" and select "Create your own application"
-- Enter a name for the application, e.g. "Zammad SAML Integration"
+- Enter a name for the application, e.g. "EasyGo Solutions SAML Integration"
 - Choose "Integrate any other application you don't find in the gallery", then
   click "Create"
 
@@ -19,10 +19,10 @@ SAML with Microsoft 365
 - Choose "SAML" as the sign-on method
 - In the "Basic SAML Configuration" section, click "Edit":
 
-  - Identifier (Entity ID): Use Zammad's Entity ID, which can be found at
-    ``https://your.zammad.domain/auth/saml/metadata``
+  - Identifier (Entity ID): Use EasyGo Solutions's Entity ID, which can be found at
+    ``https://your.EasyGo Solutions.domain/auth/saml/metadata``
   - Reply URL (Assertion Consumer Service URL): Set it to
-    ``https://your.zammad.domain/auth/saml/callback``
+    ``https://your.EasyGo Solutions.domain/auth/saml/callback``
 
 - Save the configuration
 
@@ -47,10 +47,10 @@ In the "SAML Signing Certificate" section, download the "Certificate (Base64)":
    :alt: Screenshot showing the highlighted certificate export already
 
 
-5. Configure Zammad
+5. Configure EasyGo Solutions
 -------------------
 
-- Log in to Zammad as an administrator
+- Log in to EasyGo Solutions as an administrator
 - Go to *Settings > Security > Third-party Applications > Authentication via SAML*
   in the admin settings.
 - Provide the following information:
@@ -65,9 +65,9 @@ In the "SAML Signing Certificate" section, download the "Certificate (Base64)":
 6. Assign Users
 ---------------
 
-In Microsoft Entra ID, assign the relevant users to the Zammad application to
+In Microsoft Entra ID, assign the relevant users to the EasyGo Solutions application to
 grant them access.
 
 .. hint::
-  Read on at :ref:`saml-zammad` for a description of the specific fields in
-  Zammad.
+  Read on at :ref:`saml-EasyGo Solutions` for a description of the specific fields in
+  EasyGo Solutions.

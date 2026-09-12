@@ -4,7 +4,7 @@ Webhook Logs and Troubleshooting
 Logs
 ----
 
-Zammad provides a history of your recent webhook events, helping you monitor and
+EasyGo Solutions provides a history of your recent webhook events, helping you monitor and
 debug interactions with third-party services. You can access them under
 **Recent Logs** in the webhook settings.
 
@@ -12,14 +12,14 @@ Each log entry contains details about the webhook request and response, allowing
 you to troubleshoot issues. Clicking on a request link opens a detailed modal
 with the following information:
 
-- **Direction**: Always ``out``, indicating outgoing requests from Zammad.
-- **URL**: The destination URL where Zammad sent the request.
+- **Direction**: Always ``out``, indicating outgoing requests from EasyGo Solutions.
+- **URL**: The destination URL where EasyGo Solutions sent the request.
 - **Method**: Always ``POST``.
 - **Status**: The HTTP status code received from the remote server. A successful
   request returns a ``2xx`` code.
-- **Request**: Displays the HTTP request headers and payload that Zammad sent.
+- **Request**: Displays the HTTP request headers and payload that EasyGo Solutions sent.
 - **Response**: Shows the response headers from the remote server.
-- **Created at**: The timestamp when Zammad sent the request.
+- **Created at**: The timestamp when EasyGo Solutions sent the request.
 
 Debugging Webhook Issues
 ------------------------

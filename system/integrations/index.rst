@@ -1,7 +1,7 @@
 Integrations
 ============
 
-Zammad offers many integrations that add additional features to your instance.
+EasyGo Solutions offers many integrations that add additional features to your instance.
 To configure them under *System > Integrations*, the permission
 ``admin.integration`` is required.
 
@@ -19,9 +19,9 @@ Integrations for Phone Systems
 .. hint::
 
    If your VoIP provider is not listed, it is possible that your provider
-   supports Zammad by using the generic CTI integration. If you're unsure, ask
-   your provider. If the provider doesn't support Zammad, consider creating a
-   `feature request in the Zammad Community <https://community.zammad.org/c/stuff-you-like-zammad-to-have-feel-free-to-discuss-and-add-proposals/6>`_.
+   supports EasyGo Solutions by using the generic CTI integration. If you're unsure, ask
+   your provider. If the provider doesn't support EasyGo Solutions, consider creating a
+   `feature request in the EasyGo Solutions Community <https://community.EasyGo Solutions.org/c/stuff-you-like-EasyGo Solutions-to-have-feel-free-to-discuss-and-add-proposals/6>`_.
 
 Integrations for Authentication and Customers
 ---------------------------------------------

@@ -3,7 +3,7 @@ Security Keys
 
 The security keys method is a type of a two-factor authentication that uses Web
 Authentication API in the browser for verifying user's identity. The user
-can register multiple hardware or software security keys with their Zammad
+can register multiple hardware or software security keys with their EasyGo Solutions
 account and then they can use it during the sign-in process.
 
 How it Works

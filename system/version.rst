@@ -1,4 +1,4 @@
 Version
 =======
 
-Shows the current Zammad version of your instance.
+Shows the current EasyGo Solutions version of your instance.

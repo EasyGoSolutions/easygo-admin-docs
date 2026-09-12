@@ -1,9 +1,9 @@
 Users
 =====
 
-Zammad creates a user for everyone who communicates with the system. That
+EasyGo Solutions creates a user for everyone who communicates with the system. That
 means all customers get their own accounts, even if they just communicate
-through a channel with Zammad. Users can be managed individually via UI, via
+through a channel with EasyGo Solutions. Users can be managed individually via UI, via
 API or even synchronized with third-party services.
 
 To manage users, you need to have ``admin.user`` permission.
@@ -60,7 +60,7 @@ The ones that aren't are described below.
       but they are visible from the user overview.
 
    This attribute **cannot** be set via UI. Instead, use the
-   :docs:`Zammad console </admin/console.html>`, the
+   :docs:`EasyGo Solutions console </admin/console.html>`, the
    :docs:`REST API </api/intro.html>`, or :doc:`CSV import <via-csv-import>`.
 
 🔑 Password
@@ -83,7 +83,7 @@ The ones that aren't are described below.
    exception: Secondaries are not as highlighted like their primaries.
 
    Listings for all organizational tickets are not affected by this.
-   Zammad will mix primary and secondary organization tickets together.
+   EasyGo Solutions will mix primary and secondary organization tickets together.
 
    .. warning::
 
@@ -113,7 +113,7 @@ The ones that aren't are described below.
 
 ▶️ Active
    Inactive users aren't able to login anymore. However, they can still be used
-   in different places in Zammad (e.g. as ticket customer, in conditions in
+   in different places in EasyGo Solutions (e.g. as ticket customer, in conditions in
    triggers and schedulers).
 
    What's the difference between deactivating and deleting a user?

@@ -20,8 +20,8 @@ New User Accounts
       :align: center
 
 Deactivation of above function **does not** deactivate automatic account
-creation! This means: If a user writes e.g. an email to Zammad and has no
-account yet, Zammad will automatically create the account.
+creation! This means: If a user writes e.g. an email to EasyGo Solutions and has no
+account yet, EasyGo Solutions will automatically create the account.
 User accounts are a direct dependency of tickets and thus technically
 mandatory.
 
@@ -48,7 +48,7 @@ Lost Password
 .. tip::
 
    With third party authentications - but especially LDAP - you may want to
-   disable this function. Zammad **will not** change third party login
+   disable this function. EasyGo Solutions **will not** change third party login
    passwords and instead set or change the local password!
 
 .. _security_password_login:
@@ -74,7 +74,7 @@ Password Login
 
 .. hint::
 
-   To help administrators to overcome login issues, Zammad automatically
+   To help administrators to overcome login issues, EasyGo Solutions automatically
    offers a password request for administrator users as you can see in the
    screenshot above. This allows you to adjust third-party applications, even
    if the login doesn't work.
@@ -86,10 +86,10 @@ Session Timeout
 
 All settings below by default are set to ``4 weeks``.
 Session Timeout defines the life time of a users session.
-As soon as it's reached, Zammad will automatically log off the
+As soon as it's reached, EasyGo Solutions will automatically log off the
 session in question.
 
-Zammad takes the highest value assigned for the user based on the permissions.
+EasyGo Solutions takes the highest value assigned for the user based on the permissions.
 
 #. ``admin``
 #. ``ticket.agent``

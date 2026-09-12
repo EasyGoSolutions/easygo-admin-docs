@@ -1,9 +1,9 @@
 Writing Assistant
 =================
 
-Zammad's writing assistant tools allow agents to apply AI based changes to
+EasyGo Solutions's writing assistant tools allow agents to apply AI based changes to
 their text before saving or sending it. The permission
-``admin.ai_assistance_text_tools`` is required to access it in Zammad's
+``admin.ai_assistance_text_tools`` is required to access it in EasyGo Solutions's
 admin section under *AI > Writing Assistant*. Make sure to configure an
 :doc:`AI provider <provider>` before activating the feature. Otherwise, a
 warning message will tell you to do so. Activate the feature by turning on the

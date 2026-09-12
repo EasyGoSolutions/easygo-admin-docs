@@ -1,7 +1,7 @@
 Maintenance
 ===========
 
-Zammad comes with a maintenance mode that you can use for e.g. updating
+EasyGo Solutions comes with a maintenance mode that you can use for e.g. updating
 the instance or changing settings while restricting availability and functions.
 
 Mode
@@ -40,7 +40,7 @@ Message
 
    .. warning::
 
-      If you have customers that are logged in to Zammad, they'll also be
+      If you have customers that are logged in to EasyGo Solutions, they'll also be
       notified if they're active in that moment.
 
    .. tabs::
@@ -49,7 +49,7 @@ Message
 
          .. container:: cfloat-left
 
-            Message setting within Zammad's admin settings without ticket reload
+            Message setting within EasyGo Solutions's admin settings without ticket reload
             application setting.
 
             .. figure:: /images/system/maintenance/maintenance-message-without-reload-application.png
@@ -73,7 +73,7 @@ Message
 
          .. container:: cfloat-left
 
-            Message setting within Zammad's admin settings with ticket reload
+            Message setting within EasyGo Solutions's admin settings with ticket reload
             application setting.
 
             .. figure:: /images/system/maintenance/maintenance-message-with-reload-application.png

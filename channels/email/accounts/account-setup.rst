@@ -10,10 +10,10 @@ The import process does things you might not expect:
 
 .. danger::
 
-   - By default, Zammad will **delete all emails** in your inbox
+   - By default, EasyGo Solutions will **delete all emails** in your inbox
      during the import process. Use the *Experts* dialog to
      :ref:`disable this behavior <email-experts-keep-messages-on-server>`.
-   - Zammad will **send an auto-reply message to every email it imports**
+   - EasyGo Solutions will **send an auto-reply message to every email it imports**
      (including the old ones!). Use the *Experts* dialog to
      :ref:`change this behavior <archive-mode-email>` or to
      :doc:`disable auto-replies </manage/trigger>` prior adding an email
@@ -33,9 +33,9 @@ The import process does things you might not expect:
 Basic
 -----
 
-In most cases, Zammad is smart enough to figure out your email provider's
+In most cases, EasyGo Solutions is smart enough to figure out your email provider's
 configuration based on your email address alone. If the correct configuration
-could not be retrieved, Zammad asks you to provide the correct parameters
+could not be retrieved, EasyGo Solutions asks you to provide the correct parameters
 manually.
 
 .. figure:: /images/channels/email/account-basic-setup-inbound.png
@@ -98,7 +98,7 @@ Destination group > Sending email address
 Experts
 -------
 
-If Zammad can't figure out how to connect your account
+If EasyGo Solutions can't figure out how to connect your account
 (or if you just want to access advanced settings),
 use the *Experts* dialog.
 
@@ -148,7 +148,7 @@ SSL verification
    Here you can decide if the certificate of the email server has to be
    verified or not (default: ``yes``). In case you are using custom
    certificates, please have a look at
-   :doc:`how to add them to Zammad </settings/security/ssl-certificates>`.
+   :doc:`how to add them to EasyGo Solutions </settings/security/ssl-certificates>`.
 
    .. include:: /includes/ssl-verification-warning.rst
 
@@ -169,28 +169,28 @@ Folder
 
    If you selected a folder, additional steps may be required:
    In the last step of the account setup process,
-   Zammad sends you an email from your own account,
+   EasyGo Solutions sends you an email from your own account,
    then waits for it to appear in the folder specified here.
    **Account verification will not complete until
    this test message has been received.**
 
    If this folder does not receive incoming messages automatically,
    you may have to manually check your inbox during the verification step
-   and move Zammad's test message there when it arrives.
+   and move EasyGo Solutions's test message there when it arrives.
 
    .. _email-experts-keep-messages-on-server:
 
 Keep messages on server
-   Specify what happens to your emails after Zammad imports them:
+   Specify what happens to your emails after EasyGo Solutions imports them:
 
-   - ``no``: Zammad deletes all imported messages
+   - ``no``: EasyGo Solutions deletes all imported messages
 
-   - ``yes``: Zammad marks imported messages as read. With this option, Zammad
-     will only import unread messages. This means Zammad may miss messages if
+   - ``yes``: EasyGo Solutions marks imported messages as read. With this option, EasyGo Solutions
+     will only import unread messages. This means EasyGo Solutions may miss messages if
      the mailbox is externally modified.
 
 
-   .. note:: **Why does Zammad delete messages by default?**
+   .. note:: **Why does EasyGo Solutions delete messages by default?**
 
       If you never clean up your inbox, you reach a storage limit some day
       and your mail server will start **rejecting incoming messages**.
@@ -236,13 +236,13 @@ Password
 Port
    Your email server's port (usually ``587`` or ``465``).
 
-   Zammad will detect and enable SSL/STARTTLS support automatically.
+   EasyGo Solutions will detect and enable SSL/STARTTLS support automatically.
 
 SSL verification
    Here you can decide if the certificate of the email server has to be
    verified or not (default: ``yes``). In case you are using custom
    certificates, please have a look at
-   :doc:`how to add them to Zammad </settings/security/ssl-certificates>`.
+   :doc:`how to add them to EasyGo Solutions </settings/security/ssl-certificates>`.
 
    .. include:: /includes/ssl-verification-warning.rst
 
@@ -254,16 +254,16 @@ Verification
    :alt: Email account verification step
    :align: center
 
-As a final step, Zammad sends a test email from your own account,
-to your own account, and to ``verify-external-smtp-sending@discard.zammad.org``
+As a final step, EasyGo Solutions sends a test email from your own account,
+to your own account, and to ``verify-external-smtp-sending@discard.EasyGo Solutions.org``
 which discards the test mail right away.
 
 We've created a
-`landing page for discard.zammad.org <https://discard.zammad.org>`_
+`landing page for discard.EasyGo Solutions.org <https://discard.EasyGo Solutions.org>`_
 which describes the backgrounds as well.
 
 
-This this Zammad ensures that your email account is capable of sending internal
+This this EasyGo Solutions ensures that your email account is capable of sending internal
 and external - once this is verified the setup process is complete! 🎉
 
 .. include:: /channels/email/accounts/account-setup-group-hint.include.rst

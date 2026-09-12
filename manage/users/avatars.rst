@@ -1,7 +1,7 @@
 Avatars
 =======
 
-User avatars in Zammad can come from several sources. Whenever a new
+User avatars in EasyGo Solutions can come from several sources. Whenever a new
 avatar is fetched from any of them, the user's avatar is updated.
 Already saved avatars are kept on the user, even if the configured
 image service gets disabled afterwards.
@@ -14,9 +14,9 @@ Whichever source last fetched an avatar for a user becomes the active
 one. The following sources are available:
 
 - OAuth login providers (e.g. Microsoft, Google, GitHub) supply the avatar URL
-  on sign-in when the provider exposes one. Zammad stores this URL on the user
+  on sign-in when the provider exposes one. EasyGo Solutions stores this URL on the user
   and fetches the image.
-- The :doc:`Zammad Image Service </settings/system/services>` is used
+- The :doc:`EasyGo Solutions Image Service </settings/system/services>` is used
   as a fallback for users with a valid email address (e.g. matching a
   Gravatar entry).
 - Agents and customers can upload or capture a custom avatar image from their

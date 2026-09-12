@@ -1,14 +1,14 @@
 WhatsApp
 ========
 
-Connect Zammad with a WhatsApp Business account so your customers can
+Connect EasyGo Solutions with a WhatsApp Business account so your customers can
 reach out to you through WhatsApp. To configure it under *Channels > Whatsapp*,
 you need the permission ``admin.channel_whatsapp``.
 
 .. warning::
 
    - The usage of **WhatsApp Cloud API** is mandatory to connect WhatsApp to
-     Zammad. You won't be able to connect to WhatsApp in Zammad if you just use
+     EasyGo Solutions. You won't be able to connect to WhatsApp in EasyGo Solutions if you just use
      the WhatsApp Business *App*. Have a look
      `here <https://developers.facebook.com/docs/whatsapp/cloud-api>`_
      for further information about the Cloud API.

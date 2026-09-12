@@ -1,7 +1,7 @@
 Overviews
 =========
 
-Provide overviews to your agents and customers in Zammad's admin settings under
+Provide overviews to your agents and customers in EasyGo Solutions's admin settings under
 *Manage > Overviews*. The permission ``admin.overview`` is required.
 Overviews can be used as a kind of worklist of tasks that the agent is supposed
 to work on. You can add new overviews, edit or delete them. They can be assigned

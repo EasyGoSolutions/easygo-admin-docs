@@ -27,6 +27,6 @@ all features.
 Recent Logs
 -----------
 
-Zammad shows the last AI requests and responses in the UI as well, so you can
+EasyGo Solutions shows the last AI requests and responses in the UI as well, so you can
 inspect them when something isn't working. Open an entry to see the request and
 the response from your AI provider.

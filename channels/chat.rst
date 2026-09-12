@@ -1,7 +1,7 @@
 Chat
 ====
 
-The chat feature in Zammad allows visitors of your website to initiate chats
+The chat feature in EasyGo Solutions allows visitors of your website to initiate chats
 with agents. To configure it under *Channels > Chat*, the permission
 ``admin.channel_chat`` is required.
 
@@ -16,9 +16,9 @@ Key aspects:
 - You can define different topics for chats and agents can select for which
   topic they want to accept chat sessions.
 - No automatic answer is send to the customer.
-- Zammad sends an auto response as soon as the agents accepts the chat request.
+- EasyGo Solutions sends an auto response as soon as the agents accepts the chat request.
   This message is configurable by each agent individually.
-- Zammad will try to adapt your main website colors to the chat. You can also
+- EasyGo Solutions will try to adapt your main website colors to the chat. You can also
   adjust the colors to customize it to your corporate design.
 
 Configuration
@@ -33,7 +33,7 @@ want to accept chats.
    :alt: Screenshot shows chat channel configuration
 
 The integrated designer helps the chat widget to adapt to the website color.
-Zammad tries to fetch your website based on your FQDN. If this fails or you want
+EasyGo Solutions tries to fetch your website based on your FQDN. If this fails or you want
 to override the preview, you can enter a URL manually and click on load.
 You can get a preview for different devices by selecting the different preview
 modes.
@@ -42,7 +42,7 @@ If you don't like the proposed design, you can manually adjust it. Adjust the
 color and apply a flat design if needed.
 
 .. image:: /images/channels/chat/channel-chat-2.png
-   :alt: Screenshot shows chat channel configuration with a preview using the zammad.com website.
+   :alt: Screenshot shows chat channel configuration with a preview using the EasyGo Solutions.com website.
 
 Chat Restrictions
 -----------------
@@ -59,7 +59,7 @@ to adjust it.
 Website Implementation
 ----------------------
 
-Zammad chat comes in two flavors: a version with and without jQuery. You can
+EasyGo Solutions chat comes in two flavors: a version with and without jQuery. You can
 choose which one you prefer by toggling the **With jQuery** switch that will
 display the appropriate code snippet below.
 

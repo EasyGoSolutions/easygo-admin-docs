@@ -14,14 +14,14 @@ Introduction
    :align: center
 
 With filters in email-based channels ("postmaster filters"), you can
-adjust Zammad's behavior, automate actions and extract information when an email
+adjust EasyGo Solutions's behavior, automate actions and extract information when an email
 is received. The filters are based on conditions and differentiate between
 actions for the ticket creation and the ticket update. The available options
 differ from those available in other automation types (triggers and scheduler
 jobs). So if your use case isn't covered by filters, consider using triggers or
 scheduler jobs instead.
 
-Zammad includes some built-in system filters by default which you can't see or
+EasyGo Solutions includes some built-in system filters by default which you can't see or
 modify. Check the system filters section below for more information.
 
 Usage
@@ -50,7 +50,7 @@ Match all of the following
    Define which emails should be affected by the filter based on conditions.
    You can use various email attribute checks such as sender, subject, or custom
    headers. They all have to match for the action to get applied. The conditions
-   work similarly to other places in Zammad. Have a look at
+   work similarly to other places in EasyGo Solutions. Have a look at
    the :doc:`object conditions page </misc/object-conditions/basics>`, where
    you can find details about how the operators work.
 
@@ -185,7 +185,7 @@ Action
 System Filters
 --------------
 
-Zammad comes with some built-in system filters by default. You can't see them in
-the UI. The intention is to tweak the behavior of Zammad for emails from common
+EasyGo Solutions comes with some built-in system filters by default. You can't see them in
+the UI. The intention is to tweak the behavior of EasyGo Solutions for emails from common
 systems which have some kind of special formatting. Have a look at our separate
 subpage about :doc:`filters/system-filters` where you can find more details.

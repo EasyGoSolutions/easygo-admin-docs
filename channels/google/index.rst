@@ -12,7 +12,7 @@ Google Email
    settings
    email-headers
 
-Connect a Google Email account to Zammad.
+Connect a Google Email account to EasyGo Solutions.
 
 .. figure:: /images/channels/google/panel.png
    :alt: Google channel settings panel
@@ -26,7 +26,7 @@ Connect a Google Email account to Zammad.
    :doc:`./basic-setup` to get started.
 
 :doc:`basic-setup`
-   Connect Zammad to Google and add an account to fetch emails from.
+   Connect EasyGo Solutions to Google and add an account to fetch emails from.
 
    Self-hosted users may have already completed this step during new
    system setup.

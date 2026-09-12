@@ -11,13 +11,13 @@ Accounts
    accounts/managing-accounts
 
 Use the links below to step through the process of adding an M365 IMAP channel
-to Zammad.
+to EasyGo Solutions.
 
 :doc:`accounts/register-app`
-   Use the **Connect Microsoft 365 App** dialog to register Zammad as an
+   Use the **Connect Microsoft 365 App** dialog to register EasyGo Solutions as an
    OAuth app on Microsoft.
 
-   This step is **required** before adding an account to Zammad.
+   This step is **required** before adding an account to EasyGo Solutions.
 
 :doc:`accounts/account-setup`
    Use the **Add Account** dialog to connect your account.
@@ -26,7 +26,7 @@ to Zammad.
 
 :doc:`accounts/migrate-from-email-channel`
    Migrate your existing email channels from standard IMAP to the dedicated
-   M365 IMAP channel in Zammad to quickly move your mailboxes. You can roll
+   M365 IMAP channel in EasyGo Solutions to quickly move your mailboxes. You can roll
    back if something goes wrong!
 
 :doc:`accounts/secondary-addresses`
@@ -40,7 +40,7 @@ to Zammad.
 
    On **subscription/cloud-hosted instances**, you can't.
    Notifications will always come from
-   “Notification Master <noreply\@your.zammad.domain>”.
+   “Notification Master <noreply\@your.EasyGo Solutions.domain>”.
 
    On **self-hosted instances**, we still don't recommend it.
    Using a Microsoft account for automated, outgoing messages is risky:

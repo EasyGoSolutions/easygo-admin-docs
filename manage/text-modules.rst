@@ -3,10 +3,10 @@ Text Modules
 
 Text modules can be added and edited in the admin interface under
 *Manage > Text modules* with the ``admin.text_module`` permission.
-Here you find text snippets which are already shipped by Zammad, which
+Here you find text snippets which are already shipped by EasyGo Solutions, which
 can be extended as needed.
 
-Beside text modules, Zammad also allows you to use
+Beside text modules, EasyGo Solutions also allows you to use
 :user-docs:`Ticket templates </advanced/ticket-templates.html>` which can
 include even more information.
 

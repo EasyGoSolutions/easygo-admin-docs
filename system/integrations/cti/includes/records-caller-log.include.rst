@@ -11,6 +11,6 @@ Shown records in caller log
    .. warning:: **Potential performance issue**
 
       Setting this setting higher than 60 may cause serious performance issues
-      on very busy instances. Keep in mind that this setting causes Zammad to
+      on very busy instances. Keep in mind that this setting causes EasyGo Solutions to
       poll and send up to 300 records to *all active agent sessions* in very
       short time periods.

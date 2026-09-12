@@ -9,7 +9,7 @@ single sign-on (SSO) method. SAML is an open standard for SSO authentication
 (among other things). Sign-ins are shared across multiple **service providers**
 and managed by a central **identity provider** (IdP).
 
-In this case, the service provider is Zammad,
+In this case, the service provider is EasyGo Solutions,
 and the IdP is a software service that you either host or subscribe to
 (e.g. `Keycloak <https://www.keycloak.org/>`_,
 `Redhat SSO Server <https://access.redhat.com/products/red-hat-single-sign-on>`_,
@@ -28,29 +28,29 @@ This section describes the setup of an IdP in a general way. See
 Configure Your IdP
 ^^^^^^^^^^^^^^^^^^
 
-Add Zammad as a Client/App
+Add EasyGo Solutions as a Client/App
 """"""""""""""""""""""""""
 
-Import Zammad into your IdP using the XML configuration
-found at ``https://your.zammad.domain/auth/saml/metadata``.
+Import EasyGo Solutions into your IdP using the XML configuration
+found at ``https://your.EasyGo Solutions.domain/auth/saml/metadata``.
 
-If your IdP doesn't support XML import, you will have to configure Zammad as a
+If your IdP doesn't support XML import, you will have to configure EasyGo Solutions as a
 new client/app manually using the above XML metadata file for reference.
 
 For instance, when you see this tag:
 
 .. code-block:: xml
 
-   <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://your.zammad.domain/auth/saml/callback" index="0" isDefault="true"/>
+   <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://your.EasyGo Solutions.domain/auth/saml/callback" index="0" isDefault="true"/>
 
 Set the **Assertion Consumer Service Binding URL**
 (sometimes also listed as **Valid Redirect URIs**)
-to ``http://your.zammad.domain/auth/saml/callback``.
+to ``http://your.EasyGo Solutions.domain/auth/saml/callback``.
 
 Set Up User Attribute Mapping
 """""""""""""""""""""""""""""
 
-Zammad requests the following user attributes (or “properties”) from the IdP:
+EasyGo Solutions requests the following user attributes (or “properties”) from the IdP:
 
 - Email address (``email``)
 - Full name (``name``)
@@ -58,7 +58,7 @@ Zammad requests the following user attributes (or “properties”) from the IdP
 - Family name (``last_name``)
 
 You may need to set up “mappers” (or “mappings”) to tell your IdP
-how user attributes in SAML correspond to those in Zammad.
+how user attributes in SAML correspond to those in EasyGo Solutions.
 For a more detailed breakdown,
 refer to the XML metadata file referenced in the previous section.
 
@@ -73,7 +73,7 @@ You can find specific configuration guides for:
 - :doc:`Microsoft SAML <./saml/saml-microsoft>`
 
 If your are using another IdP, adapt it to your needs. For a description of the
-fields in Zammad, read on below.
+fields in EasyGo Solutions, read on below.
 
 .. toctree::
    :maxdepth: 2
@@ -82,15 +82,15 @@ fields in Zammad, read on below.
    saml/saml-keycloak
    saml/saml-microsoft
 
-.. _saml-zammad:
+.. _saml-EasyGo Solutions:
 
-General Zammad Configuration
+General EasyGo Solutions Configuration
 ----------------------------
 
 Enable SAML and enter your IdP's details in the Admin Panel under
 **Settings > Security > Third Party Applications > Authentication via SAML**:
 
-.. image:: /images/settings/security/third-party/saml/zammad_connect_saml_thirdparty_general.png
+.. image:: /images/settings/security/third-party/saml/EasyGo Solutions_connect_saml_thirdparty_general.png
    :alt: Example configuration of SAML part 1
    :scale: 60%
    :align: center
@@ -102,7 +102,7 @@ Display name
    Defaults to ``SAML``.
 
 IDP SSO target URL
-   This is the target URL Zammad shall redirect to when the user presses
+   This is the target URL EasyGo Solutions shall redirect to when the user presses
    the SAML button.
 
 IDP single logout target URL
@@ -110,7 +110,7 @@ IDP single logout target URL
    sent.
 
 IDP certificate
-   The public certificate of your IDP for Zammad to verify during the callback
+   The public certificate of your IDP for EasyGo Solutions to verify during the callback
    phase.
 
 IDP certificate fingerprint
@@ -131,13 +131,13 @@ Name identifier format
    This is the unique identifiers field type. Usually it should be
    ``urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress``.
 
-   Zammad **expects an email address as unique identifier**!
+   EasyGo Solutions **expects an email address as unique identifier**!
 
 UID attribute name
    Here you can define an attribute that uniquely identifies the user. If unset,
    the name identifier returned by the IDP is used.
 
-.. image:: /images/settings/security/third-party/saml/zammad_connect_saml_thirdparty_security.png
+.. image:: /images/settings/security/third-party/saml/EasyGo Solutions_connect_saml_thirdparty_security.png
    :alt: Example configuration of SAML part 2
    :scale: 60%
    :align: center
@@ -152,7 +152,7 @@ Signing & Encrypting
    Define if you want to sign, encrypt, do both or nothing for the requests.
 
 Certificate (PEM)
-   Paste the public certificate of your Zammad SAML client, if you want to
+   Paste the public certificate of your EasyGo Solutions SAML client, if you want to
    encrypt the requests.
 
    Make sure the certificate is:
@@ -162,7 +162,7 @@ Certificate (PEM)
    - valid for signing and encrypting
 
 Private key (PEM)
-   Paste the private key of your Zammad SAML client here, if you want to sign
+   Paste the private key of your EasyGo Solutions SAML client here, if you want to sign
    the requests.
 
    Make sure the key is an RSA key with a length of at least 2048 bits.
@@ -174,13 +174,13 @@ Your callback URL
    This URL is needed for your IdP configuration so it knows where to redirect
    to after successful authentication.
 
-.. hint:: After saving your input by clicking on the "Submit" button, Zammad
+.. hint:: After saving your input by clicking on the "Submit" button, EasyGo Solutions
    verifies the provided keys/certificates (e.g. if they are valid for
    signing/encrypting and if they aren't expired).
 
 
 See :ref:`automatic account linking <automatic-account-linking>` for details on
-how to link existing Zammad accounts to IdP accounts.
+how to link existing EasyGo Solutions accounts to IdP accounts.
 
 Troubleshooting
 ---------------
@@ -190,5 +190,5 @@ Automatic account linking doesn't work
 
 Logout doesn't work
    In case your logout process doesn't work, you can try
-   ``https://<your-zammad-url>/auth/saml/slo`` as an alternative. However, no
+   ``https://<your-EasyGo Solutions-url>/auth/saml/slo`` as an alternative. However, no
    logout is sent to your IdP then.

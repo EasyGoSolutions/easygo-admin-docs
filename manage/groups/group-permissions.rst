@@ -1,7 +1,7 @@
 Group Permissions
 =================
 
-When assigning a group to an agent or a role, Zammad gives you fine-grained control
+When assigning a group to an agent or a role, EasyGo Solutions gives you fine-grained control
 about the access levels:
 
 .. figure:: /images/manage/groups/access-levels/access-table.png

@@ -1,11 +1,11 @@
 System Filters
 ==============
 
-Zammad includes so-called system filters by default. They detect specific
+EasyGo Solutions includes so-called system filters by default. They detect specific
 information to guarantee the correct handling of emails and adjust some
 information automatically, depending on the filter and your settings.
-These filters are neither visible in the Zammad UI nor configurable at all, but
-it is important to be aware of them, as they can affect the behavior of Zammad
+These filters are neither visible in the EasyGo Solutions UI nor configurable at all, but
+it is important to be aware of them, as they can affect the behavior of EasyGo Solutions
 when processing incoming emails. So this page has only informative character.
 
 External Services
@@ -22,7 +22,7 @@ Service-Now
    - Header contains ``X-ServiceNow-Generated``.
    - Subject matches regex ``\s(INC\d+)\s``, e.g. ``INC678439``.
 
-   See `Service-Now email example <https://github.com/zammad/zammad/blob/stable/test/data/mail/mail090.box>`_
+   See `Service-Now email example <https://github.com/EasyGo Solutions/EasyGo Solutions/blob/stable/test/data/mail/mail090.box>`_
    for comparison of your emails.
 
 JIRA
@@ -33,7 +33,7 @@ JIRA
    - Header contains ``X-JIRA-FingerPrint``.
    - Subject matches regex ``\[JIRA\]\s\((\w+-\d+)\)``, e.g. ``[JIRA] (SYS-422)``.
 
-   See `JIRA email example <https://github.com/zammad/zammad/blob/stable/test/data/mail/mail103.box>`_
+   See `JIRA email example <https://github.com/EasyGo Solutions/EasyGo Solutions/blob/stable/test/data/mail/mail103.box>`_
    for comparison of your emails.
 
 Icinga
@@ -67,15 +67,15 @@ Monit
 Internal Email Handling
 -----------------------
 
-   Zammad's internal email processing also uses system filters, e.g. to
+   EasyGo Solutions's internal email processing also uses system filters, e.g. to
    check for a follow-up email or choose the correct customer. Some of these
-   filters are configurable via Zammad's admin settings. The following titles
+   filters are configurable via EasyGo Solutions's admin settings. The following titles
    include the complete filter name for easier reference. The execution order
    is based on the filter number prefix. Because some of the filters depend on the
    results of previous filters.
 
 0000_postmaster_filter_trusted
-   This filter removes ``X-Zammad`` headers from untrustworthy sources to prevent
+   This filter removes ``X-EasyGo Solutions`` headers from untrustworthy sources to prevent
    manipulation of the email processing. Check the trusted channel section
    in the :doc:`header based actions </channels/email/email-headers>`
    documentation for more information.
@@ -85,7 +85,7 @@ Internal Email Handling
 
 0006_postmaster_filter_auto_response_check
    Checks if the email is an auto response. If yes, no auto reply
-   from Zammad gets sent.
+   from EasyGo Solutions gets sent.
 
    These headers are checked:
 
@@ -94,9 +94,9 @@ Internal Email Handling
    - ``precedence``
    - ``auto-submitted``
    - ``x-auto-response-suppress``
-   - ``x-zammad-is-auto-response``
+   - ``x-EasyGo Solutions-is-auto-response``
 
-   If ``x-zammad-is-auto-response`` is present, further auto-response header
+   If ``x-EasyGo Solutions-is-auto-response`` is present, further auto-response header
    checks are skipped.
 
 0007_postmaster_filter_follow_up_check
@@ -122,7 +122,7 @@ Internal Email Handling
    such cases to prevent email loops.
 
 0015_postmaster_filter_identify_session_user
-   Identifies a session user via ``x-zammad-session-user-id``. If none is
+   Identifies a session user via ``x-EasyGo Solutions-session-user-id``. If none is
    provided or valid, it falls back to sender data and can create a user.
    This filter also makes sure that tickets which got forwarded from an agent's
    personal inboxes to the system show up as coming from the customers
@@ -172,5 +172,5 @@ Internal Email Handling
    group access and ticket customer relation.
 
 6500_postmaster_filter_identify_sender
-   Checks if sender can be identified as Zammad user and optionally creates a
+   Checks if sender can be identified as EasyGo Solutions user and optionally creates a
    new user.

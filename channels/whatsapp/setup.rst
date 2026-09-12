@@ -6,14 +6,14 @@ First of all, make sure to match the prerequisites and to read the
 :doc:`preparation page <preparation>` and come back after you followed the steps
 there.
 
-To set up the channel in Zammad, head over to the admin settings to add the
+To set up the channel in EasyGo Solutions, head over to the admin settings to add the
 WhatsApp channel under *Channels > WhatsApp*, click on ``Add Account`` and
 follow the steps below.
 
 Step 1
 ------
 
-Add your credentials of your account/app in Zammad. The dialog looks like this:
+Add your credentials of your account/app in EasyGo Solutions. The dialog looks like this:
 
 .. figure:: /images/channels/whatsapp/setup-step-1.png
    :alt: Step 1 of adding a WhatsApp account
@@ -52,7 +52,7 @@ App Secret
    .. figure:: /images/channels/whatsapp/app-secret.png
       :alt: App dashboard with app secret
 
-After providing these three values, click on ``Next`` in Zammad. This performs
+After providing these three values, click on ``Next`` in EasyGo Solutions. This performs
 a check and fetches your assigned phone number. If everything is fine, the
 dialog switches to the next step.
 
@@ -67,7 +67,7 @@ The second step is about your phone number and messaging details:
    :scale: 80%
 
 Phone Number
-   Choose the phone number you want to use for the channel. Zammad should have
+   Choose the phone number you want to use for the channel. EasyGo Solutions should have
    fetched the number which is assigned to your app. If not, your credentials
    from step 1 may be wrong.
 
@@ -94,7 +94,7 @@ Group
    ticket should be created.
 
 After you are configured everything, click on ``Submit``. Now the
-WhatsApp channel is technically created on Zammad side. However, you need to
+WhatsApp channel is technically created on EasyGo Solutions side. However, you need to
 take another important step to make it work.
 
 Step 3
@@ -112,7 +112,7 @@ This third step is about telling WhatsApp where, how and what data to send.
    :width: 40%
 
 Go to *Use cases > Configuration* and copy/paste the values from
-**Callback URL** as well as **Verify Token** from Zammad. Confirm with
+**Callback URL** as well as **Verify Token** from EasyGo Solutions. Confirm with
 ``Verify and save``.
 
 .. figure:: /images/channels/whatsapp/app-dashboard-configuration-webhook.png
@@ -124,7 +124,7 @@ Scroll down and switch on the toggle for **messages** under **Webhook fields**.
    :alt: Select "message" as webhook field
    :align: center
 
-After finishing this step, you can click on the ``Finish`` button in Zammad
+After finishing this step, you can click on the ``Finish`` button in EasyGo Solutions
 and you should now be ready to receive tickets from your WhatsApp channel!
 
 Troubleshooting

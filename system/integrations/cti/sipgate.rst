@@ -18,19 +18,19 @@ Requirements
    `new Neo version <https://teamhelp.sipgate.co.uk/first-steps/sipgate-general-information/blogpost-the-future-of-telephony-begins-now-with-sipgate-neo>`_,
    it will not work. Use their `telephony API <https://www.sipgate.io/>`_ or a
    `third-party tool <https://help.sipgate.de/cloud-telefonanlage/en/connections-and-integrations/cti/kann-ich-meine-datenbankmein-crm-system-an-sipgate-anbinden>`_
-   instead or create a new `feature request in the Zammad Community <https://community.zammad.org/c/stuff-you-like-zammad-to-have-feel-free-to-discuss-and-add-proposals/6>`_.
+   instead or create a new `feature request in the EasyGo Solutions Community <https://community.EasyGo Solutions.org/c/stuff-you-like-EasyGo Solutions-to-have-feel-free-to-discuss-and-add-proposals/6>`_.
 
 Please provide the following requirements:
 
 - You need an administrative Sipgate account for your organization.
-- Zammad requires a ``sipgate.io`` addon from the feature store (please note
+- EasyGo Solutions requires a ``sipgate.io`` addon from the feature store (please note
   that API calls are not free with Sipgate. Rates may apply and differ from
   account to account).
-- Your Zammad instance must be allowed to communicate to external services.
-- Sipgate must be able to reach your Zammad instance.
+- Your EasyGo Solutions instance must be allowed to communicate to external services.
+- Sipgate must be able to reach your EasyGo Solutions instance.
 
 :doc:`provider-configurations/sipgate`
-   Learn how to configure Sipgate to enable Zammad and Sipgate to communicate
+   Learn how to configure Sipgate to enable EasyGo Solutions and Sipgate to communicate
    with each other.
 
 .. _sipgate_settings:
@@ -71,7 +71,7 @@ Phone Extension to Agent Mapping
    .. include:: /system/integrations/cti/includes/extenion-to-agent-mapping.include.rst
 
    .. figure:: /images/system/integrations/cti/sipgate/phone-extension-to-agent-mapping.png
-      :alt: Screenshot showing sample user mappings in between Sipgate and Zammad
+      :alt: Screenshot showing sample user mappings in between Sipgate and EasyGo Solutions
 
    .. hint::
 

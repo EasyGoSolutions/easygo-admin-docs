@@ -7,9 +7,9 @@ the security settings.
 
 .. figure:: /images/system/sessions/session-management.png
    :align: center
-   :alt: Screenshot showing Zammad's session management
+   :alt: Screenshot showing EasyGo Solutions's session management
 
-Zammad will provide the following information:
+EasyGo Solutions will provide the following information:
 
    User
       The user account this session entry belongs to. It can be normal if a user
@@ -18,7 +18,7 @@ Zammad will provide the following information:
       not use the log off button.
 
    Browser
-      The browser agent communicated to Zammad.
+      The browser agent communicated to EasyGo Solutions.
 
    Location
       The anticipated location based on the users IP address. Depending on the
@@ -42,7 +42,7 @@ Zammad will provide the following information:
       Provides the time when the session initially has been created.
 
    Update
-      Provides the time the user used this session to open Zammad.
+      Provides the time the user used this session to open EasyGo Solutions.
       This timestamp is only updated if the user e.g. reloads, not during
       normal work on tickets.
 

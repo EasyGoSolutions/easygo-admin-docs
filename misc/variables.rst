@@ -1,21 +1,21 @@
 Variables
 =========
 
-Use variables in text modules, triggers and many other places in Zammad to
+Use variables in text modules, triggers and many other places in EasyGo Solutions to
 dynamically reflect information from object attributes.
 
 .. note:: Please note that this is just an overview of available variables.
    It might be incomplete or variables might not be available within some
    functions. If you're missing variables or are not sure if something is not
    working as expected, feel free to ask over at the
-   `community <https://community.zammad.org>`_.
+   `community <https://community.EasyGo Solutions.org>`_.
 
 Basic Usage
 -----------
 
 Variables can be called by typing ``::`` (just like text modules in the
 article editor), as long as you're in a supported text field in the settings.
-Zammad will display all variables being available within this context and
+EasyGo Solutions will display all variables being available within this context and
 add the variable to your text as soon as you selected an entry. You can even
 search for and use variables for custom object attributes.
 
@@ -49,8 +49,8 @@ attribute menu at any time.
 The first and second part of a variable is divided by a point,
 e.g.: ``ticket.number`` which will in total be ``#{ticket.number}``.
 
-For key/value pair attributes like select fields, Zammad replaces the variable
-with the key name. In case you want Zammad to replace a variable with the value
+For key/value pair attributes like select fields, EasyGo Solutions replaces the variable
+with the key name. In case you want EasyGo Solutions to replace a variable with the value
 instead of the key, you have to add a third part: ``#{ticket.select.value}``.
 
 .. _variable_localization:
@@ -60,9 +60,9 @@ Using Translated Variables
 
 If you want to use a translated variable in triggers or
 schedulers, you can extend the placeholder like this:
-``#{t(ticket.state.name)}``. The ``t`` tells Zammad to search for fitting
+``#{t(ticket.state.name)}``. The ``t`` tells EasyGo Solutions to search for fitting
 translated strings. The used output language is based on the system language of
-Zammad which you can set in the admin settings under :doc:`/settings/branding` or
+EasyGo Solutions which you can set in the admin settings under :doc:`/settings/branding` or
 based on the selected locale in the trigger/scheduler edit dialog.
 
 A possible use-case: you want to send your customers updates on tickets

@@ -7,9 +7,9 @@ Follow the steps below and skip not applicable parts.
 First Steps
 -----------
 
-- Only relevant for self-hosted Zammad instances: Check your FQDN under
+- Only relevant for self-hosted EasyGo Solutions instances: Check your FQDN under
   *Settings > System > Fully Qualified Domain Name* in the admin interface of
-  Zammad. If it is not correct, change it now. Otherwise the setup of the
+  EasyGo Solutions. If it is not correct, change it now. Otherwise the setup of the
   channel will fail.
 - Go to *Channels > Microsoft 365 Graph Email* and click on
   ``Connect Microsoft 365 App``. Copy the provided callback URL.
@@ -36,17 +36,17 @@ Create App
   - Accounts in any organizational directory (any Microsoft Entra ID tenant, multitenant)
 
 - Under **Redirect URI**, select **Web** as platform and paste your already
-  copied callback URL from Zammad.
+  copied callback URL from EasyGo Solutions.
 - Click on ``Register``.
 
 .. figure:: /images/channels/microsoft365-graph/app-overview.png
   :align: center
   :alt: Screenshot shows Entra admin center with application overview screen.
 
-- In the overview screen, copy the **Application (client) ID**, switch to Zammad
+- In the overview screen, copy the **Application (client) ID**, switch to EasyGo Solutions
   and paste it in the **Client ID** field in the dialog.
 - Only required for single tenant setup: copy the **Directory (tenant) ID** and
-  paste it in the **Tenant UUID/Name** field in Zammad.
+  paste it in the **Tenant UUID/Name** field in EasyGo Solutions.
 
 Create Secret
 ^^^^^^^^^^^^^
@@ -58,7 +58,7 @@ Create Secret
 - In Entra, go to **Certificates & secrets** and add a secret by clicking the
   ``New client secret`` button.
 - Enter a description, set an expiry duration and click ``Add``.
-- Copy the string under **Value**, this is the secret. Paste it to Zammad in the
+- Copy the string under **Value**, this is the secret. Paste it to EasyGo Solutions in the
   **Client Secret** field.
 
   .. warning::
@@ -98,7 +98,7 @@ steps:
   the user from which you want to access the mailbox and ``Save`` it.
 - Do the same for **Read and manage (Full Access)**.
 
-Configure the Channel in Zammad
+Configure the Channel in EasyGo Solutions
 -------------------------------
 
 App Configuration
@@ -106,12 +106,12 @@ App Configuration
 
 .. figure:: /images/channels/microsoft365-graph/connect-app-dialog.png
   :align: center
-  :alt: Screenshot shows Zammad's app configuration dialog.
+  :alt: Screenshot shows EasyGo Solutions's app configuration dialog.
 
 If you followed this guide, you already should have pasted your app information.
 If not, here is a short summary:
 
-- In Zammad's channel configuration, click on ``Configure App``.
+- In EasyGo Solutions's channel configuration, click on ``Configure App``.
 - Enter your app details:
 
   - **Client ID**: *Application (client) ID*
@@ -123,7 +123,7 @@ If not, here is a short summary:
 Add Account
 ^^^^^^^^^^^
 
-Now you can add your account to Zammad. Do so by clicking the ``Add account``
+Now you can add your account to EasyGo Solutions. Do so by clicking the ``Add account``
 button in the top right corner. Select the correct mailbox type. In case you
 selected **Shared Mailbox**, you have to enter the email address of the shared
 mailbox. Confirm by clicking the ``Authenticate`` button, enter your credentials
@@ -131,9 +131,9 @@ and confirm the requested permissions by clicking the ``Accept`` button.
 
 .. figure:: /images/channels/microsoft365-graph/add-account-dialog.png
   :align: center
-  :alt: Screenshot shows Zammad's dialog for account configuration.
+  :alt: Screenshot shows EasyGo Solutions's dialog for account configuration.
 
-After that, Zammad will ask you to assign a destination group. Select a group
+After that, EasyGo Solutions will ask you to assign a destination group. Select a group
 which should (initially) handle the incoming tickets of this channel.
 Additionally, you can decide if assign the email address should be assigned to
 the selected group for outgoing emails
@@ -146,7 +146,7 @@ the selected group for outgoing emails
   the group or change it. If the group has no assigned email address, it stays
   empty. If the group already has an assigned email address, it stays the same.
 
-You can also specify a folder from which Zammad should fetch emails from. If
+You can also specify a folder from which EasyGo Solutions should fetch emails from. If
 you do so, make sure that the emails are routed to this folder somehow.
 Otherwise, you won't receive tickets. Leave it empty to fetch all emails from
 the inbox. After that, choose if fetched emails should remain on the server or
@@ -167,7 +167,7 @@ find common errors related to the M365 configuration.
 
    On **subscription/cloud-hosted instances**, you can't.
    Notifications will always come from
-   “Notification Master <noreply\@your.zammad.domain>”.
+   “Notification Master <noreply\@your.EasyGo Solutions.domain>”.
 
    On **self-hosted instances**, we still don't recommend it.
    Using a Microsoft account for automated, outgoing messages is risky:
@@ -209,6 +209,6 @@ Request Admin Consent
 ^^^^^^^^^^^^^^^^^^^^^
 
 It is possible to request the permissions via admin consent. In this case
-Zammad will request necessary permissions for you from your admin, and then your
+EasyGo Solutions will request necessary permissions for you from your admin, and then your
 admin (if it's not the same user as you) can accept them on Microsoft side.
-Trigger this process via the ``Request Admin Consent`` button in Zammad.
+Trigger this process via the ``Request Admin Consent`` button in EasyGo Solutions.

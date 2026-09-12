@@ -1,7 +1,7 @@
 Audit Logs
 ==========
 
-The audit log records security-relevant changes in your Zammad instance: who
+The audit log records security-relevant changes in your EasyGo Solutions instance: who
 changed what and when. You can find it under *System > Audit Logs*. The
 ``admin.audit_log`` permission is required to access it.
 
@@ -86,5 +86,5 @@ show **No changes** because they record the event rather than an object change.
 Retention
 ---------
 
-Zammad automatically removes audit log entries older than 12 months. This
+EasyGo Solutions automatically removes audit log entries older than 12 months. This
 retention period is not configurable. The cleanup runs once a day.

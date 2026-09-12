@@ -1,12 +1,12 @@
 Basic Setup
 ===========
 
-To set up a new Google email channel in Zammad, you first have
+To set up a new Google email channel in EasyGo Solutions, you first have
 to create an **OAuth client** in Google's Cloud console. Then you can connect
-Zammad with your Google account and add as many mailboxes to Zammad as
+EasyGo Solutions with your Google account and add as many mailboxes to EasyGo Solutions as
 you want.
 
-If you already set up Google email channels via IMAP in Zammad, you can easily
+If you already set up Google email channels via IMAP in EasyGo Solutions, you can easily
 migrate them to a Google channel. Follow the steps below but skip the step
 "Add Account" and proceed with :ref:`migrate-channel`.
 
@@ -20,12 +20,12 @@ Configure OAuth App
 - Go to *APIs & Services > OAuth consent screen* and create an OAuth client.
 - Choose **Web application** as type, provide a fitting name and add a redirect
   URI. You can find the redirect URI in the Google account settings dialog of
-  Zammad by opening the configuration dialog via the ``Connect Google App``
+  EasyGo Solutions by opening the configuration dialog via the ``Connect Google App``
   button (called **Your callback URL**).
 - After saving your OAuth client, a dialog will be shown with the **Client ID**
-  and the **Client secret**. Copy and add them to Zammad's app configuration
+  and the **Client secret**. Copy and add them to EasyGo Solutions's app configuration
   dialog.
-- Save the app configuration in Zammad by clicking the ``Submit`` button in the
+- Save the app configuration in EasyGo Solutions by clicking the ``Submit`` button in the
   dialog.
 - Switch back to Google's Cloud console and go to
   *APIs & Services > Enabled APIs & Services*. Click the button to add an API,
@@ -34,7 +34,7 @@ Configure OAuth App
   ``Gmail API`` and activate the API with the scope
   ``https://mail.google.com/``. Confirm and save it.
 
-Now, you are technically ready to connect a Gmail mailbox to Zammad. Depending
+Now, you are technically ready to connect a Gmail mailbox to EasyGo Solutions. Depending
 on your scenario, you should also have a look at the **Audience** section in
 the Cloud console. Either add a test account for the app or publish it for
 production use.
@@ -42,20 +42,20 @@ production use.
 Add Account
 -----------
 
-After you've registered an OAuth app, you can connect Gmail accounts to Zammad.
+After you've registered an OAuth app, you can connect Gmail accounts to EasyGo Solutions.
 
 .. danger::
-   - By default, Zammad will **delete all emails** in your inbox
+   - By default, EasyGo Solutions will **delete all emails** in your inbox
      during the import process. Use the *Keep Messages on Server* setting to
      :ref:`disable this behavior <google-keep-messages-on-server>` or enable
      :ref:`archive mode <archive-mode-google>`.
-   - Zammad will send an auto-reply message
+   - EasyGo Solutions will send an auto-reply message
      to every email it imports (including the old ones!).
      Make sure to :doc:`disable this behavior </manage/trigger>`
      prior adding an email account and to turn it back on once all your
      messages have been imported.
 
-To connect your Google account, click on ``Add Account`` in Zammad. You will be
+To connect your Google account, click on ``Add Account`` in EasyGo Solutions. You will be
 redirected to a consent dialog. Click through the screens and make sure
 to select the desired Google account as well as to grant the permission for
 email handling as you can see in the following screenshot.
@@ -65,11 +65,11 @@ email handling as you can see in the following screenshot.
    :scale: 50%
    :align: center
 
-After clicking on ``Continue``, you are redirected to Zammad where you can see a
+After clicking on ``Continue``, you are redirected to EasyGo Solutions where you can see a
 dialog for specifying some settings for the channel:
 
 .. figure:: /images/channels/google/add-channel-dialog.png
-   :alt: Screenshot shows Zammad's add channel dialog
+   :alt: Screenshot shows EasyGo Solutions's add channel dialog
    :scale: 70%
    :align: center
 
@@ -102,14 +102,14 @@ Folder
    .. _google-keep-messages-on-server:
 
 Keep messages on server
-   Specify what happens to your emails after Zammad imports them:
+   Specify what happens to your emails after EasyGo Solutions imports them:
 
-   - ``no``: Zammad deletes all imported messages
-   - ``yes``: Zammad marks imported messages as read. With this option,
-     Zammad will only import unread messages. This means Zammad may miss
+   - ``no``: EasyGo Solutions deletes all imported messages
+   - ``yes``: EasyGo Solutions marks imported messages as read. With this option,
+     EasyGo Solutions will only import unread messages. This means EasyGo Solutions may miss
      messages if the mailbox is externally modified.
 
-   .. note:: **Why does Zammad delete messages by default?**
+   .. note:: **Why does EasyGo Solutions delete messages by default?**
 
       If you never clean up your inbox, you reach a storage limit some day
       and your mail server will start **rejecting incoming messages**.
@@ -124,7 +124,7 @@ Archive Mode
    .. include:: /channels/email/accounts/archive-mode.rst
 
 After successfully adding the Google account, you can adjust
-the default group Zammad is going to assign incoming new tickets to.
+the default group EasyGo Solutions is going to assign incoming new tickets to.
 
 .. figure:: /images/channels/google/change-destination-group.png
    :alt: Location of "Destination Group" setting for existing accounts
@@ -142,30 +142,30 @@ Migrate from Email Channel
 Convert Email Channel to Google Channel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Zammad provides a migration logic that allows you to migrate existing Google
+EasyGo Solutions provides a migration logic that allows you to migrate existing Google
 accounts from an email channel into a Google channel.
 
-.. note:: **Zammad is expecting specific settings.**
-   In order for Zammad to display the migration option, it expects the channels
+.. note:: **EasyGo Solutions is expecting specific settings.**
+   In order for EasyGo Solutions to display the migration option, it expects the channels
    hostname to be ``imap.gmail.com`` for IMAP and ``smtp.gmail.com`` for SMTP.
 
 The easiest way to start the migration is to :ref:`register-oauth-google` for
-your Google accounts before migrating. However, if you don't, Zammad will ask
+your Google accounts before migrating. However, if you don't, EasyGo Solutions will ask
 you to provide your app credentials before allowing you to continue.
 
 If you're ready to go, simply click on the ``Migrate now!`` button in the red
-banner of the email channel in question. Zammad will redirect you to
+banner of the email channel in question. EasyGo Solutions will redirect you to
 Google and request you to authenticate and consent to said account.
 
-After you pressed next you'll be redirect to Zammad's Google channel overview.
+After you pressed next you'll be redirect to EasyGo Solutions's Google channel overview.
 Your channel, if successful, is now migrated to an Google channel.
 
 Rolling Back the Migration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In case something went wrong, Zammad allows you to roll back the migration
+In case something went wrong, EasyGo Solutions allows you to roll back the migration
 for up to 7 days. You can do so by using the ``Rollback migration`` button in
-the account details. For this time period, Zammad will remember your original
+the account details. For this time period, EasyGo Solutions will remember your original
 credentials and restore it if needed. These information will be removed
 entirely after 7 days.
 
@@ -179,7 +179,7 @@ My OAuth credentials stopped working
 How to use the Gmail account for outgoing system notifications?
    On **subscription/cloud-hosted instances**, you can't do that.
    Notifications will always come from
-   “Notification Master <noreply\@your.zammad.domain>”.
+   “Notification Master <noreply\@your.EasyGo Solutions.domain>”.
 
    On **self-hosted instances**, we still don't recommend it.
    Using a Gmail account for automated, outgoing messages is risky:
@@ -190,6 +190,6 @@ How to use the Gmail account for outgoing system notifications?
    Set up a generic :doc:`email channel </channels/email/index>` instead and
    use the :ref:`Email Notification <email-notification>` setting.
 
-I successfully added my account, but Zammad isn't fetching new emails
+I successfully added my account, but EasyGo Solutions isn't fetching new emails
    If you specified a :ref:`custom folder/label to fetch from <google-folder>`,
    are you sure incoming mail is arriving in that folder?

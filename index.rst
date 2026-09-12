@@ -1,8 +1,8 @@
-Zammad Admin Documentation
+EasyGo Solutions Admin Documentation
 ==========================
 
 .. hint::
-   You are currently reading the Zammad administration documentation. There are
+   You are currently reading the EasyGo Solutions administration documentation. There are
    also :docs:`system </index.html>` and
    :user-docs:`user manuals </index.html>` available.
 
@@ -10,7 +10,7 @@ Zammad Admin Documentation
    :maxdepth: 2
    :caption: Guides
 
-   guides/start-with-zammad
+   guides/start-with-EasyGo Solutions
    guides/additional-customization
 
 .. _manage-docs:
@@ -88,7 +88,7 @@ Zammad Admin Documentation
 
    system/subscription
    system/integrations/index
-   API (System-Documentation) <https://docs.zammad.org/en/latest/api-intro.html>
+   API (System-Documentation) <https://docs.EasyGo Solutions.org/en/latest/api-intro.html>
    system/objects
    system/core-workflows
    system/translations

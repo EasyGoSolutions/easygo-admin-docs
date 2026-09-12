@@ -43,7 +43,7 @@ The payload contains the following variables:
 ``notification.link``
    A link to the ticket which triggered the webhook.
 
-   Example: ``https://zammad.example.com/#ticket/zoom/123``.
+   Example: ``https://EasyGo Solutions.example.com/#ticket/zoom/123``.
 
 ``notification.changes``
    A list of changes which were applied to the ticket attributes. In case the

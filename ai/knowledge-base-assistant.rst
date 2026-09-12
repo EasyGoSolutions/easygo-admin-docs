@@ -1,12 +1,12 @@
 Knowledge Base Assistant
 ========================
 
-Zammad's knowledge base assistant helps your agents find existing knowledge base
+EasyGo Solutions's knowledge base assistant helps your agents find existing knowledge base
 answers for incoming tickets and draft new ones from the ticket content. The
-feature is configured in Zammad's admin settings under
+feature is configured in EasyGo Solutions's admin settings under
 *AI > Knowledge Base Assistant* and requires the ``admin.ai_knowledge_base``
 permission. Make sure to configure an :doc:`AI provider <provider>` with the
-**Semantic search** capability before activating the feature. Otherwise, Zammad
+**Semantic search** capability before activating the feature. Otherwise, EasyGo Solutions
 shows a warning message.
 
 .. figure:: /images/ai/knowledge-base-assistant.png
@@ -32,7 +32,7 @@ answers.
 Knowledge Base Answer Suggestions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When enabled, Zammad shows existing knowledge base answers whose content
+When enabled, EasyGo Solutions shows existing knowledge base answers whose content
 matches the ticket in the **Related Knowledge** section of the ticket
 sidebar. Answers are only shown when they are above the configured relevance
 threshold.
@@ -52,7 +52,7 @@ Knowledge Base Answer Generation
 
 When the feature is enabled, the agent can ask the AI to draft a new knowledge
 base answer from the ticket's content by clicking a button in the ticket
-sidebar. If a related answer is detected, Zammad shows a list of answers that
+sidebar. If a related answer is detected, EasyGo Solutions shows a list of answers that
 meet the configured relevance score threshold in a dialog, prompting the agent
 to verify whether a new answer is still needed. When a new answer is generated,
 it is linked to the ticket.

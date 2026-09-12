@@ -4,10 +4,10 @@ Register an OAuth App
 Setting up a new Microsoft 365 account? Follow our basic setup guide to get
 started.
 
-First, you'll have to connect Zammad to your Microsoft account as an
+First, you'll have to connect EasyGo Solutions to your Microsoft account as an
 **OAuth app** in the Microsoft Entra portal.
 Once that's done, you'll be able to connect as many Microsoft 365 accounts to
-Zammad as you want, using only active Microsoft 365 browser sessions
+EasyGo Solutions as you want, using only active Microsoft 365 browser sessions
 (no usernames or passwords required).
 
 .. _register_ms_app_stepbystep:
@@ -15,9 +15,9 @@ Zammad as you want, using only active Microsoft 365 browser sessions
 Preparation
 -----------
 
-- Only relevant for self-hosted Zammad instances: Check your FQDN under
+- Only relevant for self-hosted EasyGo Solutions instances: Check your FQDN under
   *Settings > System > Fully Qualified Domain Name* in the admin interface of
-  Zammad. If it is not correct, change it now. Otherwise the setup of the
+  EasyGo Solutions. If it is not correct, change it now. Otherwise the setup of the
   channel will fail.
 - Go to *Channels > Microsoft 365 IMAP Email* and click on
   ``Connect Microsoft 365 App``. Copy the provided callback URL.
@@ -49,7 +49,7 @@ Create App
        "Personal Microsoft accounts only" are not supported.
 
 - Under **Redirect URI**, select **Web** as platform and paste your already
-  copied callback URL from Zammad.
+  copied callback URL from EasyGo Solutions.
 - Click on ``Register``.
 
 Create Secret
@@ -62,7 +62,7 @@ Create Secret
 - In Entra, go to **Certificates & secrets** and add a secret by clicking the
   ``New client secret`` button.
 - Enter a description, set an expiry duration and click ``Add``.
-- Copy the string under **Value**, this is the secret. Paste it to Zammad in the
+- Copy the string under **Value**, this is the secret. Paste it to EasyGo Solutions in the
   **Client Secret** field.
 
   .. warning::
@@ -122,7 +122,7 @@ manually.
 Still within **Enterprise applications**, select **Users and groups**.
 In this section you can select specific users and / or groups
 (users must be direct members!) that are allowed to use your app for
-adding mailboxes to Zammad.
+adding mailboxes to EasyGo Solutions.
 
 After adding users and groups, go back to the Entra admin center's home and
 select **App registrations**. Within your desired app, go to
@@ -147,7 +147,7 @@ App Configuration
   :alt: Screenshot showing popup about connecting app
   :align: center
 
-- In Zammad's channel configuration, click on ``Configure App``.
+- In EasyGo Solutions's channel configuration, click on ``Configure App``.
 - Enter your app details:
 
   - **Client ID**: *Application (client) ID*
@@ -157,4 +157,4 @@ App Configuration
 - Click on ``Submit``.
 
 🍾 Congratulations! Now you're ready to connect Microsoft 365 accounts to
-Zammad.
+EasyGo Solutions.

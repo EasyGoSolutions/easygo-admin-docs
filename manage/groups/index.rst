@@ -4,13 +4,13 @@ Groups
 Access the group management area under *Manage > Groups* with ``admin.group``
 permission. Here you can edit existing and add new groups.
 
-Groups in Zammad are similar to working groups that deal with different topics
+Groups in EasyGo Solutions are similar to working groups that deal with different topics
 within a company. For example, the tickets relevant to the sales department
 might be available in the *Sales* group, while the tickets for the support
 department might be available in the *Support* group. These are just examples;
 how you structure your groups is up to you.
 
-Tickets enter Zammad through various channels (e.g. via email) and are then
+Tickets enter EasyGo Solutions through various channels (e.g. via email) and are then
 sorted into these groups. The tickets (cases) are thus made available to the
 agents responsible for the group. Each ticket can only belong to one group,
 and you can decide via **group permissions** (see below), what access your agents
@@ -24,7 +24,7 @@ For an additional way to categorize tickets, have a look at :doc:`/manage/tags`.
 
 .. hint::
 
-   Zammad users are global to the whole instance.
+   EasyGo Solutions users are global to the whole instance.
    Restriction to specific groups is not possible.
 
 .. toctree::
@@ -39,5 +39,5 @@ For an additional way to categorize tickets, have a look at :doc:`/manage/tags`.
    - you have created more than one group
    - the current user has "change" permissions to more than one group
 
-   This is necessary because Zammad automatically hides selection fields with
+   This is necessary because EasyGo Solutions automatically hides selection fields with
    only one option.

@@ -2,9 +2,9 @@ Setup Guide
 ===========
 
 Whenever the Checkmk integration is enabled,
-Zammad listens for messages on its API and over email.
+EasyGo Solutions listens for messages on its API and over email.
 As long as those messages follow the required format,
-Zammad will create new tickets (or find and update existing ones)
+EasyGo Solutions will create new tickets (or find and update existing ones)
 based on the message contents.
 
 That means that "setting up Checkmk integration"
@@ -17,7 +17,7 @@ for help with that).
 As part of this new rule, you'll have to choose a **notification method**
 (i.e. a script to execute whenever the rule is triggered).
 This script will be written by you (samples below),
-and contain the logic for sending API/email messages to Zammad:
+and contain the logic for sending API/email messages to EasyGo Solutions:
 
 .. figure:: /images/system/integrations/checkmk/adding-new-notification-rules.png
    :alt: Checkmk "New Rule" dialog
@@ -38,7 +38,7 @@ API Alerts
 
 To add these scripts in the Checkmk WATO,
 copy them into your Checkmk installation directory and make them executable.
-(Be sure to replace the ``zammad.example.com`` callback URL
+(Be sure to replace the ``EasyGo Solutions.example.com`` callback URL
 with the one found in your admin settings.)
 
 Service notification
@@ -48,7 +48,7 @@ Service notification
    .. code:: bash
 
       #!/bin/bash
-      # /opt/omd/sites/<SITE>/local/share/check_mk/notifications/zammad-service
+      # /opt/omd/sites/<SITE>/local/share/check_mk/notifications/EasyGo Solutions-service
 
       curl -X POST \
         -F "event_id=$NOTIFY_SERVICEPROBLEMID" \
@@ -56,7 +56,7 @@ Service notification
         -F "service=$NOTIFY_SERVICEDESC" \
         -F "state=$NOTIFY_SERVICESTATE" \
         -F "text=$NOTIFY_SERVICEOUTPUT" \
-        https://zammad.example.com/api/v1/... # see Admin Panel > System > Integrations > Checkmk > Usage
+        https://EasyGo Solutions.example.com/api/v1/... # see Admin Panel > System > Integrations > Checkmk > Usage
 
 Host notification
    For updates on the status of the server itself.
@@ -64,14 +64,14 @@ Host notification
    .. code:: bash
 
       #!/bin/bash
-      # /opt/omd/sites/<SITE>/local/share/check_mk/notifications/zammad-host
+      # /opt/omd/sites/<SITE>/local/share/check_mk/notifications/EasyGo Solutions-host
 
       curl -X POST \
         -F "event_id=$NOTIFY_HOSTPROBLEMID" \
         -F "host=$NOTIFY_HOSTNAME" \
         -F "state=$NOTIFY_HOSTSTATE" \
         -F "text=$NOTIFY_HOSTOUTPUT" \
-        https://zammad.example.com/api/v1/... # see Admin Panel > System > Integrations > Checkmk > Usage
+        https://EasyGo Solutions.example.com/api/v1/... # see Admin Panel > System > Integrations > Checkmk > Usage
 
 .. note:: 🤔 **What's with all the env vars?**
 
@@ -92,8 +92,8 @@ Email Alerts
 
 .. warning::
 
-   🐞 **There are known bugs** in Zammad's processing of emails from Checkmk.
+   🐞 **There are known bugs** in EasyGo Solutions's processing of emails from Checkmk.
    This section will be complete once they have been resolved.
    Learn more in GitHub issue
-   `#2180 <https://github.com/zammad/zammad/issues/2180>`_. In the meantime, we
+   `#2180 <https://github.com/EasyGo Solutions/EasyGo Solutions/issues/2180>`_. In the meantime, we
    encourage you to set up API alerts instead.

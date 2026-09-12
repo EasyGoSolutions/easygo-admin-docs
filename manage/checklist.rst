@@ -5,7 +5,7 @@ The checklist feature allows agents to keep track of the tasks to be completed.
 It is activated by default and shows up in another tab in the right sidebar
 in the ticket detail view (see :user-docs:`here </extras/checklist.html>` how it
 looks like from agent's perspective). To manage the checklist feature in
-Zammad's admin settings under *Manage > Checklists*, you need the
+EasyGo Solutions's admin settings under *Manage > Checklists*, you need the
 ``admin.checklist`` permission.
 
 .. figure:: /images/manage/checklist/checklist-settings.png
@@ -46,5 +46,5 @@ Remarks
 - An agent can always overwrite and adjust the checklist, even a deletion is
   possible. This also applies to checklists which got added from a template.
 - The checklist feature is currently a standalone feature. This means you can't
-  access the items or state of the checkboxes from other places in Zammad like
+  access the items or state of the checkboxes from other places in EasyGo Solutions like
   triggers or workflows.

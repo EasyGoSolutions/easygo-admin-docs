@@ -3,7 +3,7 @@ Microsoft Teams Webhook Payload
 
 Microsoft is retiring their Office 365 connectors in favor of connecting
 third-party tools via their Workflows. Because of that, the pre-defined
-webhook in Zammad has changed. In case you need the old or new default payload,
+webhook in EasyGo Solutions has changed. In case you need the old or new default payload,
 you can find them below.
 
 Payload for Office Connectors (old)

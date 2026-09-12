@@ -22,7 +22,7 @@ Add Webhook
 Create a new webhook with the following configuration:
 
 - Endpoint: ``https://{your.domain.tld}/api/v1/checklists`` (replace the value
-  in {} with the domain of your Zammad)
+  in {} with the domain of your EasyGo Solutions)
 - Request method: ``POST``
 - Authentication: **Bearer Token**
 - Bearer token: paste the token you created before

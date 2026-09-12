@@ -8,7 +8,7 @@ Signatures
 General
 -------
 
-You can create a separate signature for each group in Zammad.
+You can create a separate signature for each group in EasyGo Solutions.
 The individual signatures can be created and edited here.
 
 Afterwards, the existing (and active) signatures are available in the group

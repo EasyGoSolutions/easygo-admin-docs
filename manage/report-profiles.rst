@@ -8,9 +8,9 @@ reporting in the
 :user-docs:`reporting section of the user documentation </extras/reporting.html>`.
 The reporting is useful to view statistics, get an overview of the number of
 tickets (e.g. of a specific customer) and to download ticket data from
-Zammad.
+EasyGo Solutions.
 
-You can find the configuration in Zammad's admin settings under
+You can find the configuration in EasyGo Solutions's admin settings under
 *Manage > Report Profiles*. To create and edit report profiles,
 ``admin.report_profile`` permission is required. To access the reporting itself,
 ``report`` permission is required.
@@ -40,7 +40,7 @@ Name
 
 Filter
    Define which tickets you want to include in a report. You can filter the
-   tickets as in other places in Zammad by using conditions which your tickets
+   tickets as in other places in EasyGo Solutions by using conditions which your tickets
    must match.
 
    .. include:: /misc/object-conditions/conditioning-depth-hint.include.rst
@@ -73,7 +73,7 @@ is limited to the roles "Admin" and "Reporting".
 Use the Reporting
 -----------------
 
-You can find the reporting section in the bottom left corner in Zammad next to
+You can find the reporting section in the bottom left corner in EasyGo Solutions next to
 the avatar icon or your initials. If you can't see the reporting button, check
 the permissions.
 

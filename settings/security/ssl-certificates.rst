@@ -1,9 +1,9 @@
 SSL Certificates
 ================
 
-Zammad offers the possibility to upload custom certificates and custom
+EasyGo Solutions offers the possibility to upload custom certificates and custom
 Certificate Authority (CA) certificates. This can be useful if you want to
-connect Zammad the secure way to other systems which are using custom
+connect EasyGo Solutions the secure way to other systems which are using custom
 certificates.
 
 An example use case might be: You have an internal LDAP server that is not
@@ -14,7 +14,7 @@ Prerequisites
 -------------
 
 You should have an existing custom certificate file and/or a custom CA
-certificate file, which you want to add to Zammad. As filetype ``.crt`` is
+certificate file, which you want to add to EasyGo Solutions. As filetype ``.crt`` is
 supported and the certificate format has to be PEM (Base64 ASCII).
 
 .. hint::
@@ -38,7 +38,7 @@ certificate file or paste the content of the certificate:
     :alt: Screenshot showing certificate adding dialog
 
 After selecting a file or pasting the content of the certificate, click on the
-``Add`` button to finally upload it to Zammad. Then, the certificates are
+``Add`` button to finally upload it to EasyGo Solutions. Then, the certificates are
 immediately effective, no restart is required.
 
 .. note::

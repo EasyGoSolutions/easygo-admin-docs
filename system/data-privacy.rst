@@ -24,7 +24,7 @@ Important Information
 Manual Deletion via GUI
 -----------------------
 
-You can initiate a data privacy deletion task from different places in Zammad:
+You can initiate a data privacy deletion task from different places in EasyGo Solutions:
 
 - User management
 - User detail page
@@ -77,14 +77,14 @@ from the action menu in the top right corner:
 Data Privacy Task
 ^^^^^^^^^^^^^^^^^
 
-You can find the data privacy section in Zammad's settings under *System >
+You can find the data privacy section in EasyGo Solutions's settings under *System >
 Data Privacy*. To create a deletion task, use the ``New Deletion Task`` button
 in the top right corner. The difference to the two mentioned options is
 that you first have to search the user in the dialog. Everything else is the
 same.
 
 .. figure:: /images/system/data-privacy/data-privacy-deletion-task.png
-   :alt: Screenshot shows the data privacy section in Zammad's settings with highlighted sections.
+   :alt: Screenshot shows the data privacy section in EasyGo Solutions's settings with highlighted sections.
    :align: center
    :width: 60%
 
@@ -99,7 +99,7 @@ It may take up to ten minutes for the system to process your request. Depending
 on the amount of tickets of the user, the deletion itself can also take some
 time. You can see status messages of these tasks in two places:
 
-- Data privacy management (Zammad's admin settings)
+- Data privacy management (EasyGo Solutions's admin settings)
 - Activity stream (by opening the dashboard; deletion task entries only visible
   for users with ``admin.data_privacy`` permission)
 
@@ -108,12 +108,12 @@ one when the task has finished.
 
 Activity stream in dashboard
    .. figure:: /images/system/data-privacy/deletion-task-activity-stream.png
-      :alt: Screenshot shows the activity stream from Zammad's dashboard with 2 deletion task entries
+      :alt: Screenshot shows the activity stream from EasyGo Solutions's dashboard with 2 deletion task entries
       :align: center
 
 Data privacy management in admin settings
    .. figure:: /images/system/data-privacy/data-privacy-tasks.png
-      :alt: Screenshot shows the data privacy section in Zammad's settings with a finished and a running task
+      :alt: Screenshot shows the data privacy section in EasyGo Solutions's settings with a finished and a running task
       :align: center
       :width: 80%
 
@@ -145,14 +145,14 @@ Frequently Asked Questions
 --------------------------
 
 What happens if I receive an email from a deleted customer?
-   Zammad automatically creates a new user account whenever it receives a
+   EasyGo Solutions automatically creates a new user account whenever it receives a
    message from an unrecognized email address, including deleted users.
    Deleted users are never blocked from creating new tickets.
 
    In case you receive an email between the time that you click delete and
    the system has processed your request, that ticket will be automatically
    **deleted**. The ticket number of the lost ticket is displayed in the data
-   privacy management in Zammad's admin settings in the deletion task entry
+   privacy management in EasyGo Solutions's admin settings in the deletion task entry
    under  **Deleted Tickets**.
 
 What about user information stored in internal notes or other messages?
@@ -172,7 +172,7 @@ I removed a customer, now my reporting is off!
    When removing users and their tickets, all references are removed. This also
    affects reporting - these information are lost.
 
-How long does Zammad store created tasks?
+How long does EasyGo Solutions store created tasks?
    Please see the on-premise data section of the
    :docs:`data privacy </appendix/privacy.html>` chapter.
 

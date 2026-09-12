@@ -7,11 +7,11 @@ Email Notification
    For more information, see :doc:`/misc/system-notifications`.
 
 System notifications are automated emails
-sent by Zammad for critical system events,
+sent by EasyGo Solutions for critical system events,
 such as account changes or SLA violations.
 
 Use the **Email Notification** panel to configure
-how Zammad dispatches these notifications.
+how EasyGo Solutions dispatches these notifications.
 
 .. figure:: /images/channels/email/accounts-email-notification.png
    :alt: Screenshots shows email notification channel editing
@@ -36,7 +36,7 @@ Password
 Port
    Your email server's port (usually ``587`` or ``465``).
 
-   Zammad will detect and enable SSL/STARTTLS support automatically.
+   EasyGo Solutions will detect and enable SSL/STARTTLS support automatically.
 
 .. note:: 🤔 **This looks familiar... Where have I seen it before?**
 

@@ -1,7 +1,7 @@
 Facebook
 ========
 
-You can connect your Facebook account to Zammad, allowing you to
+You can connect your Facebook account to EasyGo Solutions, allowing you to
 create tickets from posts and respond as comments. To configure it under
 *Channels > Facebook*, you need the permission ``admin.channel_facebook``.
 
@@ -61,43 +61,43 @@ Add a product to your app
       :alt: Screenshot of product overview with highlighted "Facebook Login for Business"
 
    In the following screen, go to **Valid OAuth Redirect URIs** and provide the
-   URL of your Zammad instance, followed by
+   URL of your EasyGo Solutions instance, followed by
    ``/api/v1/external_credentials/facebook/callback``. You can copy this URL
-   from Zammad if you click on the ``Configure App`` button in Zammad's Facebook
+   from EasyGo Solutions if you click on the ``Configure App`` button in EasyGo Solutions's Facebook
    channel configuration.
 
    .. figure:: /images/channels/facebook/oauth-settings.png
       :alt: Screenshot of app settings with highlighted "OAuth Redirect URIs"
 
-Continue with the next step on Zammad's side by connecting the Facebook with
-Zammad.
+Continue with the next step on EasyGo Solutions's side by connecting the Facebook with
+EasyGo Solutions.
 
-Connect Facebook App in Zammad
+Connect Facebook App in EasyGo Solutions
 ------------------------------
 
 If not already done, go to the Facebook channel section in the admin interface
-in Zammad and click on ``Configure App``. This will open a dialog where you
+in EasyGo Solutions and click on ``Configure App``. This will open a dialog where you
 have to provide the app ID as well as the app secret.
 
 Head over to the Meta app dashboard and switch to *App settings > Basic*.
 Copy the **App ID** and the the **App secret** (after clicking on the
-``Show`` button) and paste both to Zammad in the corresponding fields.
+``Show`` button) and paste both to EasyGo Solutions in the corresponding fields.
 
 .. figure:: /images/channels/facebook/app-settings-basic.png
    :alt: Screenshot showing basic settings section of app settings
 
-.. figure:: /images/channels/facebook/zammad-connect-app.png
-   :alt: Screenshot showing "Connect Facebook App" dialog in Zammad
+.. figure:: /images/channels/facebook/EasyGo Solutions-connect-app.png
+   :alt: Screenshot showing "Connect Facebook App" dialog in EasyGo Solutions
    :scale: 60%
    :align: center
 
 Confirm it by clicking on ``Submit`` and continue with the next step.
 
-Add Facebook Account to Zammad
+Add Facebook Account to EasyGo Solutions
 ------------------------------
 
-After you successfully connected your app with Zammad, you can now add
-an account by clicking the ``Add Account`` button in Zammad. This redirects
+After you successfully connected your app with EasyGo Solutions, you can now add
+an account by clicking the ``Add Account`` button in EasyGo Solutions. This redirects
 you to Facebook and you will see an account selection dialog. Confirm by
 clicking on ``Continue as ...`` or log in with another account.
 
@@ -123,11 +123,11 @@ and ``Got it`` in the next screen.
    :scale: 60%
    :align: center
 
-You are now redirected to Zammad where you can see a configuration dialog.
+You are now redirected to EasyGo Solutions where you can see a configuration dialog.
 Select a group you want to handle the Facebook tickets and click on ``Submit``.
 
 .. figure:: /images/channels/facebook/group-selection-dialog.png
-   :alt: Screenshot showing group selection dialog in Zammad
+   :alt: Screenshot showing group selection dialog in EasyGo Solutions
    :scale: 75%
    :align: center
 

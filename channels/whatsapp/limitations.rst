@@ -21,7 +21,7 @@ Customer-initiated communication only
    The WhatsApp channel only supports customer initiated communication.
    For business-initiated communication, it would be necessary to create a
    message template which has to be verified by Meta first which is currently
-   not supported by Zammad.
+   not supported by EasyGo Solutions.
 
 Supported media types
    Currently text messages, documents, images, audio, videos and stickers
@@ -47,4 +47,4 @@ File size for attachments
 One phone number per app
    If you want to use more than one phone number, you have to create a business
    app for each number you want to use and add it as a separate channel in
-   Zammad.
+   EasyGo Solutions.

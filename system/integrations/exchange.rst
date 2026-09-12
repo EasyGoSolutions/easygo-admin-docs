@@ -1,7 +1,7 @@
 Exchange
 ========
 
-With Zammad's Exchange integration, you can easily use existing address books
+With EasyGo Solutions's Exchange integration, you can easily use existing address books
 without having to update more than one source.
 
 Introduction
@@ -18,19 +18,19 @@ setup:
    - You might not want to sync all addresses. The results may not be what you
      expect (because Exchange collects huge amounts of addresses).
    - You might want to sync a central address book of your company. By doing so,
-     you can ensure that Zammad only gets the data you want.
+     you can ensure that EasyGo Solutions only gets the data you want.
    - It is not possible to sync the Global Address List (GAL) of your Exchange
-     system with Zammad.
-   - You can map any Exchange attribute to a Zammad user attribute (even
+     system with EasyGo Solutions.
+   - You can map any Exchange attribute to a EasyGo Solutions user attribute (even
      :doc:`custom object attributes </../system/objects>`!).
 
 .. warning::
 
-   - **Exchange and LDAP:** The exchange sync can be overruled by Zammad's LDAP
+   - **Exchange and LDAP:** The exchange sync can be overruled by EasyGo Solutions's LDAP
      integration. If you have the same users in both sources, the LDAP version
-     will always be Zammad's pick.
-   - **One way sync:** the Exchange sync is one way. Exchange => Zammad.
-     Changes to your users inside of Zammad might be overwritten by the
+     will always be EasyGo Solutions's pick.
+   - **One way sync:** the Exchange sync is one way. Exchange => EasyGo Solutions.
+     Changes to your users inside of EasyGo Solutions might be overwritten by the
      Exchange sync.
 
 To configure the Exchange integration, go to *System > Integrations >
@@ -55,7 +55,7 @@ have to provide the following information:
 
 .. warning::
 
-   If the SSL verification fails while connecting to Exchange, Zammad will ask
+   If the SSL verification fails while connecting to Exchange, EasyGo Solutions will ask
    you to turn it off temporarily.
 
    Please be aware that **turning off SSL verification is a security risk**. It
@@ -63,11 +63,11 @@ have to provide the following information:
    is no verification of the certificate, which means that every presented
    certificate will be accepted.
 
-On the last two steps Zammad will ask you for the address book(s) and your
-desired attribute mapping. By default, Zammad only maps email address, first-
+On the last two steps EasyGo Solutions will ask you for the address book(s) and your
+desired attribute mapping. By default, EasyGo Solutions only maps email address, first-
 and lastname.
 
-After clicking ``Continue``, Zammad will check if the configuration is okay.
+After clicking ``Continue``, EasyGo Solutions will check if the configuration is okay.
 You can then enable Exchange and start your first sync.
 
 .. _exchange-oauth:
@@ -85,7 +85,7 @@ Configure App
   `Entra admin center <https://entra.microsoft.com/#home>`_, if not already
   done.
 - In addition to the mandatory information, provide a **Redirect URI**. You can
-  copy it from Zammad's dialog which opens after clicking the ``Connect Exchange
+  copy it from EasyGo Solutions's dialog which opens after clicking the ``Connect Exchange
   App`` button. Copy the URL from the **Your callback URL** field. Make sure your
   FQDN is correct, otherwise the setup might fail.
 - Add the permissions to read address books / folders. The required permissions
@@ -95,17 +95,17 @@ Configure App
   Microsoft's `Graph permission reference <https://learn.microsoft.com/en-us/graph/permissions-reference>`_
   for more information.
 
-Now you need to add some information from the app in Zammad:
+Now you need to add some information from the app in EasyGo Solutions:
 
 - In the **Overview** tab in Entra, you can find the values for
   "Application (client) ID" and "Directory (tenant) ID". Copy and paste both
-  into the corresponding fields in Zammad's app config dialog. If you don't have
+  into the corresponding fields in EasyGo Solutions's app config dialog. If you don't have
   it open, click the ``Connect Exchange App`` button.
 - You can create a secret in Entra in the **Certificates & secrets** tab. Select
   ``New client secret``, add a name and choose an expiration time. You can find
   the created secret now in the **Value** column (**not** the Secret ID). Copy
-  and paste it into the app configuration dialog in Zammad.
-- Finally, click on ``Submit`` in the app configuration dialog in Zammad and
+  and paste it into the app configuration dialog in EasyGo Solutions.
+- Finally, click on ``Submit`` in the app configuration dialog in EasyGo Solutions and
   go on with the next section.
 
 .. figure:: /images/system/integrations/exchange/entra-app-overview.png
@@ -122,7 +122,7 @@ then redirected to a Microsoft log in page. Log in by providing credentials
 of a user with proper permissions and confirm the requested permissions by
 clicking the ``Accept`` button.
 
-This redirects you back to Zammad where you can now configure the address
+This redirects you back to EasyGo Solutions where you can now configure the address
 book(s) and how the users should be mapped.
 
 .. _exchange-address-book-user:
@@ -131,19 +131,19 @@ Address Book and User Mapping
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A click on ``Configure`` opens another configuration dialog. In the first step,
-choose one or more folders from which users should get synced to Zammad.
+choose one or more folders from which users should get synced to EasyGo Solutions.
 
 In the second step, select which Exchange attribute should get mapped on
-which Zammad attribute. It is recommended to map at least email address, first
+which EasyGo Solutions attribute. It is recommended to map at least email address, first
 and last name.
 
 .. figure:: /images/system/integrations/exchange/mapping.png
-  :alt: Screenshot shows Exchange mapping dialog in Zammad
+  :alt: Screenshot shows Exchange mapping dialog in EasyGo Solutions
   :scale: 70%
   :align: center
 
 After configuring the mapping, confirm it with a click on the ``Continue``
-button. Zammad analyzes the configuration and the entries then and presents you
+button. EasyGo Solutions analyzes the configuration and the entries then and presents you
 an overview of your configuration. Confirm it by selecting
 ``Save configuration``.
 
@@ -155,7 +155,7 @@ you can change the configuration at any time by using the ``Configure app``
 button.
 
 After the sync has finished, you can find the new Exchange contacts under
-"Users". Zammad integrates them just as normal users.
+"Users". EasyGo Solutions integrates them just as normal users.
 
 .. note::
 

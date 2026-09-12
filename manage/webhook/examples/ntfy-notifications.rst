@@ -32,7 +32,7 @@ it for later.
 Step 2 - Add a New Webhook with Custom Payload
 ----------------------------------------------
 
-Go to :doc:`Webhook </manage/webhook/add>` management screen in your Zammad
+Go to :doc:`Webhook </manage/webhook/add>` management screen in your EasyGo Solutions
 instance and click on the ``New Webhook`` button. Activate the
 **Custom Payload** toggle and add your information like in the example.
 
@@ -41,7 +41,7 @@ required to provide **HTTP Basic Authentication Username** as well as the
 appropriate password.
 
 .. figure:: /images/manage/webhook/webhook-ntfy-webhook-config.png
-   :alt: Webhook creation / edit dialog in Zammad with ntfy example
+   :alt: Webhook creation / edit dialog in EasyGo Solutions with ntfy example
    :align: center
    :width: 90%
 
@@ -49,7 +49,7 @@ You can find the example payload below. Important attributes are:
 
 - ``topic``: name of your topic. You might have copied it in Step 1.
 - ``title``: the title/heading of the notification.
-- ``message``: the message of your notification. You can use Zammad variables
+- ``message``: the message of your notification. You can use EasyGo Solutions variables
   as you can see in the example.
 
 Additional attributes can be:
@@ -85,7 +85,7 @@ For detailed information about the possible actions, have a look at the ntfy
             "method": "PUT",
             "headers":
                {
-                  "Authorization": "Bearer {your bearer token from Zammad}",
+                  "Authorization": "Bearer {your bearer token from EasyGo Solutions}",
                   "Content-Type":  "application/json"
                },
             "body": "{\"priority_id\": 3}"

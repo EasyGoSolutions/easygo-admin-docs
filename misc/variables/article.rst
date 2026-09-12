@@ -3,11 +3,11 @@ Articles
 
 .. note:: If you're missing variables or are not sure if something is not
    working as expected, feel free to ask over at the
-   `community <https://community.zammad.org>`_.
+   `community <https://community.EasyGo Solutions.org>`_.
 
 Below you can find a list with examples of article variables.
 Depending on the context and if you want to use an attribute of a specific
-article, you can choose from specific article types in Zammad. To access
+article, you can choose from specific article types in EasyGo Solutions. To access
 suggestions for variables, type :kbd:`:` :kbd:`:` followed by your search query
 to trigger a list of relevant options. The following article types are
 available, depending on the context:
@@ -41,7 +41,7 @@ article types.
    "Article > Created by > Note",        "``#{article.created_by.note}``",        "``Some note about user`` or empty if not set in user object"
    "Article > Created by > Phone",       "``#{article.created_by.phone}``",       "``+4930123456789`` or empty if not set in user object"
    "Article > Created by > VIP",         "``#{article.created_by.vip}``",         "``true`` or ``false``"
-   "Article > Created by > Web",         "``#{article.created_by.web}``",         "``https://zammad.com`` or empty if not set in user object"
+   "Article > Created by > Web",         "``#{article.created_by.web}``",         "``https://EasyGo Solutions.com`` or empty if not set in user object"
    "Article > Created",                  "``#{article.created_at}``",             "``2019-10-08 15:24:47 UTC``"
    "Article > From",                     "``#{article.from}``",                   "``Joe Doe <jdoe@example.com>`` may differ, depends on ``FROM`` of send mail"
    "Article > Sender > Name",            "``#{article.sender.name}``",            "``Customer``, ``Agent`` or ``System``"
@@ -50,7 +50,7 @@ article types.
    "Article > Text (HTML)",              "``#{article.body_as_html}``",           "``Test`` with formatting. See also note below."
    "Article > TicketID",                 "``#{article.ticket_id}``",              "``1`` (not ticket number)"
    "Article > To",                       "``#{article.to}``",                     "``helpdesk@example.com``"
-   "Article > Type > Name",              "``#{article.type.name}``",              "``email`` (`list of article types <https://github.com/zammad/zammad/blob/develop/db/seeds/ticket_article_types.rb>`_)"
+   "Article > Type > Name",              "``#{article.type.name}``",              "``email`` (`list of article types <https://github.com/EasyGo Solutions/EasyGo Solutions/blob/develop/db/seeds/ticket_article_types.rb>`_)"
    "Article > Updated by > Address",     "``#{article.updated_by.address}``",     "``Some street 1, 12345 Berlin`` or empty if not set in user object"
    "Article > Updated by > Department",  "``#{article.updated_by.department}``",  "``Sales`` or empty if not set in user object"
    "Article > Updated by > Email",       "``#{article.updated_by.email}``",       "``jdoe@example.com``"
@@ -62,7 +62,7 @@ article types.
    "Article > Updated by > Note",        "``#{article.updated_by.note}``",        "``Some note about user`` or empty if not set in user object"
    "Article > Updated by > Phone",       "``#{article.updated_by.phone}``",       "``+4930123456789`` or empty if not set in user object"
    "Article > Updated by > VIP",         "``#{article.updated_by.vip}``",         "``true`` or ``false``"
-   "Article > Updated by > Web",         "``#{article.updated_by.web}``",         "``https://zammad.com`` or empty if not set in user object"
+   "Article > Updated by > Web",         "``#{article.updated_by.web}``",         "``https://EasyGo Solutions.com`` or empty if not set in user object"
    "Article > Updated",                  "``#{article.updated_at}``",             "``2019-10-08 15:24:47 UTC``"
    "Article > Visibility",               "``#{article.internal}``",               "``false`` or ``true`` (false if not internal)"
    "Ticket > Article#",                  "``#{ticket.article_count}``",           "``1`` number of ticket articles"

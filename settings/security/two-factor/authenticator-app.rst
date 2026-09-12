@@ -4,7 +4,7 @@ Authenticator App
 The authenticator app method is a type of two-factor authentication that uses a
 mobile application to generate one-time codes for account verification. After
 setting up the authenticator app on their device, the user links it to their
-Zammad account.
+EasyGo Solutions account.
 
 How it Works
 ------------

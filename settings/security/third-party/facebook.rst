@@ -27,15 +27,15 @@ Navigate to app review and Check "Make [appname] public?"
 .. image:: /images/settings/security/third-party/facebook/developers.facebook.com-app-review.png
    :alt: App Review
 
-Configure Zammad as Facebook App
+Configure EasyGo Solutions as Facebook App
 --------------------------------
 
 Navigate to *Settings > Security > Third-party Applications* and enter the App
 ID and the App Secret. You can find this key in the dashboard of your Facebook
 app.
 
-.. image:: /images/settings/security/third-party/facebook/enable-authentication-via-facebook-in-zammad.png
-   :alt: Zammad Configuration
+.. image:: /images/settings/security/third-party/facebook/enable-authentication-via-facebook-in-EasyGo Solutions.png
+   :alt: EasyGo Solutions Configuration
 
 Now you can link accounts via *Avatar > Profile > Link Accounts* or login via
-Zammad login page.
+EasyGo Solutions login page.

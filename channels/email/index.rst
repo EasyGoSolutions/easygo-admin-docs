@@ -10,7 +10,7 @@ Email
    settings
    email-headers
 
-Control how Zammad **sends and receives email**.
+Control how EasyGo Solutions **sends and receives email**.
 
 .. hint::
 
@@ -27,7 +27,7 @@ Control how Zammad **sends and receives email**.
    :align: center
 
 🚛 Migrate existing email channel to "XOAUTH" channel
-   At this moment Zammad supports XOAUTH for the following providers:
+   At this moment EasyGo Solutions supports XOAUTH for the following providers:
 
       - :ref:`Google Email <migrate-channel>`
       - :doc:`Microsoft 365 IMAP Email </channels/microsoft365/accounts/migrate-from-email-channel>` (formerly Office 365)
@@ -41,7 +41,7 @@ Control how Zammad **sends and receives email**.
    .. start-after-migration
 
 :doc:`👥 Accounts <accounts>`
-   **Connect Zammad to your email provider**
+   **Connect EasyGo Solutions to your email provider**
    so that it can watch your inbox, send auto-replies, and more.
 
    (Self-hosted users may have already completed this step

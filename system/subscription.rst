@@ -12,7 +12,7 @@ Plan
 This section gives you an overview of the available plans and their
 functions / limits and the ability to choose another plan. If you require a
 more detailed table, check our
-`pricing table <https://zammad.com/en/pricing/table>`_ for more information.
+`pricing table <https://EasyGo Solutions.com/en/pricing/table>`_ for more information.
 Your selection (green ``Selected`` button) in this step will decide on the base
 agent price and agent limits. You can also find your currently used number of
 agents there and see the accounts. This list *does not* count accounts with
@@ -24,11 +24,11 @@ admin permissions only. Learn more about how to
    Trial instances are running on a **Professional v2** plan with 3 agents.
    The plan cannot be changed during the trial period for technical reasons.
    If you require more agents for testing, please contact
-   `our sales team <https://zammad.com/en/company/contact>`_ and tell them
+   `our sales team <https://EasyGo Solutions.com/en/company/contact>`_ and tell them
    what you want to do.
 
 .. figure:: /images/system/subscription/plan-selection.png
-   :alt: Screenshot showing three available packages for a hosted Zammad
+   :alt: Screenshot showing three available packages for a hosted EasyGo Solutions
          instance
 
 At the bottom of this block you can find a summary where you can adjust the
@@ -58,7 +58,7 @@ Total
    This will be the net total you're going to be billed.
 
 By using the ``Update subscription`` button, the instance package is getting
-adjusted immediately. If you didn't provide a payment method yet, Zammad
+adjusted immediately. If you didn't provide a payment method yet, EasyGo Solutions
 will request you to provide it at this point.
 
 .. warning::
@@ -67,17 +67,17 @@ will request you to provide it at this point.
    trial will be over immediately!
    Down- or upgrading during the trial period *is not* possible.
 
-Zammad AI - API Call Credits
+EasyGo Solutions AI - API Call Credits
 ----------------------------
 
-If you want to use Zammad's AI features, you can use Zammad AI as your
+If you want to use EasyGo Solutions's AI features, you can use EasyGo Solutions AI as your
 :doc:`AI provider </ai/provider>`. Initially, you have 500 AI calls to test the
 feature for free. Re-charge them manually or automatically when 90% of the
 calls are used. One AI action like an AI agent run or an AI ticket summary uses
 one AI call. To apply any kind of re-charge, a valid payment method is required.
 
 Usage
-   Shows the available API calls for Zammad AI and how much are already used up.
+   Shows the available API calls for EasyGo Solutions AI and how much are already used up.
 
 Re-Charge Settings
    - Enable or disable a notification when 80% of AI calls are used.
@@ -98,7 +98,7 @@ Billing Information
 You can control all billing relevant information like invoices and the billing
 address. All adjusted billing information below only affect future invoices.
 If your invoice was issued wrong, please contact
-`our sales team <https://zammad.com/en/company/contact>`_.
+`our sales team <https://EasyGo Solutions.com/en/company/contact>`_.
 
 Billing address
    Provide your company's address here, make sure to include the name of the
@@ -130,7 +130,7 @@ You can pay via credit card or SEPA mandate.
 
 Credit card
    Simply follow the flow by clicking ``authorize credit card`` and confirm
-   -if required by your bank- your consent to Zammad using your card for
+   -if required by your bank- your consent to EasyGo Solutions using your card for
    the payments.
 
 SEPA Direct Debit
@@ -139,16 +139,16 @@ SEPA Direct Debit
 
 Technically there's also the possibility to pay via invoice, however - this
 method only applies to a fairly low number of instances. Please contact
-`our sales team <https://zammad.com/en/company/contact>`_ for more
+`our sales team <https://EasyGo Solutions.com/en/company/contact>`_ for more
 information.
 
 Cancel Subscription
 -------------------
 
 Do you want to cancel your subscription?
-In case you no longer want to use Zammad's SaaS, you can cancel your
+In case you no longer want to use EasyGo Solutions's SaaS, you can cancel your
 subscription by using the red ``Yes, please cancel my subscription`` button.
-Enter the FQDN of your Zammad instance and provide a reason for your
+Enter the FQDN of your EasyGo Solutions instance and provide a reason for your
 cancellation. Your subscription will end the day after your trial or billing
 period ends.
 

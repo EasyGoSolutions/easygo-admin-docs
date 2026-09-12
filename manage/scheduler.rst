@@ -1,7 +1,7 @@
 Scheduler
 =========
 
-Zammad's scheduler performs time-based automated actions. The most important
+EasyGo Solutions's scheduler performs time-based automated actions. The most important
 difference to :doc:`trigger` is that no action is required for the execution.
 You can set up your own scheduler jobs and configure:
 
@@ -41,7 +41,7 @@ processed at the last run and how many will be processed at the next run.
 .. figure:: /images/manage/scheduler/scheduler-management.png
    :scale: 70%
    :align: center
-   :alt: Screenshot shows Zammad's scheduler management
+   :alt: Screenshot shows EasyGo Solutions's scheduler management
 
 Scheduler Job Structure
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -61,7 +61,7 @@ Execution Time
 
 Define Object Condition
    Define a condition to specify the affected objects you want to apply changes
-   or perform an action. If you're not familiar with conditions in Zammad, you
+   or perform an action. If you're not familiar with conditions in EasyGo Solutions, you
    can find an explanation at the :doc:`/misc/object-conditions/index` page.
    The availability of attributes depends on the selected object context.
 
@@ -90,7 +90,7 @@ Name
 
 When should the job run?
    Choose the points in time when the scheduler should run. It depends on the
-   configured :doc:`timezone in Zammad </settings/branding>`.
+   configured :doc:`timezone in EasyGo Solutions </settings/branding>`.
 
 Object
    Choose in which object context the scheduler should be executed. Possible
@@ -131,7 +131,7 @@ Execute changes on objects
 
       **Add a data privacy deletion task** will create a data privacy deletion
       task for the object at the runtime of the job. That means it is visible
-      in Zammad's :doc:`data privacy panel </system/data-privacy>`.
+      in EasyGo Solutions's :doc:`data privacy panel </system/data-privacy>`.
 
 Disable notifications
    By default, actions triggered by schedulers won't send notifications.

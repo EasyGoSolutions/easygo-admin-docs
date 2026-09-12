@@ -165,23 +165,23 @@ External Data Source Field
    External Data Source Example <external-data-source-example>
 
 Provides a searchable field which fetches data from an external system. This
-can be useful if you have data outside of Zammad and don't want to maintain
+can be useful if you have data outside of EasyGo Solutions and don't want to maintain
 both data sources. It works like this:
 
-- Zammad sends a query with a search string (free text from agent or based
+- EasyGo Solutions sends a query with a search string (free text from agent or based
   on a variable) in a pre-defined format ("Search URL") to an external
   system.
 - This external system searches for matches and provides a response as a
-  JSON structure to Zammad.
-- Zammad just looks for the defined list and value keys, reads the content
-  and displays the value to the user. There is no search on Zammad side.
+  JSON structure to EasyGo Solutions.
+- EasyGo Solutions just looks for the defined list and value keys, reads the content
+  and displays the value to the user. There is no search on EasyGo Solutions side.
 
 .. warning::
    - Only ``GET`` is supported as request method.
    - The data structure must be in JSON format and provide the objects in an
      array.
    - The endpoint for the external data source has to support search. On
-     Zammad side, there is no search/logic implemented; however, you can
+     EasyGo Solutions side, there is no search/logic implemented; however, you can
      define the output key and value based on the result(s) from the response
      (which provides already filtered content based on the search).
    - If you receive more results as expected, your external data source
@@ -199,7 +199,7 @@ you can find a possible configuration, using a public dummy endpoint.
    :scale: 70 %
 
 Search URL
-   Set your endpoint where Zammad fetches the data. Please make
+   Set your endpoint where EasyGo Solutions fetches the data. Please make
    sure to include a valid search :doc:`variable </misc/variables>` as an
    URL parameter. Example for a free text search at user input:
    ``#{search.term}``
@@ -222,7 +222,7 @@ SSL Verification
 
    If your external data source system is using self signed certificates,
    please have a look :doc:`here </settings/security/ssl-certificates>` for
-   further information about how to handle them in Zammad, so you can
+   further information about how to handle them in EasyGo Solutions, so you can
    keep the SSL verification activated.
 
 HTTP Authentication
@@ -254,7 +254,7 @@ Preview
    In the preview area, you can find the following items (depending on your
    configuration above):
 
-   - **Error/hint message** (only if configuration is not complete): Zammad
+   - **Error/hint message** (only if configuration is not complete): EasyGo Solutions
      tells you, if there is a problem and what you should change in your
      configuration.
    - **Search field**: search for an existing attribute in the data source to
@@ -265,7 +265,7 @@ Preview
    - **Search result list** (only if *search result list key* is properly
      set): output of the structure under the configured *search result list
      key*.
-   - **Preview table** (when fully configured): Zammad shows you a table
+   - **Preview table** (when fully configured): EasyGo Solutions shows you a table
      which includes the found items based on the search string (value, label
      and optional link). You can use this preview if you don't have the
      complete data structure of the external system in mind.
@@ -295,12 +295,12 @@ Example for a search query URL:
 - Text field type: **Text**
 - Ticket attribute name: ``my_attribute``
 - Link template content: ``https://www.duckduckgo.com/&q=#{ticket.my_attribute}``
-- Added field content: ``zammad``
-- Resulting URL: ``https://www.duckduckgo.com/&q=zammad``
+- Added field content: ``EasyGo Solutions``
+- Resulting URL: ``https://www.duckduckgo.com/&q=EasyGo Solutions``
 
 .. tip::
 
-   You can use any :doc:`Zammad variable </misc/variables>` as long as
+   You can use any :doc:`EasyGo Solutions variable </misc/variables>` as long as
    it's available in the moment you need it.
 
 Available for the field types *Text* (type: text), *Single Selection*,
@@ -308,7 +308,7 @@ Available for the field types *Text* (type: text), *Single Selection*,
 
 .. note::
 
-   Another great way of communicating with another system may be Zammad's
+   Another great way of communicating with another system may be EasyGo Solutions's
    :doc:`Webhooks </manage/webhook>`.
 
 Translate Field Contents
@@ -316,7 +316,7 @@ Translate Field Contents
 
 For some attribute types, you can decide if their values should be translatable
 or not. If they are configured as translatable, they appear in the
-:doc:`translation interface </system/translations>` as other strings in Zammad.
+:doc:`translation interface </system/translations>` as other strings in EasyGo Solutions.
 This works only for fields with selectable options because the possible
 choices are known and limited. You can set the translatable flag for these
 types:

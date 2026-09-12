@@ -1,12 +1,12 @@
 Trigger
 =======
 
-Triggers are one way to automate Zammad. You can create *if this then that*
+Triggers are one way to automate EasyGo Solutions. You can create *if this then that*
 rules by defining which tickets should get changed and which changes you want
-to apply to them. To manage triggers in Zammad's admin settings under
+to apply to them. To manage triggers in EasyGo Solutions's admin settings under
 *Manage > Trigger*, the permission ``admin.trigger`` is required.
 
-Zammad ships one active trigger by default: an auto reply trigger which sends
+EasyGo Solutions ships one active trigger by default: an auto reply trigger which sends
 an email to the customer after a new ticket is created. You can disable it,
 modify it, or create new ones for all sorts of automation tasks.
 
@@ -141,10 +141,10 @@ Send an email or SMS
 
    In order to send emails with triggers, you need to configure
    an email address for the group, the trigger is working in. If you
-   don't, Zammad will skip the trigger completely.
+   don't, EasyGo Solutions will skip the trigger completely.
 
 :doc:`Fire a webhook </manage/webhook>`
-   Connect Zammad to another web service or application to give it live updates
+   Connect EasyGo Solutions to another web service or application to give it live updates
    about new tickets.
 
 Add internal or public notes to the ticket
